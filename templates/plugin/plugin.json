@@ -1,0 +1,7 @@
+{
+  "id": "example-plugin",
+  "name": "插件名称",
+  "description": "说明组合能力及使用场景",
+  "version": "0.1.0",
+  "skills": []
+}
