@@ -1,0 +1,22 @@
+# marketing-psychology
+
+- 盘点 ID：inv-b1a6ad4336495ecc
+- 原路径：`%CODEX_HOME%/skills/marketing-psychology/SKILL.md`
+- SKILL.md SHA-256：`f02e4fe8370d629d914032f5f8a3a988e2825e5bdae08215cf08cfb4ff07de73`
+- 描述：When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.
+- 声明版本：2.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-341c384d2383b11c](inv-341c384d2383b11c.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

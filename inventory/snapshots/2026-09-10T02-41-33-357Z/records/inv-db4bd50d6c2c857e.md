@@ -1,0 +1,22 @@
+# 张咋啦-创作指南
+
+- 盘点 ID：inv-db4bd50d6c2c857e
+- 原路径：`%EXTRA_ROOT_1%/.yuse/skills/blogger-distiller/references/张咋啦_创作指南.skill/SKILL.md`
+- SKILL.md SHA-256：`f4e9ae4155a6a74e699fb0f8d90aeb3b44dfd2388554b379636c76f35a195426`
+- 描述：基于张咋啦的 40 条小红书笔记蒸馏而成的创作指南。 五层蒸馏：认知层（像 TA 一样思考）→ 策略层（像 TA 一样决策）→ 内容层（像 TA 一样写）→ 创作禁区 → 对比示例与局限性。 加载此 skill 后，AI 会用 TA 的思维方式构思选题、用 TA 的内容编排方式写作、用 TA 的运营策略规划发布。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：id-incompatible-with-marketplace-schema
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-72322b1759f55fef](inv-72322b1759f55fef.md)、[inv-f44960c770daea19](inv-f44960c770daea19.md)、[inv-13ee122b118c90d4](inv-13ee122b118c90d4.md)、[inv-bd2dad683f4b5593](inv-bd2dad683f4b5593.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

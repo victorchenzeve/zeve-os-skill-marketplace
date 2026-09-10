@@ -1,0 +1,22 @@
+# audio_generation
+
+- 盘点 ID：inv-171cf707d72dd8dd
+- 原路径：`%EXTRA_ROOT_1%/AppData/Roaming/kimi-desktop/daimon-share/daimon/plugin-packages/audio_generation/skills/audio_generation/SKILL.md`
+- SKILL.md SHA-256：`97ffa62bd652c8c41d62202f9bbd13d3eee366c2f6b6fd7bf8e7a4c1d9b358fa`
+- 描述：Generate audio in two ways: text-to-speech, or custom sound effects.  ### Speech (text-to-speech): - High-quality text-to-speech conversion using a selected voice - Several pre-built Mandarin voices with different characteristics - Use clear, well-formatted text (punctuation helps natural speech)  ### Sound effects: - AI-powered sound effect generation from an English description - Customizable duration (0.5 to 22 seconds) - Covers ambient, action, musical, foley, emotional, and abstract sounds - The description MUST be in English  ### Usage Guidelines: - For speech: pick a voice ID and provide the text to read - For sound effects: give a detailed English description and a duration - Specify an output path with a .mp3 extension - Output is saved locally as mp3
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：id-incompatible-with-marketplace-schema
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-0885b4d1a77bd50f](inv-0885b4d1a77bd50f.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

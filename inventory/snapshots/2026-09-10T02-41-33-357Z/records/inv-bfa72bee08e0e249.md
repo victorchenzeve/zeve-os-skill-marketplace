@@ -1,0 +1,22 @@
+# kimi-webbridge
+
+- 盘点 ID：inv-bfa72bee08e0e249
+- 原路径：`%EXTRA_ROOT_1%/AppData/Roaming/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-webbridge/skills/kimi-webbridge/SKILL.md`
+- SKILL.md SHA-256：`05a3f070e690b1eb43e5f81256769db50cf0999dc42c0b77ad67ffc76ff0ef26`
+- 描述：Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with any website using the user's actual login sessions. Use this skill whenever the user wants to interact with websites, automate browser tasks, scrape web content, or perform any action requiring a real browser. Also use when the user mentions "browser", "webpage", "open URL", "screenshot", or asks to read/interact with any website. Use even for simple-sounding browser requests — the daemon handles all complexity.
+- 声明版本：1.11.2
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-08843e8f13f6ea29](inv-08843e8f13f6ea29.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

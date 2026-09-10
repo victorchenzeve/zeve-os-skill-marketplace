@@ -1,0 +1,22 @@
+# capability-contract-agent-router
+
+- 盘点 ID：inv-f5b6cb874cf4eee8
+- 原路径：`%CODEX_HOME%/skills/capability-contract-agent-router/SKILL.md`
+- SKILL.md SHA-256：`3109620c9d5461d1e301af529c4d1b1b1011bc057de7f3151d54decce8cc50dc`
+- 描述：当用户要把 Skill/工作流迁移到另一个 Agent、比较云端与本地方案，或问“这个环境到底能不能跑”“该接哪种模型/API”时使用；trigger: 能力清单、capability contract、环境选型、cloud vs local、冒烟测试。先按可执行能力和质量门路由，不按产品名猜测。不适用于已经确定环境后的流程实现、纯安装命令查询或具体 Prompt 调优。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-c37997588cdb4718](inv-c37997588cdb4718.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

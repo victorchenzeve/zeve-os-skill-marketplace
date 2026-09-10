@@ -1,0 +1,22 @@
+# mojian-video
+
+- 盘点 ID：inv-7491cbef7f75dc8a
+- 原路径：`%CODEX_HOME%/skills/mojian-video/SKILL.md`
+- SKILL.md SHA-256：`c88cc8cab127c134352afaf033a14278b580050b3edb2b5874d9444a28a73fb1`
+- 描述：Turn a topic, Chinese script, audio, or source video into the user's locked "墨剪" narrated video workflow. Use when the user says 墨剪, 墨剪流程, 用这个流程做视频, or asks for a horizontal口播视频 with 天诺老吴 natural-speed narration, the fixed chubby bald mascot, Demo-style spoken-word block animation, 68px Jianying-style subtitles, no camera motion, and a cover on only the first frame.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-09f30bf3a3192619](inv-09f30bf3a3192619.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

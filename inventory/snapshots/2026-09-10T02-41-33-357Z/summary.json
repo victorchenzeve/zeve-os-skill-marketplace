@@ -1,0 +1,245 @@
+{
+  "snapshotId": "2026-09-10T02-41-33-357Z",
+  "startedAt": "2026-09-10T02:41:33.357Z",
+  "finishedAt": "2026-09-10T02:41:40.426Z",
+  "generatedAt": "2026-09-10T02:41:57.846Z",
+  "sourceFiles": 3514,
+  "installedLocationOrRuntime": 886,
+  "runtimeUniquePaths": 878,
+  "enabledInAnyContext": 878,
+  "runtimeOutsideScan": [],
+  "runtimeStatus": "available",
+  "runtimeContexts": [
+    {
+      "id": "context-1",
+      "cwd": "%USERPROFILE%/Documents\\ChatGPT\\泽玮os-skill-marketplace",
+      "count": 800,
+      "enabled": 800,
+      "disabled": 0,
+      "errors": [
+        {
+          "path": "%CODEX_HOME%/skills\\geo-optimizer-skill\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\wechat-ip-writer\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\video-audit-experts\\content-structure\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        }
+      ]
+    },
+    {
+      "id": "context-2",
+      "cwd": "%USERPROFILE%/Documents\\SKILL",
+      "count": 800,
+      "enabled": 800,
+      "disabled": 0,
+      "errors": [
+        {
+          "path": "%CODEX_HOME%/skills\\geo-optimizer-skill\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\wechat-ip-writer\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\video-audit-experts\\content-structure\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        }
+      ]
+    },
+    {
+      "id": "context-3",
+      "cwd": "%EXTRA_ROOT_2%/一心文件夹",
+      "count": 877,
+      "enabled": 877,
+      "disabled": 0,
+      "errors": [
+        {
+          "path": "%CODEX_HOME%/skills\\geo-optimizer-skill\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\wechat-ip-writer\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\video-audit-experts\\content-structure\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%EXTRA_ROOT_2%/一心文件夹\\.agents\\skills\\wechat-ip-writer\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        }
+      ]
+    },
+    {
+      "id": "context-4",
+      "cwd": "%EXTRA_ROOT_2%/一新课程-内容自动化",
+      "count": 801,
+      "enabled": 801,
+      "disabled": 0,
+      "errors": [
+        {
+          "path": "%CODEX_HOME%/skills\\geo-optimizer-skill\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\wechat-ip-writer\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        },
+        {
+          "path": "%CODEX_HOME%/skills\\video-audit-experts\\content-structure\\SKILL.md",
+          "message": "missing YAML frontmatter delimited by ---"
+        }
+      ]
+    }
+  ],
+  "externalEvidenceFiles": 931,
+  "localCreationReviewFiles": 912,
+  "localDerivedFiles": 364,
+  "zeweiRelatedCandidates": 7,
+  "verifiedZeweiOriginals": 0,
+  "sameNameGroups": 1354,
+  "identicalSkillMdGroups": 789,
+  "runtimeLoadErrors": [
+    {
+      "path": "%CODEX_HOME%/skills/geo-optimizer-skill/skill.md",
+      "message": "missing YAML frontmatter delimited by ---"
+    },
+    {
+      "path": "%CODEX_HOME%/skills/wechat-ip-writer/skill.md",
+      "message": "missing YAML frontmatter delimited by ---"
+    },
+    {
+      "path": "%CODEX_HOME%/skills/video-audit-experts/content-structure/skill.md",
+      "message": "missing YAML frontmatter delimited by ---"
+    },
+    {
+      "path": "%EXTRA_ROOT_2%/一心文件夹/.agents/skills/wechat-ip-writer/skill.md",
+      "message": "missing YAML frontmatter delimited by ---"
+    }
+  ],
+  "roots": [
+    {
+      "id": "codex-skills",
+      "alias": "%CODEX_HOME%/skills",
+      "kind": "installed-location",
+      "status": "scanned",
+      "count": 795,
+      "errors": []
+    },
+    {
+      "id": "plugin-cache",
+      "alias": "%CODEX_HOME%/plugins",
+      "kind": "plugin-cache",
+      "status": "scanned",
+      "count": 32,
+      "errors": []
+    },
+    {
+      "id": "vendor-catalog",
+      "alias": "%CODEX_HOME%/vendor_imports",
+      "kind": "external-source",
+      "status": "scanned",
+      "count": 39,
+      "errors": []
+    },
+    {
+      "id": "user-agents",
+      "alias": "%USERPROFILE%/.agents/skills",
+      "kind": "installed-location",
+      "status": "missing",
+      "count": 0,
+      "errors": []
+    },
+    {
+      "id": "documents",
+      "alias": "%USERPROFILE%/Documents",
+      "kind": "local-source",
+      "status": "scanned",
+      "count": 555,
+      "errors": []
+    },
+    {
+      "id": "desktop",
+      "alias": "%USERPROFILE%/Desktop",
+      "kind": "local-source",
+      "status": "scanned",
+      "count": 0,
+      "errors": []
+    },
+    {
+      "id": "downloads",
+      "alias": "%USERPROFILE%/Downloads",
+      "kind": "external-source",
+      "status": "scanned",
+      "count": 0,
+      "errors": []
+    },
+    {
+      "id": "extra-1",
+      "alias": "%EXTRA_ROOT_1%",
+      "kind": "local-source",
+      "status": "partial",
+      "count": 3136,
+      "errors": [
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\ElevatedDiagnostics: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\ZxcvbnData\\3: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\WidevineCdm\\4.10.3050.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\TrustTokenKeyCommitments\\2026.3.23.1: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\Subresource Filter\\Unindexed Rules\\9.69.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\SSLErrorAssistant\\7: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\SafetyTips\\3091: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\PrivacySandboxAttestationsPreloaded\\2025.6.16.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\PKIMetadata\\1716: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\OptimizationHints\\707: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\MEIPreload\\1.1.0.3: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\hyphen-data\\120.0.6050.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\FirstPartySetsPreloaded\\2025.7.24.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\FileTypePolicies\\145.0.7584.0: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\Crowd Deny\\2026.7.9.61: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\CertificateRevocation\\10645: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\CertificateRevocation\\10643: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\AutofillStates\\2025.6.13.84507: 拒绝访问。 (os error 5)",
+        "rg: %EXTRA_ROOT_1%\\AppData\\Local\\DingTalk_133\\AmountExtractionHeuristicRegexes\\4: 拒绝访问。 (os error 5)"
+      ]
+    },
+    {
+      "id": "extra-2",
+      "alias": "%EXTRA_ROOT_2%",
+      "kind": "local-source",
+      "status": "partial",
+      "count": 378,
+      "errors": [
+        "rg: %EXTRA_ROOT_2%/System Volume Information: 拒绝访问。 (os error 5)"
+      ]
+    }
+  ],
+  "exclusions": [
+    "node_modules",
+    ".git",
+    ".venv",
+    "venv",
+    ".tools",
+    "browser"
+  ],
+  "integrity": {
+    "checkedSkillMdFiles": 3514,
+    "changedSkillMdFiles": [],
+    "pathChanges": [],
+    "scope": "SKILL.md bytes and discovered paths only; supporting scripts/assets are not hashed."
+  },
+  "limitations": [
+    "Only listed local roots were scanned. Missing roots, cloud-only tasks, unopened archives and excluded dependency directories are not covered.",
+    "Runtime availability is specific to the queried standalone app-server contexts. It is not a complete statement about every desktop plugin session.",
+    "Frontmatter scalar extraction is best effort, not full YAML validation. Codex runtime errors are authoritative for queried paths.",
+    "Identical SHA-256 means identical SKILL.md bytes only, not identical supporting files or interchangeable skills.",
+    "Creation, installation, authorship and original ownership are separate. No original authorship is inferred from local presence.",
+    "Inventory views overlap and must not be summed. Every physical path retains its own record. No skill is registered or evaluated by this scan."
+  ]
+}

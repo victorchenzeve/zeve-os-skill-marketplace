@@ -1,0 +1,22 @@
+# wechat-article-layout-styles
+
+- 盘点 ID：inv-40223f5dcc94adea
+- 原路径：`%EXTRA_ROOT_2%/SKILL/wechat-article-layout-styles/SKILL.md`
+- SKILL.md SHA-256：`4543b09f249f2f1c57d7c05bb047196f14fa463e703d90cb7c0f1a232cdffb81`
+- 描述：公众号长文最终排版风格选择与落地规则。用于在生成公众号 HTML 时让用户选择“专业式科技排版”或“对标宋体叙事 + 公众号粘贴兼容排版”，并处理微信编辑器粘贴后样式丢失、绿色结论块、深色提示词块、Anthropic 风格工程图等问题。触发词包括：公众号排版风格、专业式排版、对标排版、粘贴兼容版、Anthropic 风格工程图、微信编辑器复制不过去。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-ac6959d5051025ff](inv-ac6959d5051025ff.md)、[inv-27719a223e048291](inv-27719a223e048291.md)、[inv-3cd2f8646ed039a0](inv-3cd2f8646ed039a0.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

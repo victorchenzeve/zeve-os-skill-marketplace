@@ -1,0 +1,22 @@
+# css-animations
+
+- 盘点 ID：inv-5e5ece2b571bb96a
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/css-animations/SKILL.md`
+- SKILL.md SHA-256：`a8239c96ac9400e40b806ad0b14a059cf643c58fcef4bfdc630723fa130f93ef`
+- 描述：CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：extracted-external-archive
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-697f05fa516680e1](inv-697f05fa516680e1.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

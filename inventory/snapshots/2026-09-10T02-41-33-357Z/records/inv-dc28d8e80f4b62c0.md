@@ -1,0 +1,22 @@
+# video-analysis
+
+- 盘点 ID：inv-dc28d8e80f4b62c0
+- 原路径：`%CODEX_HOME%/skills/video-analysis/SKILL.md`
+- SKILL.md SHA-256：`5e1c1d8eccbbb116942a68626b2f82e89ecaa14ca0fb8ebe711a044bb5372bdb`
+- 描述：Analyze local video files in the video-exp project using Gemini's native multimodal video-in capabilities. Generates a complete timestamped transcript, scene-by-scene visual-change storyboard, transcript-to-shot alignment, and a detailed HTML report (covering video style, pacing, strengths, and engagement). Use when the user asks to analyze, dissect, transcribe, storyboard, reverse-engineer, or learn from a video.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-cf45083fc45815a3](inv-cf45083fc45815a3.md)、[inv-b38ad7f16d05ad18](inv-b38ad7f16d05ad18.md)、[inv-afcb253add382f8d](inv-afcb253add382f8d.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

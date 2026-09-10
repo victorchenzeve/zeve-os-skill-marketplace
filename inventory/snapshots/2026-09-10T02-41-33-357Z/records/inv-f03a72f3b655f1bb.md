@@ -1,0 +1,22 @@
+# lark-vc
+
+- 盘点 ID：inv-f03a72f3b655f1bb
+- 原路径：`%EXTRA_ROOT_2%/一心文件夹/.agents/skills/lark-vc/SKILL.md`
+- SKILL.md SHA-256：`fb18506a08c8eb00f7e64c0cbbb92e2835c9c6838394918241ec569a920336f3`
+- 描述：飞书视频会议：搜索历史会议记录、查询会议纪要（总结/待办/章节/逐字稿）、查询参会人快照。当用户查询已结束的会议、获取会议产物（纪要/妙记）、查看参会人时使用；查询未来日程走 lark-calendar。不负责：Agent 真实入会/离会、会中实时事件（走 lark-vc-agent）。
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-3: enabled=true, scope=repo
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,0 +1,22 @@
+# waapi
+
+- 盘点 ID：inv-ea2b7cfc115ad7f4
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/waapi/SKILL.md`
+- SKILL.md SHA-256：`e465beaf82a4f2de0fc40c705bdddddf59d851fc96ebb339c931ed9458d30cfb`
+- 描述：Web Animations API adapter patterns for HyperFrames. Use when authoring element.animate() motion, Animation currentTime seeking, document.getAnimations(), KeyframeEffect timing, fill modes, or native browser animations that must render deterministically in HyperFrames.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：extracted-external-archive
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-19f9c626f0b7b0c7](inv-19f9c626f0b7b0c7.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

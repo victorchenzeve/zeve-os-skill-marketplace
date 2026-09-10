@@ -1,0 +1,22 @@
+# khazix-writer
+
+- 盘点 ID：inv-fab67d06a15fc6e6
+- 原路径：`%CODEX_HOME%/skills/khazix-writer/SKILL.md`
+- SKILL.md SHA-256：`8fad668ab722406003890b52fd2af1d2e3826a7b9a43e0cb3c1ea4ad2bcd804e`
+- 描述：\| 数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说"帮我把这个写成文章"或"用我的风格写一下"，只要上下文涉及内容创作和公众号输出，都应该触发。也适用于用户丢过来一个PDF、brief、新闻链接、语音转文字或任何素材说"帮我写篇文章"的场景。不要用于短内容（小红书帖子、推特、朋友圈）或纯标题摘要生成（那个用wechat-title skill）。
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：local-generated-from-external-catalog
+- 本地创建线索：derived-generation-evidence
+- 创建证据：Historical generation/install log identifies this exact path; this is not proof of original authorship.
+- 历史记录：%USERPROFILE%/Documents\SKILL\generated-minimal-skills-results-20260823.json
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：catalog-derived-minimal-not-original-package
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

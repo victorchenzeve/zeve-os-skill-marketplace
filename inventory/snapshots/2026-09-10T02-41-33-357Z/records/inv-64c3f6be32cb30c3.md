@@ -1,0 +1,22 @@
+# configure
+
+- 盘点 ID：inv-64c3f6be32cb30c3
+- 原路径：`%EXTRA_ROOT_1%/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/configure/SKILL.md`
+- SKILL.md SHA-256：`036ac4e89c01ce3a7a7041891efc32a16704ace37ab2b594a36fc59064b542d2`
+- 描述：Set up the Telegram channel — save the bot token and review access policy. Use when the user pastes a Telegram bot token, asks to configure Telegram, asks "how do I set this up" or "who can reach me," or wants to check channel status.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-a58faef770333182](inv-a58faef770333182.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

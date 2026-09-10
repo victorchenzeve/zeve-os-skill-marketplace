@@ -1,0 +1,22 @@
+# blogger-distiller
+
+- 盘点 ID：inv-acad0a18c439e3bd
+- 原路径：`%EXTRA_ROOT_1%/.yuse/skills/blogger-distiller/SKILL.md`
+- SKILL.md SHA-256：`cd2d268b3042db2928ec5e473ea0c6a00278f260c168016d49c17ec4b795f47f`
+- 描述：Use when the user wants to analyze or distill a blogger/account on Xiaohongshu or Douyin, benchmark a target creator, or diagnose their own content strategy. Trigger on requests such as “拆解博主””蒸馏博主””分析小红书博主””分析抖音博主” “诊断我的账号””对标账号””内容策略分析””小红书账号分析””抖音账号分析” “分析封面””关键词趋势””升级我的skill”.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

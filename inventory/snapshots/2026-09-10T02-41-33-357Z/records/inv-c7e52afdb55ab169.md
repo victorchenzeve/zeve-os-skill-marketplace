@@ -1,0 +1,22 @@
+# sharepoint-shared-doc-maintenance
+
+- 盘点 ID：inv-c7e52afdb55ab169
+- 原路径：`%EXTRA_ROOT_1%/.codex/.tmp/plugins-backup-5wQAez/repo/plugins/sharepoint/skills/sharepoint-shared-doc-maintenance/SKILL.md`
+- SKILL.md SHA-256：`4e058b90f2b2a9cc0aeb8b5f32ea2de7c38ba082ca9380afe173099d87cb02a0`
+- 描述：Maintain shared SharePoint strategy, roadmap, planning, or status documents from changing source documents. Use when the user wants cross-document synthesis, source-of-truth propagation, or targeted updates to a maintained shared document.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

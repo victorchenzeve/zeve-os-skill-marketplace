@@ -1,0 +1,22 @@
+# frontend-slides
+
+- 盘点 ID：inv-7e85e1cf81ff1c2d
+- 原路径：`%EXTRA_ROOT_2%/SKILL/frontend-slides/SKILL.md`
+- SKILL.md SHA-256：`832994fe1dfcce2aa7ceca9a1b7b708eca94becef242713999855f4e946cf4d5`
+- 描述：Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-8a032d3602c8bccf](inv-8a032d3602c8bccf.md)、[inv-80a0acf7295ead26](inv-80a0acf7295ead26.md)、[inv-e11cb5222a5babd2](inv-e11cb5222a5babd2.md)、[inv-4177d43c823af97c](inv-4177d43c823af97c.md)、[inv-3812f535466610c5](inv-3812f535466610c5.md)、[inv-7bf118b80ae4d371](inv-7bf118b80ae4d371.md)、[inv-cbb9bc83a413f2b9](inv-cbb9bc83a413f2b9.md)、[inv-2c8c8fb61332a845](inv-2c8c8fb61332a845.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

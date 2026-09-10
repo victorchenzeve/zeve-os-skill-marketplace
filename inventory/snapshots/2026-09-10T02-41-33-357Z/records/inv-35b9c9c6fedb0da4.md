@@ -1,0 +1,22 @@
+# topics
+
+- 盘点 ID：inv-35b9c9c6fedb0da4
+- 原路径：`%CODEX_HOME%/skills/ak-threads-booster/skills/topics/SKILL.md`
+- SKILL.md SHA-256：`48fe34c136f8b2b3923e945796284af9c36047f2532eda7d0f848b6e9f6b2679`
+- 描述：Mine insights from comments and historical data to recommend the next worthwhile topics. Trigger words: 'topics', 'topic', '選題', '寫什麼'.
+- 声明版本：2.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-e4909a09e6cf4104](inv-e4909a09e6cf4104.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

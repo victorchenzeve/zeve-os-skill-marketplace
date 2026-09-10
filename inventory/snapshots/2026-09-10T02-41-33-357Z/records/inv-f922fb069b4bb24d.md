@@ -1,0 +1,22 @@
+# wechat-daily-master-pipeline
+
+- 盘点 ID：inv-f922fb069b4bb24d
+- 原路径：`%CODEX_HOME%/skills/wechat-daily-master-pipeline/SKILL.md`
+- SKILL.md SHA-256：`2e2db5aef7092e34e56b08df0c8165ced20eb9f7448d9e514b52c2ae92456c6e`
+- 描述：主控编排 skill。将 Report MCP 报告抓取、信源核查与头版选题、日报写作、公众号排版配图、公众号草稿上传串成自动化流水线，用于稳定生产每日 AI/SEO 双日报。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-c47829deb5b2094d](inv-c47829deb5b2094d.md)、[inv-317c79004358b588](inv-317c79004358b588.md)、[inv-ecc53286667bbbfb](inv-ecc53286667bbbfb.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

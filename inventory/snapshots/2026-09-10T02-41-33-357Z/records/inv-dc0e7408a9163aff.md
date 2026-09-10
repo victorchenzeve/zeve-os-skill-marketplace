@@ -1,0 +1,22 @@
+# listenhub-tts
+
+- 盘点 ID：inv-dc0e7408a9163aff
+- 原路径：`%CODEX_HOME%/skills/listenhub-tts/SKILL.md`
+- SKILL.md SHA-256：`dcc032fe3862f1a1d2208c8e9cc6b9ba87a292238436998083b43ff1b5a4252c`
+- 描述：生成视频旁白/配音音频（voiceover）+ 时间轴精确的 SRT 字幕（text-to-speech / TTS）。首选 ListenHub 原生 /v1/speech（引擎自带字幕、文字＝输入原文、零识别错），云端 ASR（Groq / OpenAI Whisper）作 fallback + 文本级字幕校正；一次调用同时产出 narration-full.mp3 + narration.srt。两类触发：① 用户只有口播文本、想「做配音 / 文本转语音 / 口播 + 字幕 / text to speech with subtitles」，或交来一份稿子（日报 / 解读 / 口播）想出音频 + 字幕；也管选音色（「换个声音」「用女声」）。② 任何视频工作流要生成语音/旁白这一步时选它——producing-video / faceless-explainer / product-launch-video 等一切 HyperFrames 出片的配音来源；中文口播尤其用它（HyperFrames 自带 Kokoro TTS 不支持中文），它给的 SRT 正是合成时间轴要的事实源。不做声音克隆（用支持克隆的云端 TTS），不做出片（那是 producing-video）。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-92d16e1220ab8105](inv-92d16e1220ab8105.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

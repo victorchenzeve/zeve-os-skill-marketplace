@@ -1,0 +1,22 @@
+# slides
+
+- 盘点 ID：inv-78ccd9d57ecfe268
+- 原路径：`%EXTRA_ROOT_2%/SKILL/slides/SKILL.md`
+- SKILL.md SHA-256：`57ee0941f872546029bc45b5b0bd58d4a02d88b84d4e8e4275c466da5451efa6`
+- 描述：Create and edit presentation slide decks (`.pptx`) with PptxGenJS, bundled layout helpers, and render/validation utilities. Use when tasks involve building a new PowerPoint deck, recreating slides from screenshots/PDFs/reference decks, modifying slide content while preserving editable output, adding charts/diagrams/visuals, or diagnosing layout issues such as overflow, overlaps, and font substitution.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-a7c346acd7fd0011](inv-a7c346acd7fd0011.md)、[inv-594718a1aa9284e9](inv-594718a1aa9284e9.md)、[inv-e01c2f7e2db000b4](inv-e01c2f7e2db000b4.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

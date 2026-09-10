@@ -1,0 +1,22 @@
+# expo-cicd-workflows
+
+- 盘点 ID：inv-b7bae581deec0195
+- 原路径：`%EXTRA_ROOT_1%/.codex/.tmp/plugins/plugins/expo/skills/expo-cicd-workflows/SKILL.md`
+- SKILL.md SHA-256：`6a248c54ba28b627a00a14e361438e9bdba5d1055c442e63256dd7c8a664b675`
+- 描述：Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：MIT License；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

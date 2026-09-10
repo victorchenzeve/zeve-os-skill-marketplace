@@ -64,4 +64,6 @@ npm run check
 
 ## 初始状态
 
-四份注册表为空，`plugins/zewei-os-private-domain/` 是预留位置；尚未导入、安装或发布任何技能。`inventory/` 不扫描本机、不改变安装状态。仓库尚未选定开源许可证；引入第三方内容前需要核查来源及许可。
+四份注册表为空，`plugins/zewei-os-private-domain/` 是预留位置；尚未导入、安装或发布任何技能。本仓库已按用户请求执行只读盘点，结果见 [盘点报告](inventory/REPORT.md)。盘点不改变技能内容或安装状态，后续不会后台自动扫描。
+
+重新盘点与数据文件说明见 [Inventory 使用说明](inventory/README.md)。仓库尚未选定开源许可证；引入第三方内容前需要核查来源及许可。

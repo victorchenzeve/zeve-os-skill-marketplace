@@ -1,0 +1,22 @@
+# rn-cover-skill
+
+- 盘点 ID：inv-a744fbdfc10de560
+- 原路径：`%CODEX_HOME%/skills/rn-cover-skill/SKILL.md`
+- SKILL.md SHA-256：`225f890dcaaa35fe81ef51a37655bece226ddb8a46171929865b78de9e2736a9`
+- 描述：Create reference-free 5:2 editorial technology covers with exact #FAF9F5 backgrounds, large left-aligned typography, adaptable grid geometry, and a newly generated right-side diagram. Use when the user asks for “RN封面”, “编辑图解风格封面”, “左文右图暖白封面”, “无参考图生成同类封面”, or a premium AI research/editorial cover with charcoal paths and a restrained coral accent. Generate fresh transparent right-side artwork for each new cover, then compose exact text and a flexible editorial layout into editable SVG and PNG.
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：local-generated-from-external-catalog
+- 本地创建线索：derived-generation-evidence
+- 创建证据：Historical generation/install log identifies this exact path; this is not proof of original authorship.
+- 历史记录：%USERPROFILE%/Documents\SKILL\generated-minimal-skills-results-20260823.json
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：catalog-derived-minimal-not-original-package
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

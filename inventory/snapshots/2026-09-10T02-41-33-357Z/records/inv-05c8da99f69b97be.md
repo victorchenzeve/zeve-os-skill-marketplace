@@ -1,0 +1,22 @@
+# wechat-deep-article-finalizer
+
+- 盘点 ID：inv-05c8da99f69b97be
+- 原路径：`%EXTRA_ROOT_2%/SKILL/wechat-deep-article-finalizer/SKILL.md`
+- SKILL.md SHA-256：`57940bb8b4eff717057ade575cc8a1d9b825ec829a2b74830563e817e55ac095`
+- 描述：公众号深度长文终稿工作流。用于把零散想法、素材、链接、原稿、初稿、PDF、网页笔记加工成公众号深度长文，并在同一轮内完成信息完整性审查、写作/改稿、huashu-proofreading 审校、getname 标题方案、公众号 HTML 排版和最终检查。支持专业式科技排版、对标宋体叙事兼容排版、Anthropic 风格认知/方法论深度长文排版。触发词包括：公众号长文终稿、走一遍公众号长文流程、深度文章成稿、帮我把想法写成公众号、审校起标题排版、Anthropic 风格认知长文、方法论长文、用终稿助手、finalizer。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-a46194445426f319](inv-a46194445426f319.md)、[inv-169bd09064f486a7](inv-169bd09064f486a7.md)、[inv-edb5612dae9757ec](inv-edb5612dae9757ec.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,0 +1,22 @@
+# hyperframes-talking-head-explainer
+
+- 盘点 ID：inv-2cd4dcc25c23239c
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/hyperframes-talking-head-explainer/SKILL.md`
+- SKILL.md SHA-256：`56dccbbd8da5ba5bb39671bd405bd6148d5ef624e9ef09e1a1f7109f806067c6`
+- 描述：参考仓技能。沉淀口播加 HyperFrames 视频的早期方法论、模板、starter project 和经验总结。当用户说"参考方法论""早期模板""starter project""口播视频方法""参考案例""查看旧模板"时触发。**注意：当用户说"做个口播视频""从文案做到成片""帮我搭流程"时，应触发 hyperframes-talking-head-pipeline（正式分阶段执行链），不是本 skill**——本 skill 仅作方法论参考，不直接驱动制作。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：extracted-external-archive
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-4cd25233e895be4b](inv-4cd25233e895be4b.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,0 +1,22 @@
+# android-performance
+
+- 盘点 ID：inv-71522abc5bc6bf57
+- 原路径：`%EXTRA_ROOT_1%/.codex/.tmp/plugins-backup-5wQAez/repo/plugins/test-android-apps/skills/android-performance/SKILL.md`
+- SKILL.md SHA-256：`931867cdf98318c0efaad503c87f2e29e4650d97d4f2bc80e58490e0011aa791`
+- 描述：Gather and interpret Android performance evidence on an adb target using Simpleperf CPU profiles, Perfetto or Compose traces, gfxinfo frame data, dumpsys meminfo snapshots, Java heap dumps, and native allocation traces. Use when asked to profile an Android app flow, find CPU-heavy functions, diagnose jank, capture startup or frame timing evidence, compare before/after performance, explain what code is taking time, or gather memory/leak profiling artifacts.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-20d57a19a7a6c959](inv-20d57a19a7a6c959.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

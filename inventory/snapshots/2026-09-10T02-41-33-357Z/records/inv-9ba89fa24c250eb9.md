@@ -1,0 +1,22 @@
+# yuwen-publish-precheck
+
+- 盘点 ID：inv-9ba89fa24c250eb9
+- 原路径：`%EXTRA_ROOT_2%/一心文件夹/dagu-knowledgebase-resources/repos/yuwen-cool--yuwen-publish-precheck/SKILL.md`
+- SKILL.md SHA-256：`33da4028c8f1b4de9419ecf7c3e1f51c8e953c6cdcc631b304310ae7414c43cb`
+- 描述：国内自媒体发布前风险自审与保意修复：审口播稿、文章、图文笔记、字幕、封面文字能不能发抖音/小红书/微信视频号，给出具体位置、依据和可直接替换的改稿；被限流/删除/处罚后帮你复盘归因；你的行业敏感词、误报白名单和踩坑案例会沉淀成个人规则库，越用越准。Use when 用户说"能不能发""审一下稿子""查违禁词/敏感词""会不会限流/被限流了""帮我改成能发的版本""发布前检查""被平台处罚/删除了""帮我盯着这个词""导入违禁词表"。Not for 海外平台(X/YouTube)内容审核、起号涨粉策略、写稿创作本身。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-3304597abb3a5a03](inv-3304597abb3a5a03.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,6 +1,6 @@
 {
   "name": "zewei-os-skill-marketplace",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "泽玮 OS 技能、插件与代理注册仓库",
   "type": "module",
@@ -8,6 +8,9 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "npm run validate && npm test"
+    "check": "npm run validate && npm run inventory:validate && npm test",
+    "inventory:discover": "node scripts/discover-codex-skills.mjs",
+    "inventory:build": "node scripts/build-skill-inventory.mjs",
+    "inventory:validate": "node scripts/validate-inventory.mjs"
   }
 }

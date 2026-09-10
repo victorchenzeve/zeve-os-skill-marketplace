@@ -1,0 +1,22 @@
+# twilio-cli-reference
+
+- 盘点 ID：inv-dcc973169eac41d9
+- 原路径：`%EXTRA_ROOT_1%/.codex/.tmp/plugins-backup-TZlx5n/repo/plugins/twilio-developer-kit/skills/twilio-cli-reference/SKILL.md`
+- SKILL.md SHA-256：`c16543910ee3893bcd53ed3d6b3888bb9232b2e1ef6434a50b342353be2142dc`
+- 描述：Twilio CLI reference for managing Twilio resources from the terminal. Covers installation, credential profiles, phone number provisioning, sending SMS and email, webhook configuration, local development with a tunneling service, debugging with watch and logs, serverless deployment, and plugin ecosystem. Use when the developer asks to "just do it", "set this up", "run a command", mentions "CLI", "command line", or "terminal", or when an AI agent can execute a task directly instead of writing application code.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-4eea05417564a267](inv-4eea05417564a267.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

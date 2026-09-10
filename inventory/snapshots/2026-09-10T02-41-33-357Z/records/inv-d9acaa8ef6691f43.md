@@ -1,0 +1,22 @@
+# yixin-community-salon-poster
+
+- 盘点 ID：inv-d9acaa8ef6691f43
+- 原路径：`%CODEX_HOME%/skills/yixin-community-salon-poster/SKILL.md`
+- SKILL.md SHA-256：`418a85c2ce3d241ea44ca64f988fccbb03310cdd1a1ce4379e52553ca27d4af1`
+- 描述：为“一新俱乐部·AI”策划并生成内容丰富的社群线下沙龙海报。用于用户提供活动主题、时间、地点、期数或简单要点，并要求制作社群海报、沙龙海报、活动招募图或修改既有海报时；先把原始主题优化为痛点、收益、三大模块、金句和活动信息，再把官方 Logo 作为参考图，通过 Image2 整图直出，禁止本地排字、补字或后期合成 Logo。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-13731be1e0508c66](inv-13731be1e0508c66.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,0 +1,22 @@
+# plugin-eval
+
+- 盘点 ID：inv-53170a3fa7fdb5c6
+- 原路径：`%EXTRA_ROOT_1%/.codex/.tmp/plugins/plugins/plugin-eval/skills/plugin-eval/SKILL.md`
+- SKILL.md SHA-256：`85338f56d2d8a6051d03ccfba52b00c5b9224c6b78f241315216432af1063f7d`
+- 描述：Help engineers evaluate a local skill or plugin, explain why it scored that way, show what to fix first, measure real token usage, benchmark starter scenarios, or decide what to run next. Use when the user says things like "evaluate this skill", "give me an analysis of the game dev skill", "why did this score that way", "what should I fix first", "measure the real token usage of this skill", or "what should I run next?".
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

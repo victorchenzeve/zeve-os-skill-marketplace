@@ -1,0 +1,22 @@
+# codex-model-routing-team
+
+- 盘点 ID：inv-0d2b706a9a30ec0e
+- 原路径：`%CODEX_HOME%/skills/codex-model-routing-team/SKILL.md`
+- SKILL.md SHA-256：`4152b2c7bd537443897a5d8ec174c129a5d9bdef0ce40bd1cdeabccc7566e1fb`
+- 描述：为有明确净并行收益的任务编译 TeamPlan，默认用 Codex 原生 Multi-Agent V2 创建 Luna XHigh/Max leaf Worker，并在需要独立 worktree、侧栏可见、跨任务恢复或耐久监督时切到 App Thread。用于两个以上独立交付物、独立验证，或用户明确要求模型路由、后台 Worker、Agents Team、Grok/Gemini Worker。简单问答、状态查询、单文件小改、强顺序任务和不可逆操作不自动触发。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：context-1: enabled=true, scope=user; context-2: enabled=true, scope=user; context-3: enabled=true, scope=user; context-4: enabled=true, scope=user
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-3cdc2e8098382502](inv-3cdc2e8098382502.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。
