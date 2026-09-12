@@ -8,6 +8,12 @@
 
 `latest.json` 提供最近一次快照路径；快照内包含 `catalog.json`、`catalog.csv`、`summary.json`、`duplicates.json` 和逐条 Markdown 记录。三个视图可重叠，完整 JSON 中每个路径仅保存一条记录。
 
+## 飞书登记表核对
+
+[2026-09-13 核对报告](audits/2026-09-13-feishu-base-reconciliation.md) 对用户指定的飞书多维表格完整分页读取，并与核对时的 Codex 运行时及 `%CODEX_HOME%/skills` 做名称比对。对应 JSON 保存结构化结果。报告不保存飞书记录 ID、文档链接、本地绝对路径或授权信息，也不修改飞书、Skill 或正式 Registry。
+
+核对工具为 `scripts/reconcile-feishu-skills.mjs`。它要求显式提供飞书 CLI 程序、Base、Table 和 View 参数，并使用已有的最小只读用户授权。
+
 ## 重新盘点
 
 需要 Node.js 24、ripgrep 和当前用户的 Codex CLI。无需安装 JavaScript 依赖。

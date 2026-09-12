@@ -1,0 +1,1103 @@
+{
+  "auditedAt": "2026-09-12T16:32:24.931Z",
+  "source": {
+    "tableIdHash": "f9640a54c2290174",
+    "viewIdHash": "f155fad66ff8f926"
+  },
+  "table": {
+    "rows": 773,
+    "uniqueNormalizedNames": 752,
+    "blankNames": 0,
+    "blankNumbers": 0,
+    "blankSources": 0,
+    "blankVersions": 0,
+    "blankStatuses": 0,
+    "viewRows": 773,
+    "rowsHiddenByView": 0,
+    "pagesRead": 4,
+    "viewPagesRead": 4,
+    "duplicateNameGroups": 21,
+    "duplicateNameExtraRows": 21,
+    "duplicateNumberGroups": 0,
+    "duplicateSourceGroups": 21
+  },
+  "codex": {
+    "runtimePaths": 798,
+    "runtimeByScope": {
+      "user": 784,
+      "plugin": 8,
+      "system": 6
+    },
+    "runtimeLoadErrors": 3,
+    "diskSkillMdFiles": 795,
+    "diskScanStatus": "scanned"
+  },
+  "priorInventory": {
+    "snapshotId": "2026-09-10T02-41-33-357Z",
+    "sourceFiles": 3514,
+    "installedLocationOrRuntime": 886,
+    "runtimeUniquePaths": 878,
+    "localCreationReviewFiles": 912,
+    "zeweiRelatedCandidates": 7,
+    "verifiedZeweiOriginals": 0
+  },
+  "reconciliation": {
+    "runtimeLogicalNamesMissingFromTable": 26,
+    "tableUniqueNamesAbsentFromRuntime": 8,
+    "tableUniqueNamesPresentOnDiskButNotRuntime": 1,
+    "tableUniqueNamesAbsentFromRuntimeAndDisk": 7
+  },
+  "duplicateNames": [
+    {
+      "normalizedName": "knowledge-sop-inventory-archiver",
+      "rows": [
+        {
+          "number": "SK-0006",
+          "name": "knowledge-sop-inventory-archiver",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0211",
+          "name": "knowledge-sop-inventory-archiver",
+          "status": "可用",
+          "version": "2.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "skill-inventory-registrar",
+      "rows": [
+        {
+          "number": "SK-0008",
+          "name": "skill-inventory-registrar",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0203",
+          "name": "skill-inventory-registrar",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "xhs-note-producer",
+      "rows": [
+        {
+          "number": "SK-0010",
+          "name": "xhs-note-producer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0204",
+          "name": "xhs-note-producer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "ppt-outline-image2",
+      "rows": [
+        {
+          "number": "SK-0011",
+          "name": "ppt-outline-image2",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0205",
+          "name": "ppt-outline-image2",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "douyin-downloader",
+      "rows": [
+        {
+          "number": "SK-0012",
+          "name": "douyin-downloader",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0206",
+          "name": "douyin-downloader",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "mindmap-ppt-builder",
+      "rows": [
+        {
+          "number": "SK-0013",
+          "name": "mindmap-ppt-builder",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0207",
+          "name": "mindmap-ppt-builder",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "skill-sop-cloud-archiver",
+      "rows": [
+        {
+          "number": "SK-0014",
+          "name": "skill-sop-cloud-archiver",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0210",
+          "name": "skill-sop-cloud-archiver",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "umi-video-download",
+      "rows": [
+        {
+          "number": "SK-0016",
+          "name": "umi-video-download",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0213",
+          "name": "umi-video-download",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "html-presentation-designer",
+      "rows": [
+        {
+          "number": "SK-0017",
+          "name": "html-presentation-designer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0214",
+          "name": "html-presentation-designer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "huashu-proofreading",
+      "rows": [
+        {
+          "number": "SK-0018",
+          "name": "huashu-proofreading",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0215",
+          "name": "huashu-proofreading",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "wechat-article-layout-styles",
+      "rows": [
+        {
+          "number": "SK-0020",
+          "name": "wechat-article-layout-styles",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0217",
+          "name": "wechat-article-layout-styles",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "wechat-ip-writer",
+      "rows": [
+        {
+          "number": "SK-0021",
+          "name": "wechat-ip-writer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0218",
+          "name": "wechat-ip-writer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "wechat-deep-article-finalizer",
+      "rows": [
+        {
+          "number": "SK-0022",
+          "name": "wechat-deep-article-finalizer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0219",
+          "name": "wechat-deep-article-finalizer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "horizontal-kinetic-talk-video",
+      "rows": [
+        {
+          "number": "SK-0023",
+          "name": "horizontal-kinetic-talk-video",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0220",
+          "name": "horizontal-kinetic-talk-video",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "jalyn-horizontal-talk-video-edit",
+      "rows": [
+        {
+          "number": "SK-0024",
+          "name": "jalyn-horizontal-talk-video-edit",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0221",
+          "name": "jalyn-horizontal-talk-video-edit",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "single-page-ppt-image",
+      "rows": [
+        {
+          "number": "SK-0025",
+          "name": "single-page-ppt-image",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0226",
+          "name": "single-page-ppt-image",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "noun-vivid-explainer",
+      "rows": [
+        {
+          "number": "SK-0026",
+          "name": "noun-vivid-explainer",
+          "status": "已教学文档化",
+          "version": "1.4",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0227",
+          "name": "noun-vivid-explainer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "blogger-distiller",
+      "rows": [
+        {
+          "number": "SK-0027",
+          "name": "blogger-distiller",
+          "status": "已教学文档化",
+          "version": "2.3",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0228",
+          "name": "blogger-distiller",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "article-to-spoken-script-zh-public",
+      "rows": [
+        {
+          "number": "SK-0029",
+          "name": "article-to-spoken-script-zh-public",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0232",
+          "name": "article-to-spoken-script-zh-public",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "video-analysis",
+      "rows": [
+        {
+          "number": "SK-0031",
+          "name": "video-analysis",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0236",
+          "name": "video-analysis",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "normalizedName": "video-shotcraft",
+      "rows": [
+        {
+          "number": "SK-0247",
+          "name": "video-shotcraft",
+          "status": "可用",
+          "version": "upstream d491544 + 本地保留版",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0417",
+          "name": "video-shotcraft",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    }
+  ],
+  "duplicateNumbers": [],
+  "duplicateSources": [
+    {
+      "rows": [
+        {
+          "number": "SK-0006",
+          "name": "knowledge-sop-inventory-archiver",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0211",
+          "name": "knowledge-sop-inventory-archiver",
+          "status": "可用",
+          "version": "2.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0008",
+          "name": "skill-inventory-registrar",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0203",
+          "name": "skill-inventory-registrar",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0010",
+          "name": "xhs-note-producer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0204",
+          "name": "xhs-note-producer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0011",
+          "name": "ppt-outline-image2",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0205",
+          "name": "ppt-outline-image2",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0012",
+          "name": "douyin-downloader",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0206",
+          "name": "douyin-downloader",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0013",
+          "name": "mindmap-ppt-builder",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0207",
+          "name": "mindmap-ppt-builder",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0014",
+          "name": "skill-sop-cloud-archiver",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0210",
+          "name": "skill-sop-cloud-archiver",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0016",
+          "name": "umi-video-download",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0213",
+          "name": "umi-video-download",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0017",
+          "name": "html-presentation-designer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0214",
+          "name": "html-presentation-designer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0018",
+          "name": "huashu-proofreading",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0215",
+          "name": "huashu-proofreading",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0020",
+          "name": "wechat-article-layout-styles",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0217",
+          "name": "wechat-article-layout-styles",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0021",
+          "name": "wechat-ip-writer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0218",
+          "name": "wechat-ip-writer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0022",
+          "name": "wechat-deep-article-finalizer",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0219",
+          "name": "wechat-deep-article-finalizer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0023",
+          "name": "horizontal-kinetic-talk-video",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0220",
+          "name": "horizontal-kinetic-talk-video",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0024",
+          "name": "jalyn-horizontal-talk-video-edit",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0221",
+          "name": "jalyn-horizontal-talk-video-edit",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0025",
+          "name": "single-page-ppt-image",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0226",
+          "name": "single-page-ppt-image",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0026",
+          "name": "noun-vivid-explainer",
+          "status": "已教学文档化",
+          "version": "1.4",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0227",
+          "name": "noun-vivid-explainer",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0027",
+          "name": "blogger-distiller",
+          "status": "已教学文档化",
+          "version": "2.3",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0228",
+          "name": "blogger-distiller",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0029",
+          "name": "article-to-spoken-script-zh-public",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0232",
+          "name": "article-to-spoken-script-zh-public",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0031",
+          "name": "video-analysis",
+          "status": "已教学文档化",
+          "version": "1.0.0",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0236",
+          "name": "video-analysis",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "number": "SK-0247",
+          "name": "video-shotcraft",
+          "status": "可用",
+          "version": "upstream d491544 + 本地保留版",
+          "sourcePresent": true
+        },
+        {
+          "number": "SK-0417",
+          "name": "video-shotcraft",
+          "status": "可用",
+          "version": "1.0.0",
+          "sourcePresent": true
+        }
+      ]
+    }
+  ],
+  "blankNameRows": [],
+  "missingFromTable": [
+    {
+      "name": "cheat-predict",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "cheat-score-blind",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "computer-use:computer-use",
+      "scope": "plugin",
+      "pluginId": "computer-use@openai-bundled"
+    },
+    {
+      "name": "documents:documents",
+      "scope": "plugin",
+      "pluginId": "documents@openai-primary-runtime"
+    },
+    {
+      "name": "fireworks-tech-graph",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "imagegen",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "openai-docs",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "pdf:pdf",
+      "scope": "plugin",
+      "pluginId": "pdf@openai-primary-runtime"
+    },
+    {
+      "name": "plugin-creator",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "presentations:Presentations",
+      "scope": "plugin",
+      "pluginId": "presentations@openai-primary-runtime"
+    },
+    {
+      "name": "review-agent",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "skill-creator",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "skill-installer",
+      "scope": "system",
+      "pluginId": null
+    },
+    {
+      "name": "snail",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "spreadsheets:excel-live-control",
+      "scope": "plugin",
+      "pluginId": "spreadsheets@openai-primary-runtime"
+    },
+    {
+      "name": "spreadsheets:Spreadsheets",
+      "scope": "plugin",
+      "pluginId": "spreadsheets@openai-primary-runtime"
+    },
+    {
+      "name": "template-creator:template-creator",
+      "scope": "plugin",
+      "pluginId": "template-creator@openai-primary-runtime"
+    },
+    {
+      "name": "video-animation-effects",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "video-attention-capture",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "video-audio-music",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "video-completion",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "video-visual-quality",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "visualize:visualize",
+      "scope": "plugin",
+      "pluginId": "visualize@openai-bundled"
+    },
+    {
+      "name": "wewrite-learn",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "zewei-ip-copy-hook",
+      "scope": "user",
+      "pluginId": null
+    },
+    {
+      "name": "张咋啦-创作指南",
+      "scope": "user",
+      "pluginId": null
+    }
+  ],
+  "tableOnly": [
+    {
+      "number": "SK-0231",
+      "name": "agent-mini-app-builder",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0233",
+      "name": "bilibili-subtitle-extractor",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0234",
+      "name": "daily-brief-deepresearch",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0237",
+      "name": "markdown-to-docx",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0040",
+      "name": "slides",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0019",
+      "name": "snail / getname",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0021",
+      "name": "wechat-ip-writer",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0212",
+      "name": "wx-cli",
+      "status": "待升级",
+      "version": "0.3.0",
+      "sourcePresent": true
+    }
+  ],
+  "tableOnlyPresentOnDisk": [
+    {
+      "number": "SK-0021",
+      "name": "wechat-ip-writer",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    }
+  ],
+  "tableOnlyAbsentFromDisk": [
+    {
+      "number": "SK-0231",
+      "name": "agent-mini-app-builder",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0233",
+      "name": "bilibili-subtitle-extractor",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0234",
+      "name": "daily-brief-deepresearch",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0237",
+      "name": "markdown-to-docx",
+      "status": "待升级",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0040",
+      "name": "slides",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0019",
+      "name": "snail / getname",
+      "status": "已教学文档化",
+      "version": "1.0.0",
+      "sourcePresent": true
+    },
+    {
+      "number": "SK-0212",
+      "name": "wx-cli",
+      "status": "待升级",
+      "version": "0.3.0",
+      "sourcePresent": true
+    }
+  ],
+  "runtimeLoadErrors": [
+    {
+      "name": "geo-optimizer-skill",
+      "message": "missing YAML frontmatter delimited by ---"
+    },
+    {
+      "name": "wechat-ip-writer",
+      "message": "missing YAML frontmatter delimited by ---"
+    },
+    {
+      "name": "content-structure",
+      "message": "missing YAML frontmatter delimited by ---"
+    }
+  ],
+  "limitations": [
+    "Names are compared case-insensitively after Markdown-link extraction, Unicode normalization, whitespace/underscore normalization and plugin suffix aliases.",
+    "A name match does not prove that the Feishu row and local package are the same version or content.",
+    "The full table and supplied view were paginated serially to has_more=false. Results reflect read permissions at audit time.",
+    "Raw Feishu records, record IDs, document links and local source paths are not stored in this audit artifact."
+  ]
+}
