@@ -1,0 +1,13 @@
+{
+  "id": "zeve-os-content",
+  "name": "泽玮 OS 内容运营",
+  "description": "组合内容策略、角度、生产排期、质量审查和再利用规划能力",
+  "version": "0.1.0",
+  "skills": [
+    "content-strategy-brief",
+    "content-angle-generator",
+    "content-production-planner",
+    "content-quality-reviewer",
+    "content-repurpose-planner"
+  ]
+}

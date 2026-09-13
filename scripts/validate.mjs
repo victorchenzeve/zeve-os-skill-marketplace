@@ -94,6 +94,7 @@ export function validateRepository(root = defaultRoot) {
   for (const kind of ['skills', 'plugins', 'agents']) {
     for (const entry of registry[kind][kind]) {
       const key = `${singular[kind]}:${entry.id}`;
+      if (/zewei/i.test(entry.id)) errors.push(`${key}: legacy zewei prefix is forbidden; use zeve`);
       if (assets.has(key)) errors.push(`${key}: duplicate id`);
       assets.set(key, entry);
       graph.set(key, new Set());

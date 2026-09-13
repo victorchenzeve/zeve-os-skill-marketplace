@@ -1,63 +1,54 @@
 # 泽玮 OS Skill Marketplace
 
-泽玮 OS 的可分发 Codex 技能与插件市场。仓库同时维护正式资产、注册表、依赖、评估证据、安装工具和只读 Inventory。
+泽玮 OS 的可分发、可安装 Codex Skill Marketplace。仓库维护正式资产、注册表、依赖、评估证据、安装工具和只读 Inventory。
 
-当前版本：`1.0.0`。首发包含 4 个正式 Skill、1 个 Codex 插件和 1 个代理。
+当前版本：`1.1.0`。首批正式纳管 **20 个 Skill、4 个领域插件、4 个代理**。
 
-## 正式资产
+## 首批正式资产
 
-| ID | 类型 | 用途 | 成熟度 |
-| --- | --- | --- | --- |
-| `marketplace-asset-curator` | Skill | Marketplace 资产纳管审查 | experimental |
-| `private-domain-audience-segmenter` | Skill | 合规私域人群分层 | experimental |
-| `private-domain-campaign-planner` | Skill | 私域活动矩阵、节奏与指标 | experimental |
-| `private-domain-conversation-reviewer` | Skill | 脱敏客户对话复盘 | experimental |
-| `zewei-os-private-domain` | Plugin | 组合三项私域运营能力 | experimental |
-| `private-domain-operator` | Agent | 私域运营任务说明与边界 | experimental |
+| 领域 | Skill | Plugin | Agent |
+| --- | ---: | --- | --- |
+| Core | 2 | — | — |
+| 私域运营 | 5 | `zeve-os-private-domain` | `private-domain-operator` |
+| 内容运营 | 5 | `zeve-os-content` | `content-operator` |
+| 知识治理 | 4 | `zeve-os-knowledge` | `knowledge-operator` |
+| 研究工作台 | 4 | `zeve-os-research` | `research-operator` |
 
-`experimental` 表示已经完成结构、安装和合成用例验证，尚未用真实业务结果证明稳定性。
+所有首批资产均为本仓库原创、MIT 许可、`experimental` 成熟度，并有合成评估记录。`experimental` 表示结构、安装和边界用例已验证，仍需要真实业务结果证明稳定性。完整清单以 [Registry](registry/README.md) 为准。
 
-## 安装 Codex 插件
+## 从远程 Marketplace 安装
 
-从本地仓库安装：
+`v1.1.0` 发布后可直接使用 Git 仓库：
 
 ```sh
-codex plugin marketplace add <本仓库目录>
-codex plugin add zewei-os-private-domain@zewei-os
+codex plugin marketplace add <owner>/zeve-os-skill-marketplace
+codex plugin list --marketplace zeve-os --available
+codex plugin add zeve-os-content@zeve-os
 ```
 
-安装后新建一个 Codex 任务，使插件 Skill 进入新的任务上下文。仓库发布到 Git 后，也可以把第一条命令的本地路径替换为 Git 仓库地址或 `owner/repo`。
+可安装插件：`zeve-os-private-domain`、`zeve-os-content`、`zeve-os-knowledge`、`zeve-os-research`。安装或升级后新建 Codex 任务，使插件 Skill 进入新的任务上下文。
 
-## 安装单个 Skill
+## 安装单个 Skill 或整组插件
 
-Node.js 24 或更新版本可以直接运行仓库 CLI：
+Node.js 24 或更新版本：
 
 ```sh
 node scripts/marketplace-cli.mjs list
-node scripts/marketplace-cli.mjs install private-domain-audience-segmenter
-node scripts/marketplace-cli.mjs install zewei-os-private-domain
+node scripts/marketplace-cli.mjs install content-strategy-brief
+node scripts/marketplace-cli.mjs install zeve-os-content
 ```
 
-最后一条命令会把插件包含的三个 Skill 安装到 `%CODEX_HOME%/skills`。使用 `--target <目录>` 可以安装到隔离目录；已有非托管目录默认不会被覆盖。卸载会依据安装回执和内容哈希保护本地修改。
-
-发行包安装后也可使用：
-
-```sh
-zewei-skill-marketplace list
-zewei-skill-marketplace install zewei-os-private-domain
-```
-
-完整安装、升级、卸载和制品校验说明见 [DISTRIBUTION.md](DISTRIBUTION.md)。
+发行包安装后使用 `zeve-skill-marketplace`。安装器默认写入 `%CODEX_HOME%/skills`，也支持 `--target <目录>`。它用所有权回执和内容哈希保护已有目录与本地修改，并自动迁移 1.0 版回执。
 
 ## 验证与打包
 
 ```sh
+npm run plugin:sync
 npm run check
-npm run marketplace:list
 npm run release:build
 ```
 
-`release:build` 在 `dist/` 生成 npm tarball、`SHA256SUMS` 和 `release.json`。`dist/` 是本地构建产物，不提交 Git；Git Tag 推送后，Release 工作流会生成同样的可下载制品。
+`release:build` 在 `dist/` 生成 npm tarball、`SHA256SUMS` 和 `release.json`。Git Tag 推送后，Release 工作流生成相同的可下载制品。
 
 ## 目录职责
 
@@ -65,7 +56,7 @@ npm run release:build
 | --- | --- |
 | `.agents/plugins/` | Codex Marketplace 入口 |
 | `skills/` | 正式纳管 Skill 的唯一源文件 |
-| `plugins/` | 内部插件记录和可安装 Codex 插件包 |
+| `plugins/` | 内部记录与可安装 Codex 插件包 |
 | `agents/` | 正式代理说明 |
 | `registry/` | Skill、插件、代理和依赖的唯一正式索引 |
 | `evals/` | 行为评估输入、结果和证据 |
@@ -73,13 +64,5 @@ npm run release:build
 | `inventory/` | 只读盘点记录，不代表正式纳管或许可 |
 | `schemas/` | 注册表和清单 Schema |
 | `scripts/` | 校验、安装、同步、盘点和发行工具 |
-| `templates/` | 新资产模板 |
-| `tests/` | 注册表、Inventory、安装和安全边界测试 |
 
-插件内的 Skill 是从 `skills/` 生成的发行镜像。修改正式 Skill 后运行 `npm run plugin:sync`，并用 `npm run marketplace:verify` 检查镜像漂移。
-
-## 维护边界
-
-新增或升级资产前阅读 [AGENTS.md](AGENTS.md)、[贡献指南](CONTRIBUTING.md)和 `governance/`。第三方资产必须核实来源和许可证；本地存在或出现在 Inventory 中不代表可以重新分发。
-
-仓库原创代码与首发资产采用 MIT 许可证；盘点记录和第三方元数据的边界见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md)。
+插件中的 Skill 是从 `skills/` 自动生成的发行镜像。第三方资产必须先核实来源和许可证；本地存在或出现在 Inventory 中不代表可以重新分发。安装、升级、卸载和制品校验见 [DISTRIBUTION.md](DISTRIBUTION.md)。

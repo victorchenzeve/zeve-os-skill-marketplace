@@ -4,7 +4,72 @@
     {
       "from": "skill:private-domain-campaign-planner",
       "to": "skill:private-domain-audience-segmenter",
-      "reason": "活动计划需要可解释的受众分层作为输入"
+      "reason": "活动计划需要可解释的人群分层作为输入"
+    },
+    {
+      "from": "skill:private-domain-lifecycle-designer",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "生命周期阶段需要沿用合规人群规则"
+    },
+    {
+      "from": "skill:private-domain-retention-experiment-planner",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "留存实验需要明确实验人群与排除条件"
+    },
+    {
+      "from": "skill:private-domain-retention-experiment-planner",
+      "to": "skill:private-domain-campaign-planner",
+      "reason": "实验干预沿用活动节奏与指标结构"
+    },
+    {
+      "from": "skill:content-angle-generator",
+      "to": "skill:content-strategy-brief",
+      "reason": "内容角度必须依据已批准策略简报"
+    },
+    {
+      "from": "skill:content-production-planner",
+      "to": "skill:content-angle-generator",
+      "reason": "生产排期需要已选定内容角度"
+    },
+    {
+      "from": "skill:content-quality-reviewer",
+      "to": "skill:content-strategy-brief",
+      "reason": "质量审查需要策略作为判断基准"
+    },
+    {
+      "from": "skill:content-repurpose-planner",
+      "to": "skill:content-quality-reviewer",
+      "reason": "再利用规划应基于已经审查的源内容"
+    },
+    {
+      "from": "skill:knowledge-taxonomy-designer",
+      "to": "skill:knowledge-source-ingestor",
+      "reason": "分类设计需要可追溯的代表性知识记录"
+    },
+    {
+      "from": "skill:knowledge-answer-grounder",
+      "to": "skill:knowledge-source-ingestor",
+      "reason": "溯源回答依赖标准化来源记录"
+    },
+    {
+      "from": "skill:knowledge-freshness-auditor",
+      "to": "skill:knowledge-source-ingestor",
+      "reason": "时效审计依赖来源、日期和版本元数据"
+    },
+    {
+      "from": "skill:research-source-planner",
+      "to": "skill:research-question-framer",
+      "reason": "来源规划需要清楚的问题与证据标准"
+    },
+    {
+      "from": "skill:research-evidence-synthesizer",
+      "to": "skill:research-source-planner",
+      "reason": "证据综合依赖按来源计划收集的记录"
+    },
+    {
+      "from": "skill:research-claim-verifier",
+      "to": "skill:research-evidence-synthesizer",
+      "reason": "主张核验针对综合报告中的主张与引用"
     }
   ]
 }

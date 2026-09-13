@@ -1,0 +1,37 @@
+{
+  "name": "zeve-os-private-domain",
+  "version": "0.1.0",
+  "description": "组合人群分层、活动策划、对话复盘、生命周期和留存实验能力",
+  "author": {
+    "name": "Victor Chen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "private",
+    "domain",
+    "audience",
+    "segmenter",
+    "campaign",
+    "planner",
+    "conversation",
+    "reviewer"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "泽玮 OS 私域运营",
+    "shortDescription": "组合人群分层、活动策划、对话复盘、生命周期和留存实验能力",
+    "longDescription": "组合人群分层、活动策划、对话复盘、生命周期和留存实验能力。所有能力以证据和明确边界为基础，只分析与起草，不自动执行外部写入或发布。",
+    "developerName": "泽玮 OS",
+    "category": "Business",
+    "capabilities": [
+      "Analysis",
+      "Writing"
+    ],
+    "defaultPrompt": [
+      "为已授权客户设计人群分层和生命周期。",
+      "制定有指标与停止规则的私域活动或留存实验。",
+      "复盘脱敏客户对话并提出证据化建议。"
+    ],
+    "brandColor": "#1F6FEB"
+  }
+}

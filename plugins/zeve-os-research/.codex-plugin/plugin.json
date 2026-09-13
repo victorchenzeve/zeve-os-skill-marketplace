@@ -1,0 +1,37 @@
+{
+  "name": "zeve-os-research",
+  "version": "0.1.0",
+  "description": "组合问题界定、来源规划、证据综合和主张核验能力",
+  "author": {
+    "name": "Victor Chen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "question",
+    "framer",
+    "source",
+    "planner",
+    "evidence",
+    "synthesizer",
+    "claim"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "泽玮 OS 研究工作台",
+    "shortDescription": "组合问题界定、来源规划、证据综合和主张核验能力",
+    "longDescription": "组合问题界定、来源规划、证据综合和主张核验能力。所有能力以证据和明确边界为基础，只分析与起草，不自动执行外部写入或发布。",
+    "developerName": "泽玮 OS",
+    "category": "Productivity",
+    "capabilities": [
+      "Analysis",
+      "Writing"
+    ],
+    "defaultPrompt": [
+      "把决策需求界定成可回答的研究问题。",
+      "规划来源并综合有冲突的证据。",
+      "逐条核验研究报告中的关键主张。"
+    ],
+    "brandColor": "#B45309"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "研究来源规划"
+  short_description: "为已界定研究问题规划优先一手证据、覆盖度、时效性、交叉验证和停止规则"
+  default_prompt: "使用 $research-source-planner 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

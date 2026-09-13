@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Zewei internal plugin manifest",
+  "title": "Zeve internal plugin manifest",
   "type": "object",
   "additionalProperties": false,
   "required": [

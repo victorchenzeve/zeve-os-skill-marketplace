@@ -1,6 +1,6 @@
 ---
 name: marketplace-asset-curator
-description: Review a proposed Codex skill, plugin, or agent for inclusion in the Zewei OS marketplace, including identity, provenance, structure, dependencies, maturity, and registry consistency. Use for marketplace intake and release review; do not use to install unreviewed third-party assets.
+description: Review a proposed Codex skill, plugin, or agent for inclusion in the Zeve OS marketplace, including identity, provenance, structure, dependencies, maturity, and registry consistency. Use for marketplace intake and release review; do not use to install unreviewed third-party assets.
 license: MIT
 ---
 

@@ -1,0 +1,37 @@
+{
+  "name": "zeve-os-content",
+  "version": "0.1.0",
+  "description": "组合内容策略、角度、生产排期、质量审查和再利用规划能力",
+  "author": {
+    "name": "Victor Chen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "content",
+    "strategy",
+    "brief",
+    "angle",
+    "generator",
+    "production",
+    "planner",
+    "quality"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "泽玮 OS 内容运营",
+    "shortDescription": "组合内容策略、角度、生产排期、质量审查和再利用规划能力",
+    "longDescription": "组合内容策略、角度、生产排期、质量审查和再利用规划能力。所有能力以证据和明确边界为基础，只分析与起草，不自动执行外部写入或发布。",
+    "developerName": "泽玮 OS",
+    "category": "Writing",
+    "capabilities": [
+      "Analysis",
+      "Writing"
+    ],
+    "defaultPrompt": [
+      "把业务目标整理成内容策略简报。",
+      "基于策略生成内容角度与生产排期。",
+      "审查草稿并规划跨渠道再利用。"
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

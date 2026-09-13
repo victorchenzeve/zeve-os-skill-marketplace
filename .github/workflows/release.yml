@@ -17,7 +17,7 @@ jobs:
       - run: npm run release:build
       - uses: actions/upload-artifact@v4
         with:
-          name: zewei-os-skill-marketplace-${{ github.ref_name }}
+          name: zeve-os-skill-marketplace-${{ github.ref_name }}
           path: dist/*
       - name: Create GitHub release
         env:

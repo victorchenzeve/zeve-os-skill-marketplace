@@ -1,0 +1,37 @@
+{
+  "name": "zeve-os-knowledge",
+  "version": "0.1.0",
+  "description": "组合来源摄取、分类设计、回答溯源和时效审计能力",
+  "author": {
+    "name": "Victor Chen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "knowledge",
+    "source",
+    "ingestor",
+    "taxonomy",
+    "designer",
+    "answer",
+    "grounder",
+    "freshness"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "泽玮 OS 知识治理",
+    "shortDescription": "组合来源摄取、分类设计、回答溯源和时效审计能力",
+    "longDescription": "组合来源摄取、分类设计、回答溯源和时效审计能力。所有能力以证据和明确边界为基础，只分析与起草，不自动执行外部写入或发布。",
+    "developerName": "泽玮 OS",
+    "category": "Productivity",
+    "capabilities": [
+      "Analysis",
+      "Writing"
+    ],
+    "defaultPrompt": [
+      "把授权资料整理成可追溯知识记录。",
+      "设计知识分类与变更治理。",
+      "基于知识记录回答并审计时效。"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

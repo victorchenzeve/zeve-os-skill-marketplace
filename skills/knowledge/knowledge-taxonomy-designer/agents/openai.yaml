@@ -1,0 +1,6 @@
+interface:
+  display_name: "知识分类设计"
+  short_description: "为可追溯知识记录设计可维护的分类、术语、别名、归类规则与变更治理"
+  default_prompt: "使用 $knowledge-taxonomy-designer 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

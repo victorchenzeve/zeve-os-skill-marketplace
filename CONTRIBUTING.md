@@ -4,7 +4,7 @@
 
 ## 新增技能
 
-1. 从 `templates/skill/` 建立 `skills/<分类>/<id>/SKILL.md`；名称使用小写连字符格式。
+1. 从 `templates/skill/` 建立 `skills/<分类>/<id>/SKILL.md`；名称使用小写连字符格式；品牌前缀只使用 `zeve`。
 2. 写明触发条件、输入、步骤、输出、权限边界、失败处理和验证方法，并添加 `license` 前置元数据。
 3. 需要 Codex UI 元数据时添加 `agents/openai.yaml`；默认提示必须显式引用 `$skill-id`。
 4. 更新 `registry/skills.yaml`、依赖、评估记录、版本和 `CHANGELOG.md`。

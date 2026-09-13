@@ -1,0 +1,6 @@
+interface:
+  display_name: "知识时效审计"
+  short_description: "审计知识集合中的过期、被替代、无日期、冲突或不可访问来源并确定更新优先级"
+  default_prompt: "使用 $knowledge-freshness-auditor 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

@@ -2,6 +2,81 @@
   "schemaVersion": "1.0.0",
   "skills": [
     {
+      "id": "content-angle-generator",
+      "name": "内容角度生成",
+      "description": "基于已批准策略生成差异化且有事实依据的内容角度",
+      "version": "0.1.0",
+      "path": "skills/content/content-angle-generator",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "ideation",
+        "angles"
+      ]
+    },
+    {
+      "id": "content-production-planner",
+      "name": "内容生产排期",
+      "description": "把已批准内容角度转成含负责人、依赖、审查节点和交付物的生产计划",
+      "version": "0.1.0",
+      "path": "skills/content/content-production-planner",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "production",
+        "planning"
+      ]
+    },
+    {
+      "id": "content-quality-reviewer",
+      "name": "内容质量审查",
+      "description": "依据策略、证据、受众、品牌、渠道与风险约束审查内容草稿",
+      "version": "0.1.0",
+      "path": "skills/content/content-quality-reviewer",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "quality",
+        "review"
+      ]
+    },
+    {
+      "id": "content-repurpose-planner",
+      "name": "内容再利用规划",
+      "description": "从已批准源内容规划适配不同渠道的原创衍生资产并保持事实与归因",
+      "version": "0.1.0",
+      "path": "skills/content/content-repurpose-planner",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "repurpose",
+        "distribution"
+      ]
+    },
+    {
+      "id": "content-strategy-brief",
+      "name": "内容策略简报",
+      "description": "把业务目标、人群、渠道和已核实事实转成聚焦的内容策略简报",
+      "version": "0.1.0",
+      "path": "skills/content/content-strategy-brief",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "strategy",
+        "brief"
+      ]
+    },
+    {
       "id": "marketplace-asset-curator",
       "name": "Marketplace 资产审查",
       "description": "审查候选技能、插件和代理的来源、结构、依赖、成熟度与注册一致性",
@@ -10,7 +85,86 @@
       "category": "core",
       "maturity": "experimental",
       "status": "active",
-      "tags": ["marketplace", "governance", "review"]
+      "tags": [
+        "marketplace",
+        "governance",
+        "review"
+      ]
+    },
+    {
+      "id": "zeve-skill-release-auditor",
+      "name": "Zeve Skill 发布审计",
+      "description": "在发布前审计 Skill 命名、注册、依赖、评估、分发与变更记录的一致性",
+      "version": "0.1.0",
+      "path": "skills/core/zeve-skill-release-auditor",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "marketplace",
+        "release",
+        "audit"
+      ]
+    },
+    {
+      "id": "knowledge-answer-grounder",
+      "name": "知识回答溯源",
+      "description": "仅依据给定知识记录生成逐主张溯源、处理冲突并明确不确定性的回答",
+      "version": "0.1.0",
+      "path": "skills/knowledge/knowledge-answer-grounder",
+      "category": "knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "knowledge",
+        "grounding",
+        "qa"
+      ]
+    },
+    {
+      "id": "knowledge-freshness-auditor",
+      "name": "知识时效审计",
+      "description": "审计知识集合中的过期、被替代、无日期、冲突或不可访问来源并确定更新优先级",
+      "version": "0.1.0",
+      "path": "skills/knowledge/knowledge-freshness-auditor",
+      "category": "knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "knowledge",
+        "freshness",
+        "audit"
+      ]
+    },
+    {
+      "id": "knowledge-source-ingestor",
+      "name": "知识来源摄取",
+      "description": "把已授权资料转成具有来源、范围、日期、访问约束和冲突记录的知识条目",
+      "version": "0.1.0",
+      "path": "skills/knowledge/knowledge-source-ingestor",
+      "category": "knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "knowledge",
+        "ingestion",
+        "provenance"
+      ]
+    },
+    {
+      "id": "knowledge-taxonomy-designer",
+      "name": "知识分类设计",
+      "description": "为可追溯知识记录设计可维护的分类、术语、别名、归类规则与变更治理",
+      "version": "0.1.0",
+      "path": "skills/knowledge/knowledge-taxonomy-designer",
+      "category": "knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "knowledge",
+        "taxonomy",
+        "governance"
+      ]
     },
     {
       "id": "private-domain-audience-segmenter",
@@ -21,7 +175,11 @@
       "category": "private-domain",
       "maturity": "experimental",
       "status": "active",
-      "tags": ["private-domain", "audience", "crm"]
+      "tags": [
+        "private-domain",
+        "audience",
+        "crm"
+      ]
     },
     {
       "id": "private-domain-campaign-planner",
@@ -32,7 +190,11 @@
       "category": "private-domain",
       "maturity": "experimental",
       "status": "active",
-      "tags": ["private-domain", "campaign", "planning"]
+      "tags": [
+        "private-domain",
+        "campaign",
+        "planning"
+      ]
     },
     {
       "id": "private-domain-conversation-reviewer",
@@ -43,7 +205,101 @@
       "category": "private-domain",
       "maturity": "experimental",
       "status": "active",
-      "tags": ["private-domain", "conversation", "review"]
+      "tags": [
+        "private-domain",
+        "conversation",
+        "review"
+      ]
+    },
+    {
+      "id": "private-domain-lifecycle-designer",
+      "name": "私域生命周期设计",
+      "description": "根据已授权事件设计可解释的客户生命周期阶段、流转规则与服务动作",
+      "version": "0.1.0",
+      "path": "skills/private-domain/private-domain-lifecycle-designer",
+      "category": "private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "private-domain",
+        "lifecycle",
+        "journey"
+      ]
+    },
+    {
+      "id": "private-domain-retention-experiment-planner",
+      "name": "私域留存实验策划",
+      "description": "为已授权私域人群设计有假设、对照、指标和停止规则的留存实验",
+      "version": "0.1.0",
+      "path": "skills/private-domain/private-domain-retention-experiment-planner",
+      "category": "private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "private-domain",
+        "retention",
+        "experiment"
+      ]
+    },
+    {
+      "id": "research-claim-verifier",
+      "name": "研究主张核验",
+      "description": "在发布前依据引用证据核验主张的支持关系、来源质量、时效、范围与反证",
+      "version": "0.1.0",
+      "path": "skills/research/research-claim-verifier",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "verification",
+        "claims"
+      ]
+    },
+    {
+      "id": "research-evidence-synthesizer",
+      "name": "研究证据综合",
+      "description": "把已收集证据综合成可追溯的决策发现，并呈现一致、冲突、不确定性与缺口",
+      "version": "0.1.0",
+      "path": "skills/research/research-evidence-synthesizer",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "evidence",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "research-question-framer",
+      "name": "研究问题界定",
+      "description": "把宽泛决策需求转成可回答的研究问题、范围、定义、证据标准与决策阈值",
+      "version": "0.1.0",
+      "path": "skills/research/research-question-framer",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "question",
+        "scope"
+      ]
+    },
+    {
+      "id": "research-source-planner",
+      "name": "研究来源规划",
+      "description": "为已界定研究问题规划优先一手证据、覆盖度、时效性、交叉验证和停止规则",
+      "version": "0.1.0",
+      "path": "skills/research/research-source-planner",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "sources",
+        "planning"
+      ]
     }
   ]
 }

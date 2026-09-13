@@ -1,0 +1,6 @@
+interface:
+  display_name: "知识回答溯源"
+  short_description: "仅依据给定知识记录生成逐主张溯源、处理冲突并明确不确定性的回答"
+  default_prompt: "使用 $knowledge-answer-grounder 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

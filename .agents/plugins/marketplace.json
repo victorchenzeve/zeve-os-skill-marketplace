@@ -1,20 +1,32 @@
 {
-  "name": "zewei-os",
+  "name": "zeve-os",
   "interface": {
     "displayName": "泽玮 OS Skill Marketplace"
   },
   "plugins": [
     {
-      "name": "zewei-os-private-domain",
-      "source": {
-        "source": "local",
-        "path": "./plugins/zewei-os-private-domain"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
+      "name": "zeve-os-private-domain",
+      "source": { "source": "local", "path": "./plugins/zeve-os-private-domain" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Business"
+    },
+    {
+      "name": "zeve-os-content",
+      "source": { "source": "local", "path": "./plugins/zeve-os-content" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Writing"
+    },
+    {
+      "name": "zeve-os-knowledge",
+      "source": { "source": "local", "path": "./plugins/zeve-os-knowledge" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    },
+    {
+      "name": "zeve-os-research",
+      "source": { "source": "local", "path": "./plugins/zeve-os-research" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
     }
   ]
 }

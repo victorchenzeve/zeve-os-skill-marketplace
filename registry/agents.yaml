@@ -4,7 +4,7 @@
     {
       "id": "private-domain-operator",
       "name": "私域运营代理",
-      "description": "根据已授权资料完成人群分层、活动策划和脱敏对话复盘",
+      "description": "根据已授权资料完成人群分层、活动策划、对话复盘、生命周期设计和留存实验",
       "version": "0.1.0",
       "path": "agents/private-domain-operator.md",
       "maturity": "experimental",
@@ -12,7 +12,55 @@
       "skills": [
         "private-domain-audience-segmenter",
         "private-domain-campaign-planner",
-        "private-domain-conversation-reviewer"
+        "private-domain-conversation-reviewer",
+        "private-domain-lifecycle-designer",
+        "private-domain-retention-experiment-planner"
+      ]
+    },
+    {
+      "id": "content-operator",
+      "name": "内容运营代理",
+      "description": "从策略简报到角度、排期、质量审查与渠道再利用完成内容运营规划",
+      "version": "0.1.0",
+      "path": "agents/content-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "content-strategy-brief",
+        "content-angle-generator",
+        "content-production-planner",
+        "content-quality-reviewer",
+        "content-repurpose-planner"
+      ]
+    },
+    {
+      "id": "knowledge-operator",
+      "name": "知识治理代理",
+      "description": "把授权资料转成可追溯、可分类、可引用并保持时效的知识体系",
+      "version": "0.1.0",
+      "path": "agents/knowledge-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "knowledge-source-ingestor",
+        "knowledge-taxonomy-designer",
+        "knowledge-answer-grounder",
+        "knowledge-freshness-auditor"
+      ]
+    },
+    {
+      "id": "research-operator",
+      "name": "研究代理",
+      "description": "完成研究问题界定、来源规划、证据综合与逐主张核验",
+      "version": "0.1.0",
+      "path": "agents/research-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "research-question-framer",
+        "research-source-planner",
+        "research-evidence-synthesizer",
+        "research-claim-verifier"
       ]
     }
   ]

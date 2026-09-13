@@ -2,17 +2,65 @@
   "schemaVersion": "1.0.0",
   "plugins": [
     {
-      "id": "zewei-os-private-domain",
+      "id": "zeve-os-private-domain",
       "name": "泽玮 OS 私域运营",
-      "description": "组合人群分层、活动策划和对话复盘能力的私域运营插件",
+      "description": "组合人群分层、活动策划、对话复盘、生命周期和留存实验能力",
       "version": "0.1.0",
-      "path": "plugins/zewei-os-private-domain",
+      "path": "plugins/zeve-os-private-domain",
       "maturity": "experimental",
       "status": "active",
       "skills": [
         "private-domain-audience-segmenter",
         "private-domain-campaign-planner",
-        "private-domain-conversation-reviewer"
+        "private-domain-conversation-reviewer",
+        "private-domain-lifecycle-designer",
+        "private-domain-retention-experiment-planner"
+      ]
+    },
+    {
+      "id": "zeve-os-content",
+      "name": "泽玮 OS 内容运营",
+      "description": "组合内容策略、角度、生产排期、质量审查和再利用规划能力",
+      "version": "0.1.0",
+      "path": "plugins/zeve-os-content",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "content-strategy-brief",
+        "content-angle-generator",
+        "content-production-planner",
+        "content-quality-reviewer",
+        "content-repurpose-planner"
+      ]
+    },
+    {
+      "id": "zeve-os-knowledge",
+      "name": "泽玮 OS 知识治理",
+      "description": "组合来源摄取、分类设计、回答溯源和时效审计能力",
+      "version": "0.1.0",
+      "path": "plugins/zeve-os-knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "knowledge-source-ingestor",
+        "knowledge-taxonomy-designer",
+        "knowledge-answer-grounder",
+        "knowledge-freshness-auditor"
+      ]
+    },
+    {
+      "id": "zeve-os-research",
+      "name": "泽玮 OS 研究工作台",
+      "description": "组合问题界定、来源规划、证据综合和主张核验能力",
+      "version": "0.1.0",
+      "path": "plugins/zeve-os-research",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "research-question-framer",
+        "research-source-planner",
+        "research-evidence-synthesizer",
+        "research-claim-verifier"
       ]
     }
   ]

@@ -1,0 +1,6 @@
+interface:
+  display_name: "研究主张核验"
+  short_description: "在发布前依据引用证据核验主张的支持关系、来源质量、时效、范围与反证"
+  default_prompt: "使用 $research-claim-verifier 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

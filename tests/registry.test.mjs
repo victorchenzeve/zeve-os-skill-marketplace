@@ -8,11 +8,11 @@ import { validateRepository, validateSchema } from '../scripts/validate.mjs';
 
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 function fixture(t) {
-  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'zewei-registry-test-'));
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'zeve-registry-test-'));
   t.after(() => {
     // Only remove the exact temporary directory this test created.
     assert.equal(path.dirname(root), fs.realpathSync(os.tmpdir()));
-    assert.ok(path.basename(root).startsWith('zewei-registry-test-'));
+    assert.ok(path.basename(root).startsWith('zeve-registry-test-'));
     fs.rmSync(root, { recursive: true, force: true });
   });
   fs.cpSync(path.join(repo, 'schemas'), path.join(root, 'schemas'), { recursive: true });
@@ -53,6 +53,13 @@ test('valid skill, plugin, agent and explicit dependency', t => {
 test('duplicate ids are rejected', t => {
   const f = fixture(t); f.registry('skills', [f.skill, f.skill]);
   assert.match(f.errors().join('\n'), /duplicate id/);
+});
+test('legacy zewei asset prefix is rejected', t => {
+  const f = fixture(t);
+  const legacy = { ...f.skill, id: 'zewei-demo', path: 'skills/core/zewei-demo' };
+  f.write('skills/core/zewei-demo/SKILL.md', '# Legacy\n');
+  f.registry('skills', [legacy]);
+  assert.match(f.errors().join('\n'), /legacy zewei prefix is forbidden/);
 });
 test('missing skill instructions are rejected', t => {
   const f = fixture(t); fs.unlinkSync(path.join(f.root, f.skill.path, 'SKILL.md'));

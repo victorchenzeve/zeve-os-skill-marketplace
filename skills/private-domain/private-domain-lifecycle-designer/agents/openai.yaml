@@ -1,0 +1,6 @@
+interface:
+  display_name: "私域生命周期设计"
+  short_description: "根据已授权事件设计可解释的客户生命周期阶段、流转规则与服务动作"
+  default_prompt: "使用 $private-domain-lifecycle-designer 完成这项任务，并清楚标注证据、假设和边界。"
+policy:
+  allow_implicit_invocation: true

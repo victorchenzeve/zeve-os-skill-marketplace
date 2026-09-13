@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { validateRepository } from './validate.mjs';
 
 export const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const receiptName = '.zewei-os-marketplace.json';
+const receiptName = '.zeve-os-marketplace.json';
+const legacyReceiptName = '.zewei-os-marketplace.json';
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -96,15 +97,15 @@ export function verifyDistribution(root = repoRoot) {
   try { data = registry(root); } catch (error) { return [...errors, `registry unreadable: ${error.message}`]; }
   const packageJson = readJson(path.join(root, 'package.json'));
   if (packageJson.license !== 'MIT') errors.push('package.json: license must be MIT');
-  if (packageJson.bin?.['zewei-skill-marketplace'] !== 'scripts/marketplace-cli.mjs') {
-    errors.push('package.json: missing zewei-skill-marketplace bin');
+  if (packageJson.bin?.['zeve-skill-marketplace'] !== 'scripts/marketplace-cli.mjs') {
+    errors.push('package.json: missing zeve-skill-marketplace bin');
   }
   if (!fs.existsSync(path.join(root, 'LICENSE'))) errors.push('LICENSE is missing');
 
   const marketplacePath = path.join(root, '.agents', 'plugins', 'marketplace.json');
   let marketplace = null;
   try { marketplace = readJson(marketplacePath); } catch (error) { errors.push(`marketplace unreadable: ${error.message}`); }
-  if (marketplace?.name !== 'zewei-os') errors.push('marketplace name must be zewei-os');
+  if (marketplace?.name !== 'zeve-os') errors.push('marketplace name must be zeve-os');
   const entries = new Map((marketplace?.plugins ?? []).map(item => [item.name, item]));
   const skillsById = new Map(data.skills.map(skill => [skill.id, skill]));
 
@@ -161,8 +162,12 @@ function resolveSelection(data, id) {
 }
 
 function readReceipt(target) {
-  const file = path.join(target, receiptName);
-  if (!fs.existsSync(file)) return { schemaVersion: '1.0.0', skills: {} };
+  let file = path.join(target, receiptName);
+  if (!fs.existsSync(file)) {
+    const legacy = path.join(target, legacyReceiptName);
+    if (!fs.existsSync(legacy)) return { schemaVersion: '1.0.0', skills: {} };
+    file = legacy;
+  }
   const value = readJson(file);
   if (value.schemaVersion !== '1.0.0' || !value.skills || typeof value.skills !== 'object') {
     throw new Error(`Invalid installation receipt: ${file}`);
@@ -172,6 +177,8 @@ function readReceipt(target) {
 
 function writeReceipt(target, value) {
   fs.writeFileSync(path.join(target, receiptName), `${JSON.stringify(value, null, 2)}\n`);
+  const legacy = path.join(target, legacyReceiptName);
+  if (fs.existsSync(legacy)) fs.rmSync(legacy);
 }
 
 export function installSelection(id, options = {}) {
@@ -268,7 +275,7 @@ export function run(argv = process.argv.slice(2)) {
     const result = command === 'install' ? installSelection(id, options) : uninstallSelection(id, options);
     console.log(JSON.stringify(result, null, 2)); return;
   }
-  console.log(`Zewei OS Skill Marketplace\n\nCommands:\n  list [--json]\n  verify\n  install <skill-or-plugin-id> [--target <skills-dir>] [--force]\n  uninstall <skill-or-plugin-id> [--target <skills-dir>] [--force]`);
+  console.log(`Zeve OS Skill Marketplace\n\nCommands:\n  list [--json]\n  verify\n  install <skill-or-plugin-id> [--target <skills-dir>] [--force]\n  uninstall <skill-or-plugin-id> [--target <skills-dir>] [--force]`);
 }
 
 if (process.argv[1] && normalize(process.argv[1]) === normalize(fileURLToPath(import.meta.url))) {
