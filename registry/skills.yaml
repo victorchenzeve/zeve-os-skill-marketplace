@@ -1,4 +1,49 @@
 {
   "schemaVersion": "1.0.0",
-  "skills": []
+  "skills": [
+    {
+      "id": "marketplace-asset-curator",
+      "name": "Marketplace 资产审查",
+      "description": "审查候选技能、插件和代理的来源、结构、依赖、成熟度与注册一致性",
+      "version": "0.1.0",
+      "path": "skills/core/marketplace-asset-curator",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": ["marketplace", "governance", "review"]
+    },
+    {
+      "id": "private-domain-audience-segmenter",
+      "name": "私域人群分层",
+      "description": "把已授权客户资料转成可解释的人群规则、排除条件和行动优先级",
+      "version": "0.1.0",
+      "path": "skills/private-domain/private-domain-audience-segmenter",
+      "category": "private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": ["private-domain", "audience", "crm"]
+    },
+    {
+      "id": "private-domain-campaign-planner",
+      "name": "私域活动策划",
+      "description": "从活动目标、人群、价值主张和渠道约束生成活动矩阵、节奏与指标",
+      "version": "0.1.0",
+      "path": "skills/private-domain/private-domain-campaign-planner",
+      "category": "private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": ["private-domain", "campaign", "planning"]
+    },
+    {
+      "id": "private-domain-conversation-reviewer",
+      "name": "私域对话复盘",
+      "description": "从脱敏客户对话中提取明确意向、异议、风险和证据化跟进建议",
+      "version": "0.1.0",
+      "path": "skills/private-domain/private-domain-conversation-reviewer",
+      "category": "private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": ["private-domain", "conversation", "review"]
+    }
+  ]
 }

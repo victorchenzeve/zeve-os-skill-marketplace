@@ -1,83 +1,54 @@
 # 维护与贡献指南
 
-先阅读 `AGENTS.md` 与 `governance/`。本仓库使用 Node.js 24，无需运行 `npm install`。
+先阅读 `AGENTS.md` 与 `governance/`。本仓库使用 Node.js 24，无第三方运行依赖。
 
 ## 新增技能
 
-按 README 的步骤从 `templates/skill/` 建立技能目录，完善说明和注册记录。新增技能默认使用 `draft` 成熟度，并根据 `evals/README.md` 建立评估用例。
+1. 从 `templates/skill/` 建立 `skills/<分类>/<id>/SKILL.md`；名称使用小写连字符格式。
+2. 写明触发条件、输入、步骤、输出、权限边界、失败处理和验证方法，并添加 `license` 前置元数据。
+3. 需要 Codex UI 元数据时添加 `agents/openai.yaml`；默认提示必须显式引用 `$skill-id`。
+4. 更新 `registry/skills.yaml`、依赖、评估记录、版本和 `CHANGELOG.md`。
+5. 被插件包含的 Skill 更新后运行 `npm run plugin:sync`。
 
-盘点记录放入对应的 `inventory/` 子目录，记录来源、版本、负责人及许可核查情况。盘点记录不能替代正式注册记录。
+盘点记录不能替代正式注册。第三方候选必须先确认来源、作者和许可证，不能从本机安装状态推断可再分发权利。
 
 ## 新增插件
 
-插件组合已经纳管的技能。下面以已存在的技能 `example-skill` 为例；使用前替换成实际技能 ID。
+插件组合已经注册的技能，每个插件同时维护：
 
-1. 建立 `plugins/example-plugin/`，从模板复制 `plugin.json`，填写：
+- `plugin.json`：仓库内部注册清单。
+- `.codex-plugin/plugin.json`：Codex 安装清单。
+- `skills/`：从正式 Skill 同步生成的发行镜像。
+- `README.md`：场景、能力和权限边界。
 
-```json
-{
-  "id": "example-plugin",
-  "name": "示例插件",
-  "description": "组合已注册的示例技能",
-  "version": "0.1.0",
-  "skills": ["example-skill"]
-}
+在 `registry/plugins.yaml` 和 `.agents/plugins/marketplace.json` 添加对应记录，再运行：
+
+```sh
+npm run plugin:sync
+npm run marketplace:verify
 ```
 
-2. 在 `registry/plugins.yaml` 的 `plugins` 数组追加：
+插件 ID、目录名、两个清单名称和 Marketplace 条目必须一致。不要手工修改插件 `skills/` 镜像。
 
-```json
-{
-  "id": "example-plugin",
-  "name": "示例插件",
-  "description": "组合已注册的示例技能",
-  "version": "0.1.0",
-  "path": "plugins/example-plugin",
-  "maturity": "draft",
-  "status": "active",
-  "skills": ["example-skill"]
-}
-```
+## 新增代理与依赖
 
-3. 在插件 README 中说明使用场景、组合流程和运行前提。
+代理说明放在 `agents/` 或所属插件的代理目录，并注册到 `registry/agents.yaml`。内部依赖写入 `registry/dependencies.yaml`，方向为调用方指向被依赖方；插件和代理的技能成员会自动成为隐式依赖。
 
-插件清单与注册表中的 ID、名称、描述、版本和技能集合必须一致。本清单是仓库内部格式；平台安装清单需要另行适配。
+## 修改、弃用与移除
 
-## 新增代理
+行为变化同步更新资产版本和 `CHANGELOG.md`。修改插件成员时同步两个插件清单并重新生成镜像。移除稳定资产前先标记弃用、说明替代和迁移路径，并检查所有成员及依赖引用。
 
-代理说明可与所属插件放在一起，例如 `plugins/example-plugin/agents/example-agent/AGENT.md`。从 `templates/agent/AGENT.md` 复制并填写职责与权限后，在 `registry/agents.yaml` 的 `agents` 数组追加：
-
-```json
-{
-  "id": "example-agent",
-  "name": "示例代理",
-  "description": "调用示例技能完成指定任务",
-  "version": "0.1.0",
-  "path": "plugins/example-plugin/agents/example-agent/AGENT.md",
-  "maturity": "draft",
-  "status": "active",
-  "skills": ["example-skill"]
-}
-```
-
-代理路径指向文件，技能与插件路径指向目录。不要将模板文件本身注册为正式代理。
-
-## 修改与移除
-
-修改资产后同步更新注册记录、版本和 CHANGELOG.md。修改插件成员时同步其 `plugin.json`。需要说明额外依赖时，将依赖边写入 `registry/dependencies.yaml`；方向为调用方指向被依赖方。
-
-移除资产前先按治理规范弃用，并检查插件成员、代理成员及显式依赖引用。`archived` 是登记状态，不能解决失效引用，归档资产的路径仍须存在。
-
-## 本地验证与提交
+## 验证、安装与发行
 
 ```sh
 npm run check
 git diff --check
-git status --short
+npm run release:build
 ```
 
-审阅变更内容后，按文件或目录明确暂存，再运行 `git diff --cached --check` 和 `git diff --cached`。这能检查尚未有历史提交的新文件；单独运行 `git diff --check` 不会检查未跟踪文件。
+发行前还要在隔离目录完成两条真实路径：
 
-提交信息简述实际变更，例如 `chore: initialize skill marketplace repository`。Git 作者姓名和邮箱由维护者提供，仅在需要时配置到本仓库；不要使用虚构身份或替他人署名。
+1. 用 `codex plugin marketplace add` 和 `codex plugin add` 安装插件。
+2. 从生成的 npm tarball 安装 CLI，执行 `verify`、`list`、Skill 安装和卸载。
 
-本地提交完成后用 `git status --short` 确认状态。远程托管地址、可见性、推送和发布由仓库所有者另行指定。
+详细步骤见 `DISTRIBUTION.md`。远程仓库、推送、Git Tag、npm 发布和其他外部发布由所有者针对具体目的地授权。

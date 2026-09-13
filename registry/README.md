@@ -7,6 +7,8 @@
 | `agents.yaml` | 代理说明及其技能成员 |
 | `dependencies.yaml` | 正式资产之间的显式依赖边 |
 
-四份注册表使用 YAML 1.2 的 JSON 子集，当前结构版本为 `1.0.0`。格式定义见 `schemas/`，运行 `npm run validate` 校验。
+四份注册表使用 YAML 1.2 的 JSON 子集，结构版本为 `1.0.0`。格式定义见 `schemas/`，运行 `npm run validate` 校验。
 
-当前只进行存量技能盘点，注册表保持空表。已安装技能不会因为出现在 Inventory 中就自动注册。完整盘点入口为 [inventory/REPORT.md](../inventory/REPORT.md)。
+当前首发注册 4 个 Skill、1 个插件、1 个代理和 1 条显式依赖。插件成员还会作为隐式依赖参与循环检查。
+
+Inventory 与 Registry 相互独立。已安装技能不会因为出现在盘点结果中而自动注册；第三方资产仍需完成来源、许可证、结构和评估审查。

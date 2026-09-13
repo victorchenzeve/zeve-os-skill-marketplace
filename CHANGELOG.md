@@ -1,5 +1,13 @@
 # 变更日志
 
+## 1.0.0 — 2026-09-13
+
+- 首发 4 个原创正式 Skill、1 个私域运营插件和 1 个代理，注册内部依赖并保留合成评估证据。
+- 增加 Codex Marketplace 清单和标准 `.codex-plugin/plugin.json`，支持官方 Marketplace 安装流程。
+- 增加跨平台 CLI，支持资产查询、校验、Skill/插件安装与受保护卸载。
+- 增加插件技能镜像校验、npm tarball、SHA-256 发行制品和 Git Tag Release 工作流。
+- 采用 MIT 许可证，并明确 Inventory 与第三方元数据的许可证边界。
+
 ## 0.2.1 — 2026-09-13
 
 - 增加飞书技能登记表只读核对工具和去敏审计报告。

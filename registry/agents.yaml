@@ -1,4 +1,19 @@
 {
   "schemaVersion": "1.0.0",
-  "agents": []
+  "agents": [
+    {
+      "id": "private-domain-operator",
+      "name": "私域运营代理",
+      "description": "根据已授权资料完成人群分层、活动策划和脱敏对话复盘",
+      "version": "0.1.0",
+      "path": "agents/private-domain-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "private-domain-audience-segmenter",
+        "private-domain-campaign-planner",
+        "private-domain-conversation-reviewer"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "name": "zewei-os",
+  "interface": {
+    "displayName": "泽玮 OS Skill Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "zewei-os-private-domain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zewei-os-private-domain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    }
+  ]
+}

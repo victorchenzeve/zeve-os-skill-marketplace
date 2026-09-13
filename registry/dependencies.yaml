@@ -1,4 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "dependencies": []
+  "dependencies": [
+    {
+      "from": "skill:private-domain-campaign-planner",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "活动计划需要可解释的受众分层作为输入"
+    }
+  ]
 }

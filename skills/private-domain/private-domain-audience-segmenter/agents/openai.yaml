@@ -1,0 +1,6 @@
+interface:
+  display_name: "私域人群分层"
+  short_description: "把合规客户资料转成可解释的人群规则与行动优先级"
+  default_prompt: "使用 $private-domain-audience-segmenter 为这批客户设计可执行的人群分层。"
+policy:
+  allow_implicit_invocation: true

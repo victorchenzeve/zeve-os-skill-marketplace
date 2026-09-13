@@ -1,0 +1,6 @@
+interface:
+  display_name: "私域活动策划"
+  short_description: "从人群、目标和渠道约束生成活动矩阵、节奏与指标"
+  default_prompt: "使用 $private-domain-campaign-planner 为这个目标制定私域活动方案。"
+policy:
+  allow_implicit_invocation: true

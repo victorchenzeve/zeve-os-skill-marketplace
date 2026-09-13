@@ -1,4 +1,19 @@
 {
   "schemaVersion": "1.0.0",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "zewei-os-private-domain",
+      "name": "泽玮 OS 私域运营",
+      "description": "组合人群分层、活动策划和对话复盘能力的私域运营插件",
+      "version": "0.1.0",
+      "path": "plugins/zewei-os-private-domain",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "private-domain-audience-segmenter",
+        "private-domain-campaign-planner",
+        "private-domain-conversation-reviewer"
+      ]
+    }
+  ]
 }

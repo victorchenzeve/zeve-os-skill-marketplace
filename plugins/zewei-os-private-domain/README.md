@@ -1,5 +1,17 @@
-# 泽玮 OS 私域插件
+# 泽玮 OS 私域运营插件
 
-预留目录，尚未注册或启用。明确技能清单后，从 `templates/plugin/plugin.json` 创建内部描述文件，再写入 `registry/plugins.yaml`。
+可由 Codex Marketplace 安装的私域运营组合包，包含：
 
-本仓库插件格式仅用于能力组合与治理。接入 Codex 或其他宿主时，另行编写并验证该平台要求的安装清单。
+- `private-domain-audience-segmenter`
+- `private-domain-campaign-planner`
+- `private-domain-conversation-reviewer`
+
+插件处理已经授权的数据和脱敏对话，输出人群规则、活动方案和跟进建议。它不会自动发送消息、写回 CRM、上传联系人或产生费用。
+
+本目录同时保存：
+
+- `plugin.json`：泽玮 OS 内部注册清单。
+- `.codex-plugin/plugin.json`：Codex 可安装插件清单。
+- `skills/`：由仓库正式 Skill 同步生成的发行镜像。
+
+修改正式 Skill 后在仓库根目录运行 `npm run plugin:sync`，再运行 `npm run marketplace:verify`。

@@ -1,0 +1,6 @@
+interface:
+  display_name: "私域对话复盘"
+  short_description: "从脱敏对话提取意向、异议、风险和可追溯跟进建议"
+  default_prompt: "使用 $private-domain-conversation-reviewer 复盘这些脱敏客户对话。"
+policy:
+  allow_implicit_invocation: true

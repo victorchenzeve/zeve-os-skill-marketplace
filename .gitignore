@@ -7,3 +7,4 @@ Thumbs.db
 !.env.example
 *.log
 .tmp/
+dist/
