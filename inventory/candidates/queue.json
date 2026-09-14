@@ -573,18 +573,6 @@
       }
     },
     {
-      "id": "missing-table-7dba059fa559",
-      "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
-      "name": "张咋啦-创作指南",
-      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
-      "evidence": {
-        "name": "张咋啦-创作指南",
-        "scope": "user",
-        "pluginId": null
-      }
-    },
-    {
       "id": "missing-table-d5b85f8bdbc5",
       "type": "runtime-missing-from-table",
       "status": "pending-external-review",
@@ -753,18 +741,6 @@
       }
     },
     {
-      "id": "missing-table-92e878bf23a2",
-      "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
-      "name": "spreadsheets:excel-live-control",
-      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
-      "evidence": {
-        "name": "spreadsheets:excel-live-control",
-        "scope": "plugin",
-        "pluginId": "spreadsheets@openai-primary-runtime"
-      }
-    },
-    {
       "id": "missing-table-e91c72659d66",
       "type": "runtime-missing-from-table",
       "status": "pending-external-review",
@@ -772,6 +748,18 @@
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "spreadsheets:Spreadsheets",
+        "scope": "plugin",
+        "pluginId": "spreadsheets@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-92e878bf23a2",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "spreadsheets:excel-live-control",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "spreadsheets:excel-live-control",
         "scope": "plugin",
         "pluginId": "spreadsheets@openai-primary-runtime"
       }
@@ -880,6 +868,18 @@
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "zewei-ip-copy-hook",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-7dba059fa559",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "张咋啦-创作指南",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "张咋啦-创作指南",
         "scope": "user",
         "pluginId": null
       }

@@ -1,6 +1,6 @@
 {
   "name": "zeve-os-skill-marketplace",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "description": "泽玮 OS 可分发、可安装的 Codex 技能与插件市场",
   "type": "module",

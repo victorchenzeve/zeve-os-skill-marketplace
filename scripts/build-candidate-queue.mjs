@@ -8,11 +8,16 @@ const auditRelative = 'inventory/audits/2026-09-13-feishu-base-reconciliation.js
 const outputRelative = 'inventory/candidates/queue.json';
 
 const fingerprint = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex').slice(0, 12);
-const compare = (a, b) => `${a.type}:${a.name}:${a.id}`.localeCompare(`${b.type}:${b.name}:${b.id}`);
+const compare = (a, b) => {
+  const left = `${a.type}:${a.name}:${a.id}`;
+  const right = `${b.type}:${b.name}:${b.id}`;
+  return left < right ? -1 : left > right ? 1 : 0;
+};
 
 export function buildCandidateQueue(root = defaultRoot) {
-  const auditBytes = fs.readFileSync(path.join(root, auditRelative));
-  const audit = JSON.parse(auditBytes);
+  const auditText = fs.readFileSync(path.join(root, auditRelative), 'utf8').replace(/\r\n/g, '\n');
+  const auditBytes = Buffer.from(auditText, 'utf8');
+  const audit = JSON.parse(auditText);
   const items = [];
   for (const group of audit.duplicateNames) {
     items.push({
