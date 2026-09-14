@@ -2,7 +2,7 @@
 
 泽玮 OS 的可分发、可安装 Codex Skill Marketplace。仓库维护正式资产、注册表、依赖、评估证据、安装工具和只读 Inventory。
 
-当前版本：`1.1.0`。首批正式纳管 **20 个 Skill、4 个领域插件、4 个代理**。
+当前版本：`1.1.1`。首批正式纳管 **20 个 Skill、4 个领域插件、4 个代理**。
 
 ## 首批正式资产
 
@@ -18,7 +18,7 @@
 
 ## 从远程 Marketplace 安装
 
-`v1.1.0` 发布后可直接使用 Git 仓库：
+远程版本发布后可直接使用 Git 仓库：
 
 ```sh
 codex plugin marketplace add <owner>/zeve-os-skill-marketplace

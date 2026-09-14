@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readMetadata, sanitize, duplicateGroups, buildInventory } from '../scripts/build-skill-inventory.mjs';
-import { findSkills, hash } from '../scripts/discover-codex-skills.mjs';
+import { findSkills, findSkillsWithoutRipgrep, hash } from '../scripts/discover-codex-skills.mjs';
 import { validateInventory } from '../scripts/validate-inventory.mjs';
 
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -67,6 +67,7 @@ test('scanner includes hidden SKILL files and excludes dependencies', t => {
   fs.writeFileSync(path.join(hidden, 'SKILL.md'), '# Hidden');
   fs.writeFileSync(path.join(dependency, 'SKILL.md'), '# Dependency');
   assert.equal(findSkills(path.join(f.root, 'source')).files.length, 2);
+  assert.equal(findSkillsWithoutRipgrep(path.join(f.root, 'source')).files.length, 2);
 });
 test('snapshot generation preserves the source and refuses overwrite', t => {
   const f = fixture(t);

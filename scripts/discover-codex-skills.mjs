@@ -10,11 +10,30 @@ export const excludedDirectories = ['node_modules', '.git', '.venv', 'venv', '.t
 export const normalize = value => path.resolve(value).replaceAll('\\', '/').toLowerCase();
 export const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 
+export function findSkillsWithoutRipgrep(root) {
+  const files = [];
+  const errors = [];
+  const walk = directory => {
+    let entries;
+    try { entries = fs.readdirSync(directory, { withFileTypes: true }); }
+    catch (error) { errors.push(`${directory}: ${error.code ?? error.message}`); return; }
+    for (const entry of entries) {
+      const target = path.join(directory, entry.name);
+      if (entry.isDirectory()) {
+        if (!excludedDirectories.includes(entry.name)) walk(target);
+      } else if (entry.isFile() && entry.name === 'SKILL.md') files.push(target);
+    }
+  };
+  walk(root);
+  return { status: errors.length ? 'partial' : 'scanned', files: files.sort(), errors };
+}
+
 export function findSkills(root) {
   if (!fs.existsSync(root)) return { status: 'missing', files: [], errors: [] };
   const args = ['--files', '--hidden', '--no-ignore', root, '-g', 'SKILL.md'];
   for (const directory of excludedDirectories) args.push('-g', `!**/${directory}/**`);
   const result = spawnSync('rg', args, { encoding: 'utf8', windowsHide: true, maxBuffer: 32 * 1024 * 1024 });
+  if (result.error?.code === 'ENOENT') return findSkillsWithoutRipgrep(root);
   if (result.error) throw result.error;
   return {
     status: result.status === 0 || result.status === 1 ? 'scanned' : 'partial',
