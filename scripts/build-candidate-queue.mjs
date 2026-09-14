@@ -4,7 +4,6 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const defaultRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const auditRelative = 'inventory/audits/2026-09-13-feishu-base-reconciliation.json';
 const outputRelative = 'inventory/candidates/queue.json';
 
 const fingerprint = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex').slice(0, 12);
@@ -15,6 +14,7 @@ const compare = (a, b) => {
 };
 
 export function buildCandidateQueue(root = defaultRoot) {
+  const auditRelative = latestAuditRelative(root);
   const auditText = fs.readFileSync(path.join(root, auditRelative), 'utf8').replace(/\r\n/g, '\n');
   const auditBytes = Buffer.from(auditText, 'utf8');
   const audit = JSON.parse(auditText);
@@ -22,8 +22,12 @@ export function buildCandidateQueue(root = defaultRoot) {
   for (const group of audit.duplicateNames) {
     items.push({
       id: `duplicate-${fingerprint(group)}`,
-      type: 'duplicate-record-review', status: 'pending-external-review',
+      type: 'duplicate-record-review', status: 'decision-ready',
       name: group.normalizedName,
+      owner: 'catalog-owner',
+      recommendedDecision: 'select-primary-after-owner-review',
+      externalMutation: 'required',
+      canAutoExecute: false,
       action: '核对版本、状态和来源，确定主记录；未经确认不合并或删除。',
       evidence: { rows: group.rows }
     });
@@ -31,8 +35,12 @@ export function buildCandidateQueue(root = defaultRoot) {
   for (const entry of audit.missingFromTable) {
     items.push({
       id: `missing-table-${fingerprint(entry)}`,
-      type: 'runtime-missing-from-table', status: 'pending-external-review',
+      type: 'runtime-missing-from-table', status: 'decision-ready',
       name: entry.name,
+      owner: entry.scope === 'user' ? 'skill-owner' : 'catalog-owner',
+      recommendedDecision: entry.scope === 'user' ? 'consider-table-addition-after-source-review' : 'external-reference-do-not-claim',
+      externalMutation: entry.scope === 'user' ? 'possible' : 'none',
+      canAutoExecute: false,
       action: '核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。',
       evidence: entry
     });
@@ -40,8 +48,12 @@ export function buildCandidateQueue(root = defaultRoot) {
   for (const entry of audit.tableOnly) {
     items.push({
       id: `table-only-${fingerprint(entry)}`,
-      type: 'table-entry-absent-from-runtime', status: 'pending-external-review',
+      type: 'table-entry-absent-from-runtime', status: 'decision-ready',
       name: entry.name,
+      owner: 'catalog-owner',
+      recommendedDecision: 'retain-record-pending-availability-review',
+      externalMutation: 'possible',
+      canAutoExecute: false,
       action: '核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。',
       evidence: entry
     });
@@ -49,8 +61,12 @@ export function buildCandidateQueue(root = defaultRoot) {
   for (const entry of audit.runtimeLoadErrors) {
     items.push({
       id: `load-error-${fingerprint(entry)}`,
-      type: 'runtime-load-error', status: 'pending-skill-owner-review',
+      type: 'runtime-load-error', status: 'decision-ready',
       name: entry.name,
+      owner: 'skill-owner',
+      recommendedDecision: 'owner-repair-review',
+      externalMutation: 'none',
+      canAutoExecute: false,
       action: '由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。',
       evidence: entry
     });
@@ -66,6 +82,15 @@ export function buildCandidateQueue(root = defaultRoot) {
     summary: { total: items.length, countByType },
     items
   };
+}
+
+export function latestAuditRelative(root = defaultRoot) {
+  const directory = path.join(root, 'inventory', 'audits');
+  const name = fs.readdirSync(directory)
+    .filter(file => /^\d{4}-\d{2}-\d{2}-feishu-base-reconciliation\.json$/.test(file))
+    .sort().at(-1);
+  if (!name) throw new Error('No Feishu reconciliation audit found.');
+  return `inventory/audits/${name}`;
 }
 
 export function queueText(root = defaultRoot) {

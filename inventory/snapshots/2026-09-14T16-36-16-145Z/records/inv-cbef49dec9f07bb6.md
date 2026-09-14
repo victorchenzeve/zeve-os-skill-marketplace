@@ -1,0 +1,22 @@
+# hyperframes-rules
+
+- 盘点 ID：inv-cbef49dec9f07bb6
+- 原路径：`%CODEX_HOME%/skills/hyperframes-rules/SKILL.md`
+- SKILL.md SHA-256：`15f69f10ddf23090cb47b59e0d6b00d597974247cb83a2f8fdf0969a1bfe51ca`
+- 描述：HyperFrames 规则索引。用于查询 composition 结构、tracks、data attributes、GSAP 时间线注册、preview/lint/render/inspect 约束，以及 talking-head 信息层视频的落地规则。当用户说"查规则""HyperFrames 语法""composition 结构""GSAP 怎么写""track 怎么分配""查约束""这个语法对不对""查 HyperFrames API"时触发，或在实现过程中对 HyperFrames 语法或规则不确定时自动触发。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-3c5a0d79521ad798](inv-3c5a0d79521ad798.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

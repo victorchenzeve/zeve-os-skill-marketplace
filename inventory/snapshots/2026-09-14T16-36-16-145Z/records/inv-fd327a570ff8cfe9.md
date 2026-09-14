@@ -1,0 +1,22 @@
+# gzh-design
+
+- 盘点 ID：inv-fd327a570ff8cfe9
+- 原路径：`%CODEX_HOME%/skills/gzh-design/SKILL.md`
+- SKILL.md SHA-256：`477598fe8f39532d410b0f9f13c1298005baad9bf2fdd698f264a41b46bc32f8`
+- 描述：微信公众号文章排版引擎，将 Markdown 转换为可直接粘贴到公众号编辑器的 HTML。主题风格从 references/theme-index.md 注册的自定义主题库中选取，自动章节编号、关键词下划线标记、引言卡片、目录导航、代码块、图片/GIF、作者签名。支持 Markdown / Word(.docx) / PDF / 纯文本输入（非 Markdown 先自动归一化），也支持"一键自动排版"（自动推断结构+选主题），还支持根据用户描述/参考图生成自定义主题组件库并保存本地复用。触发场景：(1) 用户提到"公众号排版""公众号文章""微信排版""gzh"，(2) 用户想把文章（md/docx/pdf/纯文本）转成公众号 HTML，(3) 用户说"自动排版""一键排版"公众号内容，(4) 用户想为公众号排版"生成新主题/自定义风格/按这张图做一套组件库"。不用于生成普通网页/落地页/PPT（用前端或 PPT 类 skill）。
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：local-generated-from-external-catalog
+- 本地创建线索：derived-generation-evidence
+- 创建证据：Historical generation/install log identifies this exact path; this is not proof of original authorship.
+- 历史记录：%USERPROFILE%/Documents\SKILL\generated-minimal-skills-results-20260823.json
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：catalog-derived-minimal-not-original-package, not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

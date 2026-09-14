@@ -1,0 +1,22 @@
+# ra-local-talking-head-cut
+
+- 盘点 ID：inv-1ae40fe6bc4385ab
+- 原路径：`%CODEX_HOME%/skills/ra-local-talking-head-cut/SKILL.md`
+- SKILL.md SHA-256：`d55c0be512417264c367bfa33a520a1092e6be06344bf5a8f05751d46fed65b0`
+- 描述：Produce a polished local talking-head or narrated screen-recording rough cut without a cloud editor. Use when Codex must clean Chinese or mixed Chinese-English speech, correct product terminology before semantic editing, compress pauses without making speech breathless, preserve source resolution and frame rate, normalize dialogue loudness, generate final-audio subtitle artifacts, or benchmark local output against ChatCut/video-use/chengfeng/AI剪口播.
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：local-generated-from-external-catalog
+- 本地创建线索：derived-generation-evidence
+- 创建证据：Historical generation/install log identifies this exact path; this is not proof of original authorship.
+- 历史记录：%USERPROFILE%/Documents\SKILL\generated-minimal-skills-results-20260823.json
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：catalog-derived-minimal-not-original-package, not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

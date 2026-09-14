@@ -2,24 +2,29 @@
   "schemaVersion": "2.0.0",
   "dependencies": [
     {
-      "from": "skill:private-domain-campaign-planner",
-      "to": "skill:private-domain-audience-segmenter",
-      "reason": "活动计划需要可解释的人群分层作为输入"
+      "from": "skill:business-decision-memo",
+      "to": "skill:business-experiment-planner",
+      "reason": "阶段决策需要引用实验结果与停止规则"
     },
     {
-      "from": "skill:private-domain-lifecycle-designer",
-      "to": "skill:private-domain-audience-segmenter",
-      "reason": "生命周期阶段需要沿用合规人群规则"
+      "from": "skill:business-experiment-planner",
+      "to": "skill:business-opportunity-framer",
+      "reason": "业务实验需要明确待验证机会与决策门槛"
     },
     {
-      "from": "skill:private-domain-retention-experiment-planner",
-      "to": "skill:private-domain-audience-segmenter",
-      "reason": "留存实验需要明确实验人群与排除条件"
+      "from": "skill:business-experiment-planner",
+      "to": "skill:business-unit-economics-reviewer",
+      "reason": "实验优先验证对经济性影响最大的假设"
     },
     {
-      "from": "skill:private-domain-retention-experiment-planner",
-      "to": "skill:private-domain-campaign-planner",
-      "reason": "实验干预沿用活动节奏与指标结构"
+      "from": "skill:business-offer-designer",
+      "to": "skill:business-opportunity-framer",
+      "reason": "业务方案必须基于已界定且有证据边界的机会"
+    },
+    {
+      "from": "skill:business-unit-economics-reviewer",
+      "to": "skill:business-offer-designer",
+      "reason": "单位经济性需要明确方案、交付范围和定价假设"
     },
     {
       "from": "skill:content-angle-generator",
@@ -42,11 +47,6 @@
       "reason": "再利用规划应基于已经审查的源内容"
     },
     {
-      "from": "skill:knowledge-taxonomy-designer",
-      "to": "skill:knowledge-source-ingestor",
-      "reason": "分类设计需要可追溯的代表性知识记录"
-    },
-    {
       "from": "skill:knowledge-answer-grounder",
       "to": "skill:knowledge-source-ingestor",
       "reason": "溯源回答依赖标准化来源记录"
@@ -57,14 +57,34 @@
       "reason": "时效审计依赖来源、日期和版本元数据"
     },
     {
-      "from": "skill:research-source-planner",
-      "to": "skill:research-question-framer",
-      "reason": "来源规划需要清楚的问题与证据标准"
+      "from": "skill:knowledge-taxonomy-designer",
+      "to": "skill:knowledge-source-ingestor",
+      "reason": "分类设计需要可追溯的代表性知识记录"
     },
     {
-      "from": "skill:research-evidence-synthesizer",
-      "to": "skill:research-source-planner",
-      "reason": "证据综合依赖按来源计划收集的记录"
+      "from": "skill:marketplace-asset-curator",
+      "to": "skill:skill-provenance-reviewer",
+      "reason": "资产纳管必须复用统一的来源与许可审查结论"
+    },
+    {
+      "from": "skill:private-domain-campaign-planner",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "活动计划需要可解释的人群分层作为输入"
+    },
+    {
+      "from": "skill:private-domain-lifecycle-designer",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "生命周期阶段需要沿用合规人群规则"
+    },
+    {
+      "from": "skill:private-domain-retention-experiment-planner",
+      "to": "skill:private-domain-audience-segmenter",
+      "reason": "留存实验需要明确实验人群与排除条件"
+    },
+    {
+      "from": "skill:private-domain-retention-experiment-planner",
+      "to": "skill:private-domain-campaign-planner",
+      "reason": "实验干预沿用活动节奏与指标结构"
     },
     {
       "from": "skill:research-claim-verifier",
@@ -72,29 +92,29 @@
       "reason": "主张核验针对综合报告中的主张与引用"
     },
     {
-      "from": "skill:business-offer-designer",
-      "to": "skill:business-opportunity-framer",
-      "reason": "业务方案必须基于已界定且有证据边界的机会"
+      "from": "skill:research-evidence-synthesizer",
+      "to": "skill:research-source-planner",
+      "reason": "证据综合依赖按来源计划收集的记录"
     },
     {
-      "from": "skill:business-unit-economics-reviewer",
-      "to": "skill:business-offer-designer",
-      "reason": "单位经济性需要明确方案、交付范围和定价假设"
+      "from": "skill:research-source-planner",
+      "to": "skill:research-question-framer",
+      "reason": "来源规划需要清楚的问题与证据标准"
     },
     {
-      "from": "skill:business-experiment-planner",
-      "to": "skill:business-opportunity-framer",
-      "reason": "业务实验需要明确待验证机会与决策门槛"
+      "from": "skill:skill-duplicate-adjudicator",
+      "to": "skill:skill-provenance-reviewer",
+      "reason": "重复裁定需要来源与许可证据区分可替代副本和独立资产"
     },
     {
-      "from": "skill:business-experiment-planner",
-      "to": "skill:business-unit-economics-reviewer",
-      "reason": "实验优先验证对经济性影响最大的假设"
+      "from": "skill:skill-maturity-evidence-reviewer",
+      "to": "skill:skill-provenance-reviewer",
+      "reason": "正式成熟度评估需要先确认资产来源和许可门槛"
     },
     {
-      "from": "skill:business-decision-memo",
-      "to": "skill:business-experiment-planner",
-      "reason": "阶段决策需要引用实验结果与停止规则"
+      "from": "skill:zeve-skill-release-auditor",
+      "to": "skill:skill-maturity-evidence-reviewer",
+      "reason": "发布门禁需要核对正式资产成熟度与评估证据是否一致"
     }
   ]
 }

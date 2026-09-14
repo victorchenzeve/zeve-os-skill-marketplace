@@ -1,0 +1,22 @@
+# douyin-cover
+
+- 盘点 ID：inv-087c63b1be9a65cc
+- 原路径：`%USERPROFILE%/Documents/SKILL/generated-minimal-skills-20260823/douyin-cover/SKILL.md`
+- SKILL.md SHA-256：`b45e3a602256a55732f1ce9b2df4940154f5fe0efef2292ad72ccedfc160a737`
+- 描述：生成抖音、视频号、小红书等短视频封面图、视频标题图和合集封面，也能诊断和改版已有封面。用户说做封面、生成封面、抖音封面、视频封面、标题图、合集封面、3:4、4:3、1:1、短视频首图、动态封面首帧、给这期视频做图、这封面为什么没人点、帮我改封面、封面点击率怎么提升、诊断封面时都应使用。小白学AI系列封面除外：遇到“小白学AI封面/小白学AI第N集封面”时优先使用 xiaobai-ai-cover skill（系统内置 imagegen + 固定角色参考图）。这个 skill 会根据每次标题重新设计简约大方、有点击理由的封面，保留泊舟 IP 人物识别特征，内置「信息密度 × 视觉锚点」方法论和冲突型/数字型/截图型/情绪型可选模板参数，支持 3:4 竖版、4:3 横版和 1:1 正方形，默认必须使用系统内置 `imagegen` skill / `image_gen` 工具直接生成带准确标题文字的完整发布级封面；涉及泊舟 IP 或其它指定人物/IP 时，必须把对应参考图作为 identity reference 放入生图上下文，不能只靠文字描述；禁止用代码、Canvas、Pillow、ImageMagick 或其它本地图形流程合成画面或文字，并通过检查与重试保证文字可读、无错字、无乱码。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：local-generated-from-external-catalog
+- 本地创建线索：derived-generation-evidence
+- 创建证据：Historical generation/install log identifies this exact path; this is not proof of original authorship.
+- 历史记录：%USERPROFILE%/Documents\SKILL\generated-minimal-skills-results-20260823.json
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：catalog-derived-minimal-not-original-package
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：无
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

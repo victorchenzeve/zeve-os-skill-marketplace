@@ -25,11 +25,13 @@ export function validateInventory(root = repo) {
     if (latest.snapshotId !== catalog.snapshotId || latest.snapshotId !== summary.snapshotId) errors.push('snapshot IDs differ');
     if (new Set(records.map(record => record.recordId)).size !== records.length) errors.push('duplicate inventory IDs');
     if (new Set(records.map(record => record.sourcePath.toLowerCase())).size !== records.length) errors.push('duplicate source paths');
+    const outsideRuntime = summary.runtimeOutsideScan.flatMap(item => item.runtime ?? []);
     const expected = {
       sourceFiles: records.length,
       installedLocationOrRuntime: records.filter(record => record.installedLocationOrRuntime).length,
-      runtimeUniquePaths: records.filter(record => record.runtime.length).length,
-      enabledInAnyContext: records.filter(record => record.runtime.some(item => item.enabled)).length,
+      runtimeUniquePaths: records.filter(record => record.runtime.length).length + summary.runtimeOutsideScan.length,
+      enabledInAnyContext: records.filter(record => record.runtime.some(item => item.enabled)).length +
+        summary.runtimeOutsideScan.filter(item => (item.runtime ?? []).some(runtime => runtime.enabled)).length,
       localCreationReviewFiles: records.filter(record => record.localCreation.status !== 'unverified').length,
       localDerivedFiles: records.filter(record => record.localCreation.status === 'derived-generation-evidence').length,
       zeweiRelatedCandidates: records.filter(record => record.localCreation.status === 'zewei-related-candidate').length,
@@ -39,7 +41,6 @@ export function validateInventory(root = repo) {
     for (const [key, value] of Object.entries(expected)) {
       if (summary[key] !== value) errors.push(`summary count mismatch: ${key}`);
     }
-    if (summary.runtimeOutsideScan.length) errors.push('runtime includes paths outside scan');
     if (summary.integrity.checkedSkillMdFiles !== records.length || summary.integrity.changedSkillMdFiles.length || summary.integrity.pathChanges.length) {
       errors.push('source integrity checks incomplete or report changes');
     }
@@ -48,7 +49,8 @@ export function validateInventory(root = repo) {
     if (JSON.stringify(groups.sameName) !== JSON.stringify(duplicateGroups(records, 'baseName'))) errors.push('same-name groups mismatch');
     if (JSON.stringify(groups.identicalSkillMd) !== JSON.stringify(duplicateGroups(records, 'sha256'))) errors.push('identical-content groups mismatch');
     for (const context of summary.runtimeContexts) {
-      const members = records.flatMap(record => record.runtime.filter(item => item.contextId === context.id));
+      const members = records.flatMap(record => record.runtime.filter(item => item.contextId === context.id))
+        .concat(outsideRuntime.filter(item => item.contextId === context.id));
       if (members.length !== context.count || members.filter(item => item.enabled).length !== context.enabled ||
           members.filter(item => !item.enabled).length !== context.disabled) errors.push(`runtime count mismatch: ${context.id}`);
     }

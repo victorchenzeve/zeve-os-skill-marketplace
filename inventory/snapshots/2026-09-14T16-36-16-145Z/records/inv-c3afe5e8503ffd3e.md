@@ -1,0 +1,22 @@
+# golden-quote-distiller
+
+- 盘点 ID：inv-c3afe5e8503ffd3e
+- 原路径：`%CODEX_HOME%/skills/golden-quote-distiller/SKILL.md`
+- SKILL.md SHA-256：`89456eb9097c7ac831f5d383be9ed9c267fcaf1380d3c0acdbf5706c732a69b5`
+- 描述：Turn raw Chinese viewpoints, explanations, observations, slogans, or rough notes into concise, memorable, discussion-provoking golden quotes without changing the underlying claim. Use when the user asks for 金句、观点提炼、标题钩子、冲突感、传播感、反常识表达、短视频开场、PPT标题、演讲句子、朋友圈文案，或希望把普通表达改得更犀利、更高级、更有争议。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-41f1cd79668db351](inv-41f1cd79668db351.md)、[inv-3ee526f15ec8336a](inv-3ee526f15ec8336a.md)、[inv-2e733c28de9806fa](inv-2e733c28de9806fa.md)、[inv-554d242fc393e905](inv-554d242fc393e905.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

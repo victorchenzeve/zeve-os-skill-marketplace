@@ -1,0 +1,22 @@
+# knowledge-source-ingestor
+
+- 盘点 ID：inv-aff1a45aae5c619f
+- 原路径：`%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-remote-v1.2.1/.tmp/marketplaces/zeve-os/skills/knowledge/knowledge-source-ingestor/SKILL.md`
+- SKILL.md SHA-256：`9cea84d532bd1cc5b82a76b31fd771f522cb5e53de4417e6eee15f3f3123f185`
+- 描述：Turn authorized source materials into traceable knowledge records with provenance, scope, dates, access constraints, and unresolved conflicts.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：MIT；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-59cec5a0790f9fa5](inv-59cec5a0790f9fa5.md)、[inv-510d6e610166bbc5](inv-510d6e610166bbc5.md)、[inv-d0f8aefd6b6c4f34](inv-d0f8aefd6b6c4f34.md)、[inv-d2f831f274f46e89](inv-d2f831f274f46e89.md)、[inv-a753b8483207878d](inv-a753b8483207878d.md)、[inv-17caa8033e5490cf](inv-17caa8033e5490cf.md)、[inv-6c98e4d0c9a03e7b](inv-6c98e4d0c9a03e7b.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

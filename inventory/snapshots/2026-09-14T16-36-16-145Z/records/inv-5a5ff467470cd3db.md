@@ -1,0 +1,22 @@
+# skill-creator
+
+- 盘点 ID：inv-5a5ff467470cd3db
+- 原路径：`%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/skill-creator/SKILL.md`
+- SKILL.md SHA-256：`cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288`
+- 描述：Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-47f13593219fffb4](inv-47f13593219fffb4.md)、[inv-ac6086311de9f22b](inv-ac6086311de9f22b.md)、[inv-934e5f4e36a1eb8d](inv-934e5f4e36a1eb8d.md)、[inv-49c96f1e7477c151](inv-49c96f1e7477c151.md)、[inv-ec761cc53e0f144f](inv-ec761cc53e0f144f.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

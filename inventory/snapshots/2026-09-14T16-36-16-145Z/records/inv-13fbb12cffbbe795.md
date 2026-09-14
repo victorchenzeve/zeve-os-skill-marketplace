@@ -1,0 +1,22 @@
+# lark-wiki
+
+- 盘点 ID：inv-13fbb12cffbbe795
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-004624/extracted/lark-cli/skills/lark-wiki/SKILL.md`
+- SKILL.md SHA-256：`c46974cfae350c252c19747232f3281e5284829354bc2e2fd486f0824a2fbe96`
+- 描述：飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管理空间成员、移动或复制节点时使用。当用户给出 doubao.com 的 /wiki/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：上传文件到知识库节点下（走 lark-drive）、编辑文档/表格/Base 内容（走 lark-doc / lark-sheets / lark-base）。
+- 声明版本：1.0.3
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-65d04c28d7e50dc7](inv-65d04c28d7e50dc7.md)、[inv-ad8d33ba46e83748](inv-ad8d33ba46e83748.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

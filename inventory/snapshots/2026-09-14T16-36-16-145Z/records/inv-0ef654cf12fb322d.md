@@ -1,0 +1,22 @@
+# mannequin-showroom-menswear-storyboard
+
+- 盘点 ID：inv-0ef654cf12fb322d
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/mannequin-showroom-menswear-storyboard/SKILL.md`
+- SKILL.md SHA-256：`bb43d87685d4632271c0e052a7b1ba6b82f6b1a38eb36ecce73ad458d9454570`
+- 描述：Generate strict reference-video-style menswear ecommerce storyboards using a white retail mannequin in a virtual boutique showroom. Use when the user provides or references men's apparel product images and asks for 同款风格, 参考视频风格, 假人模特, 橱窗模特, 虚拟展厅, 潮牌展厅, 发光展示台, 9:16 分镜图, 分镜脚本, 图生视频动作提示词, or wants to reuse the mannequin showroom workflow developed for a wine-red men's shirt.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：extracted-external-archive
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-2295320976e7bc21](inv-2295320976e7bc21.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -178,7 +178,12 @@ export function buildInventory(discovery, outputRoot = path.join(repo, 'inventor
   const createdRecords = records.filter(record => record.localCreation.status !== 'unverified');
   const runtimePaths = [...runtimeByPath.keys()];
   const sourcePaths = new Set(discovery.files.map(file => normalize(file.path)));
-  const runtimeOutsideScan = runtimePaths.filter(file => !sourcePaths.has(file)).map(safe);
+  const runtimeOutsideScan = runtimePaths.filter(file => !sourcePaths.has(file)).map(file => ({
+    path: safe(file),
+    runtime: (runtimeByPath.get(file) ?? []).map(({ contextId, enabled, scope, pluginId }) => ({
+      contextId, enabled, scope, pluginId,
+    })),
+  }));
   const changed = [...discovery.changedDuringScan];
   for (const file of discovery.files) {
     if (hash(fs.readFileSync(file.path)) !== file.sha256) changed.push(file.alias);

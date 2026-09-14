@@ -145,6 +145,10 @@ function uniqueBy(items, key) {
   return [...map.values()];
 }
 
+function compareText(left, right) {
+  return left < right ? -1 : left > right ? 1 : 0;
+}
+
 async function main() {
   const cliScript = argument('--cli-script') || process.env.LARK_CLI_JS;
   const baseToken = argument('--base-token');
@@ -202,6 +206,13 @@ async function main() {
   const blankVersions = tableRows.filter(row => !cellText(row.fields['版本号']).trim());
   const blankStatuses = tableRows.filter(row => !cellText(row.fields['技能状态']).trim());
   const uniqueTableNames = new Set(tableRows.map(row => normalizeName(row.fields['技能名称'])).filter(Boolean));
+  const tableIndexMap = new Map();
+  for (const row of tableRows) {
+    const normalizedName = normalizeName(row.fields['技能名称']);
+    if (!normalizedName) continue;
+    if (!tableIndexMap.has(normalizedName)) tableIndexMap.set(normalizedName, []);
+    tableIndexMap.get(normalizedName).push(publicRow(row));
+  }
   const runtimeByScope = Object.fromEntries(['user', 'plugin', 'system'].map(scope =>
     [scope, runtimeSkills.filter(skill => displayScope(skill) === scope).length]));
   const runAt = new Date();
@@ -254,6 +265,8 @@ async function main() {
       tableUniqueNamesPresentOnDiskButNotRuntime: tableOnlyDisk.length,
       tableUniqueNamesAbsentFromRuntimeAndDisk: tableOnlyAbsentDisk.length,
     },
+    tableIndex: [...tableIndexMap].map(([normalizedName, rows]) => ({ normalizedName, rows }))
+      .sort((a, b) => compareText(a.normalizedName, b.normalizedName)),
     duplicateNames: duplicateNames.map(([normalizedName, members]) => ({
       normalizedName,
       rows: members.map(publicRow),
@@ -261,10 +274,10 @@ async function main() {
     duplicateNumbers: duplicateNumbers.map(([number, members]) => ({ number, rows: members.map(publicRow) })),
     duplicateSources: duplicateSources.map(([, members]) => ({ rows: members.map(publicRow) })),
     blankNameRows: blankNames.map(publicRow),
-    missingFromTable: missingRuntimeLogical.sort((a, b) => a.name.localeCompare(b.name, 'en')),
-    tableOnly: tableOnlyUnique.map(publicRow).sort((a, b) => a.name.localeCompare(b.name, 'en')),
-    tableOnlyPresentOnDisk: tableOnlyDisk.map(publicRow).sort((a, b) => a.name.localeCompare(b.name, 'en')),
-    tableOnlyAbsentFromDisk: tableOnlyAbsentDisk.map(publicRow).sort((a, b) => a.name.localeCompare(b.name, 'en')),
+    missingFromTable: missingRuntimeLogical.sort((a, b) => compareText(a.name, b.name)),
+    tableOnly: tableOnlyUnique.map(publicRow).sort((a, b) => compareText(a.name, b.name)),
+    tableOnlyPresentOnDisk: tableOnlyDisk.map(publicRow).sort((a, b) => compareText(a.name, b.name)),
+    tableOnlyAbsentFromDisk: tableOnlyAbsentDisk.map(publicRow).sort((a, b) => compareText(a.name, b.name)),
     runtimeLoadErrors: (runtimeContext.errors ?? []).map(error => ({
       name: path.basename(path.dirname(error.path)), message: error.message,
     })),
@@ -272,7 +285,7 @@ async function main() {
       'Names are compared case-insensitively after Markdown-link extraction, Unicode normalization, whitespace/underscore normalization and plugin suffix aliases.',
       'A name match does not prove that the Feishu row and local package are the same version or content.',
       'The full table and supplied view were paginated serially to has_more=false. Results reflect read permissions at audit time.',
-      'Raw Feishu records, record IDs, document links and local source paths are not stored in this audit artifact.',
+      'A privacy-safe name index is stored; raw record IDs, document links and local source paths are not stored in this audit artifact.',
     ],
   };
 

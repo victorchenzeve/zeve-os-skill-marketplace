@@ -88,3 +88,15 @@ test('offline validator detects summary drift', t => {
   fs.writeFileSync(file, JSON.stringify({ ...summary, sourceFiles: 99 }));
   assert.match(validateInventory(f.root).join('\n'), /summary count mismatch: sourceFiles/);
 });
+test('runtime-only skills outside scanned roots remain auditable', t => {
+  const f = fixture(t);
+  f.discovery.runtime.result.data[0].skills.push({
+    path: path.join(f.root, 'runtime-only', 'SKILL.md'), name: 'runtime-only',
+    description: 'Visible to runtime but outside the disk scan.', enabled: true,
+    scope: 'system', pluginId: null,
+  });
+  const summary = buildInventory(f.discovery, path.join(f.root, 'inventory'));
+  assert.equal(summary.runtimeOutsideScan.length, 1);
+  assert.equal(summary.runtimeUniquePaths, 2);
+  assert.deepEqual(validateInventory(f.root), []);
+});

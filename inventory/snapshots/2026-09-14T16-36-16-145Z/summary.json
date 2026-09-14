@@ -1,0 +1,221 @@
+{
+  "snapshotId": "2026-09-14T16-36-16-145Z",
+  "startedAt": "2026-09-14T16:36:16.145Z",
+  "finishedAt": "2026-09-14T16:36:18.076Z",
+  "generatedAt": "2026-09-14T16:47:07.653Z",
+  "sourceFiles": 1948,
+  "installedLocationOrRuntime": 838,
+  "runtimeUniquePaths": 6,
+  "enabledInAnyContext": 6,
+  "runtimeOutsideScan": [
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "runtime": [
+        {
+          "contextId": "context-1",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        },
+        {
+          "contextId": "context-2",
+          "enabled": true,
+          "scope": "system",
+          "pluginId": null
+        }
+      ]
+    }
+  ],
+  "runtimeStatus": "available",
+  "runtimeContexts": [
+    {
+      "id": "context-1",
+      "cwd": "%USERPROFILE%/Documents\\ChatGPT\\泽玮os-skill-marketplace",
+      "count": 6,
+      "enabled": 6,
+      "disabled": 0,
+      "errors": []
+    },
+    {
+      "id": "context-2",
+      "cwd": "%USERPROFILE%/Documents\\SKILL",
+      "count": 6,
+      "enabled": 6,
+      "disabled": 0,
+      "errors": []
+    }
+  ],
+  "externalEvidenceFiles": 868,
+  "localCreationReviewFiles": 849,
+  "localDerivedFiles": 364,
+  "zeweiRelatedCandidates": 9,
+  "verifiedZeweiOriginals": 0,
+  "sameNameGroups": 660,
+  "identicalSkillMdGroups": 449,
+  "runtimeLoadErrors": [],
+  "roots": [
+    {
+      "id": "codex-skills",
+      "alias": "%CODEX_HOME%/skills",
+      "kind": "installed-location",
+      "status": "scanned",
+      "count": 838,
+      "errors": []
+    },
+    {
+      "id": "plugin-cache",
+      "alias": "%CODEX_HOME%/plugins",
+      "kind": "plugin-cache",
+      "status": "scanned",
+      "count": 35,
+      "errors": []
+    },
+    {
+      "id": "vendor-catalog",
+      "alias": "%CODEX_HOME%/vendor_imports",
+      "kind": "external-source",
+      "status": "scanned",
+      "count": 39,
+      "errors": []
+    },
+    {
+      "id": "user-agents",
+      "alias": "%USERPROFILE%/.agents/skills",
+      "kind": "installed-location",
+      "status": "missing",
+      "count": 0,
+      "errors": []
+    },
+    {
+      "id": "documents",
+      "alias": "%USERPROFILE%/Documents",
+      "kind": "local-source",
+      "status": "scanned",
+      "count": 1036,
+      "errors": []
+    },
+    {
+      "id": "desktop",
+      "alias": "%USERPROFILE%/Desktop",
+      "kind": "local-source",
+      "status": "scanned",
+      "count": 0,
+      "errors": []
+    },
+    {
+      "id": "downloads",
+      "alias": "%USERPROFILE%/Downloads",
+      "kind": "external-source",
+      "status": "scanned",
+      "count": 0,
+      "errors": []
+    }
+  ],
+  "exclusions": [
+    "node_modules",
+    ".git",
+    ".venv",
+    "venv",
+    ".tools",
+    "browser"
+  ],
+  "integrity": {
+    "checkedSkillMdFiles": 1948,
+    "changedSkillMdFiles": [],
+    "pathChanges": [],
+    "scope": "SKILL.md bytes and discovered paths only; supporting scripts/assets are not hashed."
+  },
+  "limitations": [
+    "Only listed local roots were scanned. Missing roots, cloud-only tasks, unopened archives and excluded dependency directories are not covered.",
+    "Runtime availability is specific to the queried standalone app-server contexts. It is not a complete statement about every desktop plugin session.",
+    "Frontmatter scalar extraction is best effort, not full YAML validation. Codex runtime errors are authoritative for queried paths.",
+    "Identical SHA-256 means identical SKILL.md bytes only, not identical supporting files or interchangeable skills.",
+    "Creation, installation, authorship and original ownership are separate. No original authorship is inferred from local presence.",
+    "Inventory views overlap and must not be summed. Every physical path retains its own record. No skill is registered or evaluated by this scan."
+  ]
+}

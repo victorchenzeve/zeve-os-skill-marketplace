@@ -1,0 +1,22 @@
+# asset-storyboard-render-pipeline
+
+- 盘点 ID：inv-27693fd95f7df8fd
+- 原路径：`%CODEX_HOME%/skills/asset-storyboard-render-pipeline/SKILL.md`
+- SKILL.md SHA-256：`211388b3f49b91107dd8d4ae9b9b14eacc8a7887185ec8d4c1d3bc578bc78f01`
+- 描述：当用户要把文章、文档或链接制作成小红书/社媒多页图，并希望先统一品牌资产、再规划逐页分镜、最后批量渲染时使用；trigger: 资产图、brand board、分镜脚本、storyboard、封面和内页、多页出图。适合需要跨页一致性和生成前审查的任务。不适用于只写文案、只生成单张图、缺少可靠内容来源，或宿主尚未通过生图能力验证。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-4c2c013f637f65fb](inv-4c2c013f637f65fb.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

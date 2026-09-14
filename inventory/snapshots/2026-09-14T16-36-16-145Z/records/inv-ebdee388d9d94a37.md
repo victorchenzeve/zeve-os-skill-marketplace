@@ -1,0 +1,22 @@
+# baokuan-chaijie
+
+- 盘点 ID：inv-ebdee388d9d94a37
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005744/extracted/baokuan-chaijie/SKILL.md`
+- SKILL.md SHA-256：`16bb01f1471b662fd10ad23d6eff366acfb2b9a3492ae02eef3849bd44f902db`
+- 描述：爆款内容拆解专家，包含三个独立能力。能力一（下载原文）：用户给出帖子/笔记链接（小红书、微信公众号等）并指定下载目录（及可选主题）时，把正文、图片、视频（图文卡片或 mp4）、评论区下载到 〈目标目录〉/〈主题〉/爆款原文/〈标题〉/ 文件夹（每帖一个独立文件夹，以标题命名）。能力二（拆解爆款）：用户给出笔记标题时，按固定维度拆解，处理图片内文字（analyze_image）、视频转逐字稿（ffmpeg+本地 Whisper），并将拆解文档写到同一目录下的 AI拆解 目录，文件名 AI爆款拆解-〈笔记标题〉。能力三（主题共性分析）：对之前已收集并拆解好的爆款做组合分析——用户给一个目录/主题，把该目录下已有的多篇爆款原文及其拆解放在一起，总结共性情绪、共性用户痛点、共性内容点、评论区共性疑问/未解决痛点，并重点挖掘「多篇都隐含却没深挖」的点，作为用户后续内容创作的深挖方向，产出到 〈目标目录〉/〈主题〉/AI拆解/主题共性分析-〈主题〉.md。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-5dde56e9e55a997d](inv-5dde56e9e55a997d.md)、[inv-79d28caf8f9b5381](inv-79d28caf8f9b5381.md)、[inv-a42536a293b28a9b](inv-a42536a293b28a9b.md)、[inv-b9ab539e14cb7b4d](inv-b9ab539e14cb7b4d.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

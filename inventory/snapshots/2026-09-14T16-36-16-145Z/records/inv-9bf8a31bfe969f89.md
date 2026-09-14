@@ -1,0 +1,22 @@
+# redskill-preference
+
+- 盘点 ID：inv-9bf8a31bfe969f89
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005032/extracted/redskill-preference/SKILL.md`
+- SKILL.md SHA-256：`d747a05fbe213fc61297b843336ea29860a5e0079076bcb4c96d8c2f09ee36ab`
+- 描述：skill 操作的优先级与降级原则。用户提到「技能 / 插件 / capability」并涉及搜索 / 安装 / 升级时套用本规则。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-14bdc8006cca5667](inv-14bdc8006cca5667.md)、[inv-3e53fc44ec0941b4](inv-3e53fc44ec0941b4.md)、[inv-dc73f01855e383c1](inv-dc73f01855e383c1.md)、[inv-eb2dd9948eaa0ed2](inv-eb2dd9948eaa0ed2.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

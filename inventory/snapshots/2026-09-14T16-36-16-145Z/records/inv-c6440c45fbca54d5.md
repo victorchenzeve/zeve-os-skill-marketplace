@@ -1,0 +1,22 @@
+# product-help
+
+- 盘点 ID：inv-c6440c45fbca54d5
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/product-help/SKILL.md`
+- SKILL.md SHA-256：`5aef09512303ada0b364edc69db1bdb1ffe8586aa71243f29acd39a15cb435d0`
+- 描述：ChatCut product knowledge — UI layout, features, credits, subscription plans, pricing, and billing. Use when the user asks about the product interface, how to use a feature, where to find something, credit costs, or plan / upgrade questions, or needs GUI guidance for something the agent cannot do directly. Also use as fallback when a task fails and the user needs to complete it manually in the UI. NOT for live project-state queries ("where are my folders?", "what's on my timeline?", "where is clip X?") — those are answered by `read_project`, not by this skill.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：extracted-external-archive
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-d693e17e91f03126](inv-d693e17e91f03126.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

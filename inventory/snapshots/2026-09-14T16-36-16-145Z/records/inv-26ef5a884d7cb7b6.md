@@ -1,0 +1,22 @@
+# story-to-handdrawn-video
+
+- 盘点 ID：inv-26ef5a884d7cb7b6
+- 原路径：`%CODEX_HOME%/skills/story-to-handdrawn-video/SKILL.md`
+- SKILL.md SHA-256：`2108734765c8fa14124fb3007bfa6ba7af1f3852459a4d632bd5907a28b2ced2`
+- 描述：Convert Chinese story copy or ordered local images into a silent hand-drawn Remotion story video. Supports a locked user-approved colored-pencil diary default plus a built-in 20-style library covering doodle, crayon, line explainer, ink, watercolor, gouache, storybook, zine, whiteboard, and printmaking looks. Use when the user asks to generate, import, restyle, preview, or render a hand-drawn story video, asks for the bundled diary-comic look, or wants to choose and compare hand-drawn visual styles.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-03586ee2d539c766](inv-03586ee2d539c766.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

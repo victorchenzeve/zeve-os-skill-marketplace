@@ -1,0 +1,22 @@
+# research-claim-verifier
+
+- 盘点 ID：inv-f9b4ef98bbb1fb23
+- 原路径：`%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/plugins/cache/zeve-os/zeve-os-research/0.1.0/skills/research-claim-verifier/SKILL.md`
+- SKILL.md SHA-256：`21159e2e7714a7d79dda27ad04ee1d52c55e4121072af7a4b4793bc242f0a18e`
+- 描述：Verify specific research claims against cited evidence for entailment, source quality, recency, scope, and contradiction before publication.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：MIT；未核验
+- 来源分类：plugin-package
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-6d4ece7af7753f35](inv-6d4ece7af7753f35.md)、[inv-f0377d9f9bb24597](inv-f0377d9f9bb24597.md)、[inv-5e05705d1990df2f](inv-5e05705d1990df2f.md)、[inv-8cfd7f842217b142](inv-8cfd7f842217b142.md)、[inv-361799c32068a669](inv-361799c32068a669.md)、[inv-4553194b4f793cb4](inv-4553194b4f793cb4.md)、[inv-9a2beff7230e0961](inv-9a2beff7230e0961.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

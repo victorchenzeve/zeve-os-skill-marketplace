@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedFrom": "inventory/audits/2026-09-13-feishu-base-reconciliation.json",
-  "sourceAuditedAt": "2026-09-12T16:32:24.931Z",
-  "sourceSha256": "27bbfb2afd367d47da8429b1fb27e41049b93e64479d955b7c292cf87c3ff515",
+  "generatedFrom": "inventory/audits/2026-09-15-feishu-base-reconciliation.json",
+  "sourceAuditedAt": "2026-09-14T16:53:51.208Z",
+  "sourceSha256": "75f6ec32a8bdad37a069cc11c2a992b91efcb95ed1911d01cca4c058942736c0",
   "policy": "只记录核对动作；不自动修改 Skill、飞书表、安装状态或正式 Registry。",
   "summary": {
     "total": 58,
@@ -17,8 +17,12 @@
     {
       "id": "duplicate-f2719362d0a3",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "article-to-spoken-script-zh-public",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -42,8 +46,12 @@
     {
       "id": "duplicate-5d6a3e7381fb",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "blogger-distiller",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -67,8 +75,12 @@
     {
       "id": "duplicate-a04cfaded4a6",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "douyin-downloader",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -92,8 +104,12 @@
     {
       "id": "duplicate-e1d82c3ef6c3",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "horizontal-kinetic-talk-video",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -117,8 +133,12 @@
     {
       "id": "duplicate-71c1a5ef8f95",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "html-presentation-designer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -142,8 +162,12 @@
     {
       "id": "duplicate-cc98619618a2",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "huashu-proofreading",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -167,8 +191,12 @@
     {
       "id": "duplicate-4ea013061b86",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "jalyn-horizontal-talk-video-edit",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -192,8 +220,12 @@
     {
       "id": "duplicate-acc6c486717d",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "knowledge-sop-inventory-archiver",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -217,8 +249,12 @@
     {
       "id": "duplicate-29c19c4a186e",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "mindmap-ppt-builder",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -242,8 +278,12 @@
     {
       "id": "duplicate-1db931f97be7",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "noun-vivid-explainer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -267,8 +307,12 @@
     {
       "id": "duplicate-e35e0dcab7d6",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "ppt-outline-image2",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -292,8 +336,12 @@
     {
       "id": "duplicate-971acdc15c70",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "single-page-ppt-image",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -317,8 +365,12 @@
     {
       "id": "duplicate-9c57d6480410",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "skill-inventory-registrar",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -342,8 +394,12 @@
     {
       "id": "duplicate-469ea9f636ae",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "skill-sop-cloud-archiver",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -367,8 +423,12 @@
     {
       "id": "duplicate-e44f5190fd16",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "umi-video-download",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -392,8 +452,12 @@
     {
       "id": "duplicate-43583bb0f63a",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-analysis",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -417,8 +481,12 @@
     {
       "id": "duplicate-32deaaecfb1f",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-shotcraft",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -442,8 +510,12 @@
     {
       "id": "duplicate-2c5404043894",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wechat-article-layout-styles",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -467,8 +539,12 @@
     {
       "id": "duplicate-1b799e89e452",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wechat-deep-article-finalizer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -492,8 +568,12 @@
     {
       "id": "duplicate-5f299bf91159",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wechat-ip-writer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -517,8 +597,12 @@
     {
       "id": "duplicate-7b69708a82ce",
       "type": "duplicate-record-review",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "xhs-note-producer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "select-primary-after-owner-review",
+      "externalMutation": "required",
+      "canAutoExecute": false,
       "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
       "evidence": {
         "rows": [
@@ -542,8 +626,12 @@
     {
       "id": "load-error-cc8469714535",
       "type": "runtime-load-error",
-      "status": "pending-skill-owner-review",
+      "status": "decision-ready",
       "name": "content-structure",
+      "owner": "skill-owner",
+      "recommendedDecision": "owner-repair-review",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
       "evidence": {
         "name": "content-structure",
@@ -553,8 +641,12 @@
     {
       "id": "load-error-c0fe77856f1f",
       "type": "runtime-load-error",
-      "status": "pending-skill-owner-review",
+      "status": "decision-ready",
       "name": "geo-optimizer-skill",
+      "owner": "skill-owner",
+      "recommendedDecision": "owner-repair-review",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
       "evidence": {
         "name": "geo-optimizer-skill",
@@ -564,8 +656,12 @@
     {
       "id": "load-error-7b458269e2aa",
       "type": "runtime-load-error",
-      "status": "pending-skill-owner-review",
+      "status": "decision-ready",
       "name": "wechat-ip-writer",
+      "owner": "skill-owner",
+      "recommendedDecision": "owner-repair-review",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
       "evidence": {
         "name": "wechat-ip-writer",
@@ -575,8 +671,12 @@
     {
       "id": "missing-table-d5b85f8bdbc5",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "cheat-predict",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "cheat-predict",
@@ -587,8 +687,12 @@
     {
       "id": "missing-table-2415c0131e07",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "cheat-score-blind",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "cheat-score-blind",
@@ -599,8 +703,12 @@
     {
       "id": "missing-table-816e946c49af",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "computer-use:computer-use",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "computer-use:computer-use",
@@ -611,8 +719,12 @@
     {
       "id": "missing-table-7b0e77e686e2",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "documents:documents",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "documents:documents",
@@ -623,8 +735,12 @@
     {
       "id": "missing-table-9ee9d962aef6",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "fireworks-tech-graph",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "fireworks-tech-graph",
@@ -635,8 +751,12 @@
     {
       "id": "missing-table-4620fc6dab7a",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "imagegen",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "imagegen",
@@ -647,8 +767,12 @@
     {
       "id": "missing-table-07f3c755509e",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "openai-docs",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "openai-docs",
@@ -659,8 +783,12 @@
     {
       "id": "missing-table-90301c0082c5",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "pdf:pdf",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "pdf:pdf",
@@ -671,8 +799,12 @@
     {
       "id": "missing-table-ffb36246f5da",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "plugin-creator",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "plugin-creator",
@@ -683,8 +815,12 @@
     {
       "id": "missing-table-37cebba11389",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "presentations:Presentations",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "presentations:Presentations",
@@ -695,8 +831,12 @@
     {
       "id": "missing-table-07df853016a6",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "review-agent",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "review-agent",
@@ -707,8 +847,12 @@
     {
       "id": "missing-table-b6e1c0fecd8f",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "skill-creator",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "skill-creator",
@@ -719,8 +863,12 @@
     {
       "id": "missing-table-b579231df6f0",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "skill-installer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "skill-installer",
@@ -731,8 +879,12 @@
     {
       "id": "missing-table-b77c21a97ca0",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "snail",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "snail",
@@ -743,8 +895,12 @@
     {
       "id": "missing-table-e91c72659d66",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "spreadsheets:Spreadsheets",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "spreadsheets:Spreadsheets",
@@ -755,8 +911,12 @@
     {
       "id": "missing-table-92e878bf23a2",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "spreadsheets:excel-live-control",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "spreadsheets:excel-live-control",
@@ -767,8 +927,12 @@
     {
       "id": "missing-table-aec6a6906476",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "template-creator:template-creator",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "template-creator:template-creator",
@@ -779,8 +943,12 @@
     {
       "id": "missing-table-fe8a9785781d",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-animation-effects",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "video-animation-effects",
@@ -791,8 +959,12 @@
     {
       "id": "missing-table-6d16d0602718",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-attention-capture",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "video-attention-capture",
@@ -803,8 +975,12 @@
     {
       "id": "missing-table-059ddbf3006f",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-audio-music",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "video-audio-music",
@@ -815,8 +991,12 @@
     {
       "id": "missing-table-54c966132fec",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-completion",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "video-completion",
@@ -827,8 +1007,12 @@
     {
       "id": "missing-table-0671a91b34f0",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "video-visual-quality",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "video-visual-quality",
@@ -839,8 +1023,12 @@
     {
       "id": "missing-table-916fabd8a9c2",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "visualize:visualize",
+      "owner": "catalog-owner",
+      "recommendedDecision": "external-reference-do-not-claim",
+      "externalMutation": "none",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "visualize:visualize",
@@ -851,8 +1039,12 @@
     {
       "id": "missing-table-5672835bdcb8",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wewrite-learn",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "wewrite-learn",
@@ -863,8 +1055,12 @@
     {
       "id": "missing-table-ad9a49943521",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "zewei-ip-copy-hook",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "zewei-ip-copy-hook",
@@ -875,8 +1071,12 @@
     {
       "id": "missing-table-7dba059fa559",
       "type": "runtime-missing-from-table",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "张咋啦-创作指南",
+      "owner": "skill-owner",
+      "recommendedDecision": "consider-table-addition-after-source-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
       "evidence": {
         "name": "张咋啦-创作指南",
@@ -887,8 +1087,12 @@
     {
       "id": "table-only-b190754d2ed6",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "agent-mini-app-builder",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0231",
@@ -901,8 +1105,12 @@
     {
       "id": "table-only-826d7b71474f",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "bilibili-subtitle-extractor",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0233",
@@ -915,8 +1123,12 @@
     {
       "id": "table-only-c575919a7841",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "daily-brief-deepresearch",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0234",
@@ -929,8 +1141,12 @@
     {
       "id": "table-only-5f5024a8e367",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "markdown-to-docx",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0237",
@@ -943,8 +1159,12 @@
     {
       "id": "table-only-6990dc2db9c2",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "slides",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0040",
@@ -957,8 +1177,12 @@
     {
       "id": "table-only-32fb82d124c7",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "snail / getname",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0019",
@@ -971,8 +1195,12 @@
     {
       "id": "table-only-fd26f6250561",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wechat-ip-writer",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0021",
@@ -985,8 +1213,12 @@
     {
       "id": "table-only-69eca025fa9d",
       "type": "table-entry-absent-from-runtime",
-      "status": "pending-external-review",
+      "status": "decision-ready",
       "name": "wx-cli",
+      "owner": "catalog-owner",
+      "recommendedDecision": "retain-record-pending-availability-review",
+      "externalMutation": "possible",
+      "canAutoExecute": false,
       "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
       "evidence": {
         "number": "SK-0212",

@@ -1,0 +1,22 @@
+# funasr-local-transcribe
+
+- 盘点 ID：inv-d35e560dcda1e9f8
+- 原路径：`%CODEX_HOME%/skills/funasr-local-transcribe/SKILL.md`
+- SKILL.md SHA-256：`d971e4349883bc76fc372c12f5d33aa9fd3c70eb9e086fa663ac4c027dc75857`
+- 描述：使用本地 FunASR 将视频或音频转写为中文文本、原始识别结果和转写摘要。用于视频转写、音频转文字、提取字幕、生成逐字稿、剪辑前转录、内容包装、封面标题提取和基于真实视频内容写文案；支持 macOS、Windows 和 Linux，首次使用时可引导安装 Python 运行环境、FFmpeg 和 ModelScope 模型。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-430991779e37a5c1](inv-430991779e37a5c1.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

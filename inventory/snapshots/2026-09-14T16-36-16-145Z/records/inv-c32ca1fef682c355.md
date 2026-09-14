@@ -1,0 +1,22 @@
+# content-production-planner
+
+- 盘点 ID：inv-c32ca1fef682c355
+- 原路径：`%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/plugins/cache/zeve-os/zeve-os-content/0.1.0/skills/content-production-planner/SKILL.md`
+- SKILL.md SHA-256：`bdaeaf5575ee06b2a9d7eadb0eb73d6590426c98148bbf2cefb0f0e516ea2628`
+- 描述：Convert approved content angles into a realistic production plan with owners, dependencies, review gates, and channel-ready deliverables.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：MIT；未核验
+- 来源分类：plugin-package
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-c2b308aa3f222d15](inv-c2b308aa3f222d15.md)、[inv-22cbf5e1d4f0d725](inv-22cbf5e1d4f0d725.md)、[inv-d1828af7df6cd288](inv-d1828af7df6cd288.md)、[inv-f3f925e68e8b215f](inv-f3f925e68e8b215f.md)、[inv-cf6c39b98729881f](inv-cf6c39b98729881f.md)、[inv-b2fb9b0cea0ccdd3](inv-b2fb9b0cea0ccdd3.md)、[inv-71dd101ddcce128e](inv-71dd101ddcce128e.md)、[inv-f78a200f8c1e9879](inv-f78a200f8c1e9879.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Marketplace 资产审查"
+  short_description: "审查技能、插件和代理的来源、结构、依赖与成熟度"
+  default_prompt: "使用 $marketplace-asset-curator 审查这个候选资产是否可以正式纳管。"
+policy:
+  allow_implicit_invocation: true

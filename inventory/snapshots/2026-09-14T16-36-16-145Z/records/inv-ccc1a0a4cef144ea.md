@@ -1,0 +1,22 @@
+# ra-实操策划
+
+- 盘点 ID：inv-ccc1a0a4cef144ea
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005032/extracted/ra-实操策划/SKILL.md`
+- SKILL.md SHA-256：`b971ad1b3433d4ee9116542087c7bdbe5e1235dd9f8ef43369f503bec15630b1`
+- 描述：实操长片策划工作流（B站/YouTube 新赛道，实操+真人出镜）。产出可直接照着录的策划稿：测试题组（含可粘贴 prompt）、 结构时间轴（全身出镜段 vs PiP 段）、出镜口播稿、录屏操作清单、悬念与彩蛋设计。 Use when the user says 做实操长片, 实操视频, 实测视频, 对比实测, xx做成实操, 出个实测策划, 这个选题拍实操, or ra-选题 routes a 实操长片 立项 here. 策划稿落 `01-内容生产/视频工作台/制作中/&lt;日期-主题&gt;/策划稿.md`，frontmatter status 是与制作端交接的唯一状态机。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：id-incompatible-with-marketplace-schema
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-c63bba93552f07d5](inv-c63bba93552f07d5.md)、[inv-d28c2b4075624e4c](inv-d28c2b4075624e4c.md)、[inv-9e97336a00c486f4](inv-9e97336a00c486f4.md)、[inv-0ce2e9c786ef59ae](inv-0ce2e9c786ef59ae.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

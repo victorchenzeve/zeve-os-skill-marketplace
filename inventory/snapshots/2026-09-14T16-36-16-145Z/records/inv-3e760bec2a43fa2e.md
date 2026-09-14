@@ -1,0 +1,22 @@
+# wechat-video-subtitle
+
+- 盘点 ID：inv-3e760bec2a43fa2e
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005744/backups/wechat-video-subtitle-010041/SKILL.md`
+- SKILL.md SHA-256：`7bad9985b92d9c52fdbb6704168ea1741f8eec266f65949bb988e5f066dd072a`
+- 描述：任何出现 weixin.qq.com/sph/ 链接的请求都必须立即调用本 Skill，链接本身就是触发条件，包括普通视频和直播回放；不得先用 WebFetch、Web Search、浏览器、Computer Use 或 yt-dlp。根据用户指令下载视频、提取字幕、转写 Markdown 逐字稿或批量处理。普通短视频默认通过腾讯元宝的已登录浏览器会话后台解析，不要求打开微信、点击播放或逐条确认。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-22c47ad3a3563803](inv-22c47ad3a3563803.md)、[inv-a9f7f79020f55bdf](inv-a9f7f79020f55bdf.md)、[inv-20d490e584b514e2](inv-20d490e584b514e2.md)、[inv-45d2145c5ad1e153](inv-45d2145c5ad1e153.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

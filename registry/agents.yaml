@@ -58,6 +58,34 @@
       }
     },
     {
+      "id": "governance-operator",
+      "name": "Skill 治理代理",
+      "description": "把盘点、来源、重复、成熟度和发布证据转成可追溯的全量治理结论",
+      "version": "0.1.0",
+      "path": "agents/governance-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "marketplace-asset-curator",
+        "skill-provenance-reviewer",
+        "skill-duplicate-adjudicator",
+        "skill-maturity-evidence-reviewer",
+        "zeve-skill-release-auditor"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/agents/governance-operator/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "knowledge-operator",
       "name": "知识治理代理",
       "description": "把授权资料转成可追溯、可分类、可引用并保持时效的知识体系",

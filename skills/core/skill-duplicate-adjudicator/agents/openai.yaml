@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill 重复裁定"
+  short_description: "区分重复记录、相同副本、变体与同名冲突"
+  default_prompt: "使用 $skill-duplicate-adjudicator 对这组 Skill 的重复关系做证据裁定。"
+policy:
+  allow_implicit_invocation: true

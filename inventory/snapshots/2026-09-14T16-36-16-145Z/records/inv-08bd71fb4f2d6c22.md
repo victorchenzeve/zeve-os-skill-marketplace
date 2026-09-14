@@ -1,0 +1,22 @@
+# cheat-status
+
+- 盘点 ID：inv-08bd71fb4f2d6c22
+- 原路径：`%CODEX_HOME%/skills/cheat-on-content/skills/cheat-status/SKILL.md`
+- SKILL.md SHA-256：`037e366a2f209fdb2e3f4778a88bc7a5913dea840760b26d311298eb4c160a4d`
+- 描述：cheat-on-content 的状态看板。显示当前模式 / rubric 版本 / 校准进度 / 待复盘 / pool 状态 / 是否该升级 SQLite / 是否该 bump rubric。**任何时候都可调，无副作用**。触发词："状态"/"看板"/"status"/"我现在该做什么"/"进度怎么样"。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：unverified
+- 创建证据：待核实
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：true
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：not-returned-by-queried-runtime
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-9f1065195b195341](inv-9f1065195b195341.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

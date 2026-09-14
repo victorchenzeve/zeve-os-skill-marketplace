@@ -650,6 +650,87 @@
       }
     },
     {
+      "id": "skill-duplicate-adjudicator",
+      "name": "Skill 重复关系裁定",
+      "description": "区分重复记录、相同副本、内容变体与同名冲突并提出可逆处置建议",
+      "version": "0.1.0",
+      "path": "skills/core/skill-duplicate-adjudicator",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "governance",
+        "duplicates",
+        "review"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/skill-duplicate-adjudicator/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
+      "id": "skill-maturity-evidence-reviewer",
+      "name": "Skill 成熟度证据审查",
+      "description": "依据结构、边界、依赖、仓库运行和真实结果判断 Skill 可支持的成熟度",
+      "version": "0.1.0",
+      "path": "skills/core/skill-maturity-evidence-reviewer",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "governance",
+        "maturity",
+        "evaluation"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/skill-maturity-evidence-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
+      "id": "skill-provenance-reviewer",
+      "name": "Skill 来源与许可审查",
+      "description": "核实候选 Skill 的作者、来源、许可证与再分发资格，并保留证据边界",
+      "version": "0.1.0",
+      "path": "skills/core/skill-provenance-reviewer",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "governance",
+        "provenance",
+        "license"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/skill-provenance-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "zeve-skill-release-auditor",
       "name": "Zeve Skill 发布审计",
       "description": "在发布前审计 Skill 命名、注册、依赖、评估、分发与变更记录的一致性",

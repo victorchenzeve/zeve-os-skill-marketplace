@@ -1,0 +1,22 @@
+# dbs-deconstruct
+
+- 盘点 ID：inv-2ca72f5a68ad1e32
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005032/extracted/dbs-deconstruct/SKILL.md`
+- SKILL.md SHA-256：`1b05dcb3498b5641748cafd5169ebde6cfb61bef1621e3a8481fd56ace5b661d`
+- 描述：用维特根斯坦与奥派经济学方法拆解模糊的商业概念。用户要求解释一个词、澄清概念边界或识别概念混用时使用。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-7c14a8e9d82548eb](inv-7c14a8e9d82548eb.md)、[inv-a78ac09cfbda9ac3](inv-a78ac09cfbda9ac3.md)、[inv-d44c7b150c159d8f](inv-d44c7b150c159d8f.md)、[inv-42218b7dfeb88b7e](inv-42218b7dfeb88b7e.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

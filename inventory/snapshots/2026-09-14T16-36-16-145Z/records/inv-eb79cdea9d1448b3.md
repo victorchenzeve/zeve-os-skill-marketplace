@@ -1,0 +1,22 @@
+# lark-im
+
+- 盘点 ID：inv-eb79cdea9d1448b3
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-004624/extracted/lark-cli/skills/lark-im/SKILL.md`
+- SKILL.md SHA-256：`6a98d0e80654cd4e5dde3e81cac1653d8ef1bae6bdbe99fa5b9c074ccc2c40bc`
+- 描述：飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复、发送应用内/短信/电话加急、发送和处理交互卡片（Interactive Card）、监听卡片按钮回调（card.action.trigger）。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员、搜索群、创建群聊或话题群、管理标记数据、管理 Feed 置顶（添加/移除/查询置顶会话）、管理标签数据、处理卡片回调时使用。
+- 声明版本：1.0.0
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-bef2ee7a14cfee73](inv-bef2ee7a14cfee73.md)、[inv-380383c2b3fed57b](inv-380383c2b3fed57b.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

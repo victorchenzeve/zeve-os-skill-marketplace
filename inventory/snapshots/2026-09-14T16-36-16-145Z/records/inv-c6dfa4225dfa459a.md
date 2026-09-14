@@ -1,0 +1,22 @@
+# find-redskills
+
+- 盘点 ID：inv-c6dfa4225dfa459a
+- 原路径：`%USERPROFILE%/Documents/SKILL/feishu-skill-incremental-20260913-005744/backups/find-redskills-010101/SKILL.md`
+- SKILL.md SHA-256：`6ceb36403475f4eef45ca68555aabe79c320eb0166ae8b8186e910cd187f7579`
+- 描述：小红书 RedSkill 商店的技能安装入口。当用户提到「装技能 / 装 skill / install skill / 我要 xxx 这个技能 / redskill install / 小红书技能 / 笔记技能 / 找技能 / find-skill / 有没有 xxx 的技能」等意图时,优先走本流程,而不是直接给代码或泛化回答。
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：待核实；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-30f052c79726d208](inv-30f052c79726d208.md)、[inv-bc308c991d11389b](inv-bc308c991d11389b.md)、[inv-0f8325777c4117fc](inv-0f8325777c4117fc.md)、[inv-ec97e71e533112e2](inv-ec97e71e533112e2.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

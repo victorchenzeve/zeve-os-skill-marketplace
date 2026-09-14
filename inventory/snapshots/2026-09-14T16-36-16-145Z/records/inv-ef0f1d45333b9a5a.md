@@ -1,0 +1,22 @@
+# knowledge-freshness-auditor
+
+- 盘点 ID：inv-ef0f1d45333b9a5a
+- 原路径：`%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/skills/knowledge/knowledge-freshness-auditor/SKILL.md`
+- SKILL.md SHA-256：`9ecfb201df4e7c70eb66680db46250ab611f868252fa5224c5abf894766932e3`
+- 描述：Audit a knowledge collection for stale, superseded, undated, conflicting, or unreachable sources and prioritize refresh work.
+- 声明版本：待核实
+- 声明作者：待核实；原创归属未核实
+- 许可证声明：MIT；未核验
+- 来源分类：unknown
+- 本地创建线索：local-artifact-authorship-unverified
+- 创建证据：File exists in a local project/archive directory; creation and authorship are not established.
+- 历史记录：待核实
+- 位于安装目录或运行时可发现：false
+- 运行时：未被本次查询返回；不能直接判为禁用
+- 运行时错误：无已报告错误
+- 观察项：无上述自动观察项
+- 状态：待评估；未纳管；未设置成熟度；未执行技能
+- 负责人：待指定
+- 相同 SKILL.md 内容记录：[inv-9d4177368b4296d6](inv-9d4177368b4296d6.md)、[inv-21866b0e8b5d4216](inv-21866b0e8b5d4216.md)、[inv-6a767155c452e2f5](inv-6a767155c452e2f5.md)、[inv-077872d8543ef30d](inv-077872d8543ef30d.md)、[inv-f452a437343913bb](inv-f452a437343913bb.md)、[inv-8ec2638324ff57b3](inv-8ec2638324ff57b3.md)、[inv-97b4ec9b44a51723](inv-97b4ec9b44a51723.md)
+
+只记录元信息与校验值，不复制技能正文。结构、来源和行为尚需人工核查；相同正文不代表相同附件。

@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "zeve-os-private-domain",
+      "name": "zeve-os-business",
       "source": {
         "source": "local",
-        "path": "./plugins/zeve-os-private-domain"
+        "path": "./plugins/zeve-os-business"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29,6 +29,18 @@
       "category": "Writing"
     },
     {
+      "name": "zeve-os-governance",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zeve-os-governance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "zeve-os-knowledge",
       "source": {
         "source": "local",
@@ -41,6 +53,18 @@
       "category": "Productivity"
     },
     {
+      "name": "zeve-os-private-domain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zeve-os-private-domain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
       "name": "zeve-os-research",
       "source": {
         "source": "local",
@@ -51,18 +75,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
-    },
-    {
-      "name": "zeve-os-business",
-      "source": {
-        "source": "local",
-        "path": "./plugins/zeve-os-business"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Business"
     }
   ]
 }
