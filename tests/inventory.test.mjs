@@ -11,10 +11,10 @@ import { validateInventory } from '../scripts/validate-inventory.mjs';
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 function fixture(t) {
   const parent = fs.realpathSync(os.tmpdir());
-  const root = fs.mkdtempSync(path.join(parent, 'zewei-inventory-test-'));
+  const root = fs.mkdtempSync(path.join(parent, 'zeve-inventory-test-'));
   t.after(() => {
     assert.equal(path.dirname(fs.realpathSync(root)), parent);
-    assert.ok(path.basename(root).startsWith('zewei-inventory-test-'));
+    assert.ok(path.basename(root).startsWith('zeve-inventory-test-'));
     fs.rmSync(root, { recursive: true, force: true });
   });
   fs.mkdirSync(path.join(root, 'source'));

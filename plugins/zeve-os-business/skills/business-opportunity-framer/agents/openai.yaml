@@ -1,0 +1,6 @@
+interface:
+  display_name: "业务机会界定"
+  short_description: "把模糊业务想法转成有证据边界、目标客户、问题强度和成功门槛的机会说明"
+  default_prompt: "使用 $business-opportunity-framer 完成这项任务，并清楚标注证据、假设和决策门槛。"
+policy:
+  allow_implicit_invocation: true

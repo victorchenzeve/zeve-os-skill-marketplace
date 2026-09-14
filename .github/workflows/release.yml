@@ -15,6 +15,7 @@ jobs:
           node-version: '24'
       - run: npm run check
       - run: npm run release:build
+      - run: npm run release:smoke
       - uses: actions/upload-artifact@v4
         with:
           name: zeve-os-skill-marketplace-${{ github.ref_name }}

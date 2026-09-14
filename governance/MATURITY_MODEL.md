@@ -7,4 +7,6 @@
 | `stable` | 成功、边界与依赖失败用例均有可复核证据，权限和许可已核查 |
 | `deprecated` | 已给出原因、替代方案和迁移安排 |
 
-成熟度由维护者根据 `evals/` 的证据调整，不因结构校验通过自动晋级。`status` 表示纳管状态，取 `active` 或 `archived`；它不表示在本机已安装或获准执行。
+成熟度由维护者根据 `evals/` 的证据调整，不因结构校验通过自动晋级。Registry 的 `evaluation.status` 分为 `pending`、`synthetic-passed`、`repository-passed` 和 `real-world-passed`：仓库治理能力可由真实仓库操作证明，领域业务能力必须有获准的真实业务证据才能晋级 `stable`。
+
+`status` 表示纳管状态，取 `active` 或 `archived`；它不表示在本机已安装或获准执行。评估证据必须记录输入性质，合成材料不得冒充真实业务结果。

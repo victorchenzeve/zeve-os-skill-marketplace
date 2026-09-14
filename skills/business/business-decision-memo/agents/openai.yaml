@@ -1,0 +1,6 @@
+interface:
+  display_name: "业务决策备忘录"
+  short_description: "把机会、方案、经济性与实验结果汇总成可追溯的继续、调整或停止建议"
+  default_prompt: "使用 $business-decision-memo 完成这项任务，并清楚标注证据、假设和决策门槛。"
+policy:
+  allow_implicit_invocation: true

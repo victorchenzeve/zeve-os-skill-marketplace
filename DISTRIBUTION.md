@@ -8,6 +8,7 @@
 codex plugin marketplace add <owner>/zeve-os-skill-marketplace
 codex plugin list --marketplace zeve-os --available
 codex plugin add zeve-os-private-domain@zeve-os
+codex plugin add zeve-os-business@zeve-os
 codex plugin add zeve-os-content@zeve-os
 codex plugin add zeve-os-knowledge@zeve-os
 codex plugin add zeve-os-research@zeve-os
@@ -45,5 +46,5 @@ zeve-skill-marketplace list
 
 1. 更新资产版本、仓库版本和变更日志。
 2. 同步插件技能镜像并运行完整检查。
-3. 构建 tarball，在隔离目录验证 CLI 和四个插件的安装、卸载。
+3. 构建 tarball，运行 `npm run release:smoke`，在隔离目录验证 CLI 和五个插件的安装。
 4. 创建 `vMAJOR.MINOR.PATCH` 标签并推送远端；GitHub Release 工作流上传制品。

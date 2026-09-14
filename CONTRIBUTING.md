@@ -44,6 +44,7 @@ npm run marketplace:verify
 npm run check
 git diff --check
 npm run release:build
+npm run release:smoke
 ```
 
 发行前还要在隔离目录完成两条真实路径：

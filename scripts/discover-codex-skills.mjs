@@ -75,7 +75,7 @@ export function listRuntimeSkills(cwds, executable = 'codex') {
       } else if (message.id === 2) finish({ status: 'available', result: message.result });
     });
     child.stdin.write(`${JSON.stringify({ id: 1, method: 'initialize', params: {
-      clientInfo: { name: 'zewei-inventory-readonly', version: '0.1.0' },
+      clientInfo: { name: 'zeve-inventory-readonly', version: '0.1.0' },
       capabilities: { experimentalApi: true },
     } })}\n`);
   });

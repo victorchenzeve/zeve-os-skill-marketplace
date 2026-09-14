@@ -1,0 +1,35 @@
+{
+  "name": "zeve-os-business",
+  "version": "0.1.0",
+  "description": "组合机会界定、方案设计、单位经济性、实验规划和决策备忘录能力",
+  "author": {
+    "name": "Victor Chen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "business",
+    "opportunity",
+    "offer",
+    "economics",
+    "experiment",
+    "decision"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "泽玮 OS 业务决策",
+    "shortDescription": "从机会界定到实验与阶段决策的可追溯业务验证流程",
+    "longDescription": "组合机会界定、业务方案、单位经济性、实验规划和决策备忘录能力。所有结论区分事实、假设和未知项，不自动执行外部写入、报价、签约或客户触达。",
+    "developerName": "泽玮 OS",
+    "category": "Business",
+    "capabilities": [
+      "Analysis",
+      "Writing"
+    ],
+    "defaultPrompt": [
+      "把这个业务想法整理成可验证的机会说明。",
+      "审查方案的单位经济性并找出最敏感假设。",
+      "设计最小业务实验并形成阶段决策备忘录。"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

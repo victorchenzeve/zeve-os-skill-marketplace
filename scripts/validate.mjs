@@ -108,8 +108,19 @@ export function validateRepository(root = defaultRoot) {
         errors.push(`${key}: path must match plugins/id`);
       }
       const target = resolveAsset(root, entry.path, kind === 'agents' ? 'file' : 'directory', errors);
+      resolveAsset(root, entry.evaluation.evidencePath, 'file', errors);
       if (!target) continue;
-      if (kind === 'skills') resolveAsset(root, `${entry.path}/SKILL.md`, 'file', errors);
+      if (kind === 'skills') {
+        const skillPath = resolveAsset(root, `${entry.path}/SKILL.md`, 'file', errors);
+        if (skillPath) {
+          const content = fs.readFileSync(skillPath, 'utf8');
+          const declaredLicense = content.match(/^license:\s*(.+)$/m)?.[1]?.trim();
+          if (declaredLicense !== entry.license) errors.push(`${key}: SKILL.md license differs from Registry`);
+        }
+        if (entry.maturity === 'stable' && !['repository-passed', 'real-world-passed'].includes(entry.evaluation.status)) {
+          errors.push(`${key}: stable maturity requires repository or real-world evidence`);
+        }
+      }
       if (kind === 'plugins') {
         const manifestPath = resolveAsset(root, `${entry.path}/plugin.json`, 'file', errors);
         if (!manifestPath) continue;

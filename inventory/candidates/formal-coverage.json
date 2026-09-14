@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewedAt": "2026-09-14",
+  "formalRegistry": {
+    "skills": 25,
+    "plugins": 5,
+    "agents": 5,
+    "provenance": "repository-original",
+    "license": "MIT"
+  },
+  "feishuAudit": {
+    "auditedAt": "2026-09-12T16:32:24.931Z",
+    "rows": 773,
+    "uniqueNormalizedNames": 752
+  },
+  "interpretation": "正式 Registry 与飞书盘点表用途不同，数量不可直接相减为缺口。25 个正式 Skill 均为本仓库原创；飞书表记录须逐项核实来源、许可、结构和评估后才能考虑纳管。",
+  "automaticImports": 0
+}

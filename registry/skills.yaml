@@ -1,6 +1,141 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "skills": [
+    {
+      "id": "business-decision-memo",
+      "name": "业务决策备忘录",
+      "description": "把机会、方案、经济性与实验结果汇总成可追溯的继续、调整或停止建议",
+      "version": "0.1.0",
+      "path": "skills/business/business-decision-memo",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "decision",
+        "memo"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-decision-memo/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "business-experiment-planner",
+      "name": "业务实验规划",
+      "description": "把高风险业务假设转成有指标、样本、停止规则和决策动作的最小实验",
+      "version": "0.1.0",
+      "path": "skills/business/business-experiment-planner",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "experiment",
+        "validation"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-experiment-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "business-offer-designer",
+      "name": "业务方案设计",
+      "description": "基于已界定机会设计价值主张、交付范围、定价假设与承诺边界",
+      "version": "0.1.0",
+      "path": "skills/business/business-offer-designer",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "offer",
+        "value-proposition"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-offer-designer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "business-opportunity-framer",
+      "name": "业务机会界定",
+      "description": "把模糊业务想法转成有证据边界、目标客户、问题强度和成功门槛的机会说明",
+      "version": "0.1.0",
+      "path": "skills/business/business-opportunity-framer",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "opportunity",
+        "framing"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-opportunity-framer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "business-unit-economics-reviewer",
+      "name": "单位经济性审查",
+      "description": "审查收入、直接成本、获取成本、留存与回收周期假设，给出情景化判断",
+      "version": "0.1.0",
+      "path": "skills/business/business-unit-economics-reviewer",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "economics",
+        "review"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-unit-economics-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
     {
       "id": "content-angle-generator",
       "name": "内容角度生成",
@@ -14,7 +149,19 @@
         "content",
         "ideation",
         "angles"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-angle-generator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "content-production-planner",
@@ -29,7 +176,19 @@
         "content",
         "production",
         "planning"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-production-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "content-quality-reviewer",
@@ -44,7 +203,19 @@
         "content",
         "quality",
         "review"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-quality-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "content-repurpose-planner",
@@ -59,7 +230,19 @@
         "content",
         "repurpose",
         "distribution"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-repurpose-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "content-strategy-brief",
@@ -74,37 +257,19 @@
         "content",
         "strategy",
         "brief"
-      ]
-    },
-    {
-      "id": "marketplace-asset-curator",
-      "name": "Marketplace 资产审查",
-      "description": "审查候选技能、插件和代理的来源、结构、依赖、成熟度与注册一致性",
-      "version": "0.1.0",
-      "path": "skills/core/marketplace-asset-curator",
-      "category": "core",
-      "maturity": "experimental",
-      "status": "active",
-      "tags": [
-        "marketplace",
-        "governance",
-        "review"
-      ]
-    },
-    {
-      "id": "zeve-skill-release-auditor",
-      "name": "Zeve Skill 发布审计",
-      "description": "在发布前审计 Skill 命名、注册、依赖、评估、分发与变更记录的一致性",
-      "version": "0.1.0",
-      "path": "skills/core/zeve-skill-release-auditor",
-      "category": "core",
-      "maturity": "experimental",
-      "status": "active",
-      "tags": [
-        "marketplace",
-        "release",
-        "audit"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-strategy-brief/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "knowledge-answer-grounder",
@@ -119,7 +284,19 @@
         "knowledge",
         "grounding",
         "qa"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/knowledge-answer-grounder/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "knowledge-freshness-auditor",
@@ -134,7 +311,19 @@
         "knowledge",
         "freshness",
         "audit"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/knowledge-freshness-auditor/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "knowledge-source-ingestor",
@@ -149,7 +338,19 @@
         "knowledge",
         "ingestion",
         "provenance"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/knowledge-source-ingestor/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "knowledge-taxonomy-designer",
@@ -164,7 +365,46 @@
         "knowledge",
         "taxonomy",
         "governance"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/knowledge-taxonomy-designer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "marketplace-asset-curator",
+      "name": "Marketplace 资产审查",
+      "description": "审查候选技能、插件和代理的来源、结构、依赖、成熟度与注册一致性",
+      "version": "1.0.0",
+      "path": "skills/core/marketplace-asset-curator",
+      "category": "core",
+      "maturity": "stable",
+      "status": "active",
+      "tags": [
+        "marketplace",
+        "governance",
+        "review"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/marketplace-asset-curator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "private-domain-audience-segmenter",
@@ -179,7 +419,19 @@
         "private-domain",
         "audience",
         "crm"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/private-domain-audience-segmenter/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "private-domain-campaign-planner",
@@ -194,7 +446,19 @@
         "private-domain",
         "campaign",
         "planning"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/private-domain-campaign-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "private-domain-conversation-reviewer",
@@ -209,7 +473,19 @@
         "private-domain",
         "conversation",
         "review"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/private-domain-conversation-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "private-domain-lifecycle-designer",
@@ -224,7 +500,19 @@
         "private-domain",
         "lifecycle",
         "journey"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/private-domain-lifecycle-designer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "private-domain-retention-experiment-planner",
@@ -239,7 +527,19 @@
         "private-domain",
         "retention",
         "experiment"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/private-domain-retention-experiment-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "research-claim-verifier",
@@ -254,7 +554,19 @@
         "research",
         "verification",
         "claims"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-claim-verifier/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "research-evidence-synthesizer",
@@ -269,7 +581,19 @@
         "research",
         "evidence",
         "synthesis"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-evidence-synthesizer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "research-question-framer",
@@ -284,7 +608,19 @@
         "research",
         "question",
         "scope"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-question-framer/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "research-source-planner",
@@ -299,7 +635,46 @@
         "research",
         "sources",
         "planning"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-source-planner/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "zeve-skill-release-auditor",
+      "name": "Zeve Skill 发布审计",
+      "description": "在发布前审计 Skill 命名、注册、依赖、评估、分发与变更记录的一致性",
+      "version": "1.0.0",
+      "path": "skills/core/zeve-skill-release-auditor",
+      "category": "core",
+      "maturity": "stable",
+      "status": "active",
+      "tags": [
+        "marketplace",
+        "release",
+        "audit"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/zeve-skill-release-auditor/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     }
   ]
 }

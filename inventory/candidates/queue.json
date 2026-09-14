@@ -1,0 +1,1000 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedFrom": "inventory/audits/2026-09-13-feishu-base-reconciliation.json",
+  "sourceAuditedAt": "2026-09-12T16:32:24.931Z",
+  "sourceSha256": "27bbfb2afd367d47da8429b1fb27e41049b93e64479d955b7c292cf87c3ff515",
+  "policy": "只记录核对动作；不自动修改 Skill、飞书表、安装状态或正式 Registry。",
+  "summary": {
+    "total": 58,
+    "countByType": {
+      "duplicate-record-review": 21,
+      "runtime-load-error": 3,
+      "runtime-missing-from-table": 26,
+      "table-entry-absent-from-runtime": 8
+    }
+  },
+  "items": [
+    {
+      "id": "duplicate-f2719362d0a3",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "article-to-spoken-script-zh-public",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0029",
+            "name": "article-to-spoken-script-zh-public",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0232",
+            "name": "article-to-spoken-script-zh-public",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-5d6a3e7381fb",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "blogger-distiller",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0027",
+            "name": "blogger-distiller",
+            "status": "已教学文档化",
+            "version": "2.3",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0228",
+            "name": "blogger-distiller",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-a04cfaded4a6",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "douyin-downloader",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0012",
+            "name": "douyin-downloader",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0206",
+            "name": "douyin-downloader",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-e1d82c3ef6c3",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "horizontal-kinetic-talk-video",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0023",
+            "name": "horizontal-kinetic-talk-video",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0220",
+            "name": "horizontal-kinetic-talk-video",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-71c1a5ef8f95",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "html-presentation-designer",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0017",
+            "name": "html-presentation-designer",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0214",
+            "name": "html-presentation-designer",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-cc98619618a2",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "huashu-proofreading",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0018",
+            "name": "huashu-proofreading",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0215",
+            "name": "huashu-proofreading",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-4ea013061b86",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "jalyn-horizontal-talk-video-edit",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0024",
+            "name": "jalyn-horizontal-talk-video-edit",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0221",
+            "name": "jalyn-horizontal-talk-video-edit",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-acc6c486717d",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "knowledge-sop-inventory-archiver",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0006",
+            "name": "knowledge-sop-inventory-archiver",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0211",
+            "name": "knowledge-sop-inventory-archiver",
+            "status": "可用",
+            "version": "2.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-29c19c4a186e",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "mindmap-ppt-builder",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0013",
+            "name": "mindmap-ppt-builder",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0207",
+            "name": "mindmap-ppt-builder",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-1db931f97be7",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "noun-vivid-explainer",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0026",
+            "name": "noun-vivid-explainer",
+            "status": "已教学文档化",
+            "version": "1.4",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0227",
+            "name": "noun-vivid-explainer",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-e35e0dcab7d6",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "ppt-outline-image2",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0011",
+            "name": "ppt-outline-image2",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0205",
+            "name": "ppt-outline-image2",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-971acdc15c70",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "single-page-ppt-image",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0025",
+            "name": "single-page-ppt-image",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0226",
+            "name": "single-page-ppt-image",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-9c57d6480410",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "skill-inventory-registrar",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0008",
+            "name": "skill-inventory-registrar",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0203",
+            "name": "skill-inventory-registrar",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-469ea9f636ae",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "skill-sop-cloud-archiver",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0014",
+            "name": "skill-sop-cloud-archiver",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0210",
+            "name": "skill-sop-cloud-archiver",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-e44f5190fd16",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "umi-video-download",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0016",
+            "name": "umi-video-download",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0213",
+            "name": "umi-video-download",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-43583bb0f63a",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "video-analysis",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0031",
+            "name": "video-analysis",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0236",
+            "name": "video-analysis",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-32deaaecfb1f",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "video-shotcraft",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0247",
+            "name": "video-shotcraft",
+            "status": "可用",
+            "version": "upstream d491544 + 本地保留版",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0417",
+            "name": "video-shotcraft",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-2c5404043894",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "wechat-article-layout-styles",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0020",
+            "name": "wechat-article-layout-styles",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0217",
+            "name": "wechat-article-layout-styles",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-1b799e89e452",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "wechat-deep-article-finalizer",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0022",
+            "name": "wechat-deep-article-finalizer",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0219",
+            "name": "wechat-deep-article-finalizer",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-5f299bf91159",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "wechat-ip-writer",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0021",
+            "name": "wechat-ip-writer",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0218",
+            "name": "wechat-ip-writer",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-7b69708a82ce",
+      "type": "duplicate-record-review",
+      "status": "pending-external-review",
+      "name": "xhs-note-producer",
+      "action": "核对版本、状态和来源，确定主记录；未经确认不合并或删除。",
+      "evidence": {
+        "rows": [
+          {
+            "number": "SK-0010",
+            "name": "xhs-note-producer",
+            "status": "已教学文档化",
+            "version": "1.0.0",
+            "sourcePresent": true
+          },
+          {
+            "number": "SK-0204",
+            "name": "xhs-note-producer",
+            "status": "可用",
+            "version": "1.0.0",
+            "sourcePresent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "load-error-cc8469714535",
+      "type": "runtime-load-error",
+      "status": "pending-skill-owner-review",
+      "name": "content-structure",
+      "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
+      "evidence": {
+        "name": "content-structure",
+        "message": "missing YAML frontmatter delimited by ---"
+      }
+    },
+    {
+      "id": "load-error-c0fe77856f1f",
+      "type": "runtime-load-error",
+      "status": "pending-skill-owner-review",
+      "name": "geo-optimizer-skill",
+      "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
+      "evidence": {
+        "name": "geo-optimizer-skill",
+        "message": "missing YAML frontmatter delimited by ---"
+      }
+    },
+    {
+      "id": "load-error-7b458269e2aa",
+      "type": "runtime-load-error",
+      "status": "pending-skill-owner-review",
+      "name": "wechat-ip-writer",
+      "action": "由资产所有者核实文件结构并决定是否修复；本盘点阶段不修改原 Skill。",
+      "evidence": {
+        "name": "wechat-ip-writer",
+        "message": "missing YAML frontmatter delimited by ---"
+      }
+    },
+    {
+      "id": "missing-table-7dba059fa559",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "张咋啦-创作指南",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "张咋啦-创作指南",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-d5b85f8bdbc5",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "cheat-predict",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "cheat-predict",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-2415c0131e07",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "cheat-score-blind",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "cheat-score-blind",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-816e946c49af",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "computer-use:computer-use",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "computer-use:computer-use",
+        "scope": "plugin",
+        "pluginId": "computer-use@openai-bundled"
+      }
+    },
+    {
+      "id": "missing-table-7b0e77e686e2",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "documents:documents",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "documents:documents",
+        "scope": "plugin",
+        "pluginId": "documents@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-9ee9d962aef6",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "fireworks-tech-graph",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "fireworks-tech-graph",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-4620fc6dab7a",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "imagegen",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "imagegen",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-07f3c755509e",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "openai-docs",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "openai-docs",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-90301c0082c5",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "pdf:pdf",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "pdf:pdf",
+        "scope": "plugin",
+        "pluginId": "pdf@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-ffb36246f5da",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "plugin-creator",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "plugin-creator",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-37cebba11389",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "presentations:Presentations",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "presentations:Presentations",
+        "scope": "plugin",
+        "pluginId": "presentations@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-07df853016a6",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "review-agent",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "review-agent",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-b6e1c0fecd8f",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "skill-creator",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "skill-creator",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-b579231df6f0",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "skill-installer",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "skill-installer",
+        "scope": "system",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-b77c21a97ca0",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "snail",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "snail",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-92e878bf23a2",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "spreadsheets:excel-live-control",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "spreadsheets:excel-live-control",
+        "scope": "plugin",
+        "pluginId": "spreadsheets@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-e91c72659d66",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "spreadsheets:Spreadsheets",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "spreadsheets:Spreadsheets",
+        "scope": "plugin",
+        "pluginId": "spreadsheets@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-aec6a6906476",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "template-creator:template-creator",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "template-creator:template-creator",
+        "scope": "plugin",
+        "pluginId": "template-creator@openai-primary-runtime"
+      }
+    },
+    {
+      "id": "missing-table-fe8a9785781d",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "video-animation-effects",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "video-animation-effects",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-6d16d0602718",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "video-attention-capture",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "video-attention-capture",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-059ddbf3006f",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "video-audio-music",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "video-audio-music",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-54c966132fec",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "video-completion",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "video-completion",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-0671a91b34f0",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "video-visual-quality",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "video-visual-quality",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-916fabd8a9c2",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "visualize:visualize",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "visualize:visualize",
+        "scope": "plugin",
+        "pluginId": "visualize@openai-bundled"
+      }
+    },
+    {
+      "id": "missing-table-5672835bdcb8",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "wewrite-learn",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "wewrite-learn",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "missing-table-ad9a49943521",
+      "type": "runtime-missing-from-table",
+      "status": "pending-external-review",
+      "name": "zewei-ip-copy-hook",
+      "action": "核实来源、许可证、所有者和是否值得登记；系统或插件资产不得冒充自有资产。",
+      "evidence": {
+        "name": "zewei-ip-copy-hook",
+        "scope": "user",
+        "pluginId": null
+      }
+    },
+    {
+      "id": "table-only-b190754d2ed6",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "agent-mini-app-builder",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0231",
+        "name": "agent-mini-app-builder",
+        "status": "待升级",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-826d7b71474f",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "bilibili-subtitle-extractor",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0233",
+        "name": "bilibili-subtitle-extractor",
+        "status": "待升级",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-c575919a7841",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "daily-brief-deepresearch",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0234",
+        "name": "daily-brief-deepresearch",
+        "status": "待升级",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-5f5024a8e367",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "markdown-to-docx",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0237",
+        "name": "markdown-to-docx",
+        "status": "待升级",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-6990dc2db9c2",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "slides",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0040",
+        "name": "slides",
+        "status": "已教学文档化",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-32fb82d124c7",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "snail / getname",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0019",
+        "name": "snail / getname",
+        "status": "已教学文档化",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-fd26f6250561",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "wechat-ip-writer",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0021",
+        "name": "wechat-ip-writer",
+        "status": "已教学文档化",
+        "version": "1.0.0",
+        "sourcePresent": true
+      }
+    },
+    {
+      "id": "table-only-69eca025fa9d",
+      "type": "table-entry-absent-from-runtime",
+      "status": "pending-external-review",
+      "name": "wx-cli",
+      "action": "核实是否已停用、移动、改名或缺失安装；未经确认不恢复、不删除。",
+      "evidence": {
+        "number": "SK-0212",
+        "name": "wx-cli",
+        "status": "待升级",
+        "version": "0.3.0",
+        "sourcePresent": true
+      }
+    }
+  ]
+}

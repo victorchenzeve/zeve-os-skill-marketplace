@@ -1,0 +1,13 @@
+{
+  "id": "zeve-os-business",
+  "name": "泽玮 OS 业务决策",
+  "description": "组合机会界定、方案设计、单位经济性、实验规划和决策备忘录能力",
+  "version": "0.1.0",
+  "skills": [
+    "business-opportunity-framer",
+    "business-offer-designer",
+    "business-unit-economics-reviewer",
+    "business-experiment-planner",
+    "business-decision-memo"
+  ]
+}

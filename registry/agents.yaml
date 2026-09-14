@@ -1,21 +1,33 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "agents": [
     {
-      "id": "private-domain-operator",
-      "name": "私域运营代理",
-      "description": "根据已授权资料完成人群分层、活动策划、对话复盘、生命周期设计和留存实验",
+      "id": "business-operator",
+      "name": "业务决策代理",
+      "description": "从机会界定到方案、经济性、实验与阶段决策完成可追溯的业务验证流程",
       "version": "0.1.0",
-      "path": "agents/private-domain-operator.md",
+      "path": "agents/business-operator.md",
       "maturity": "experimental",
       "status": "active",
       "skills": [
-        "private-domain-audience-segmenter",
-        "private-domain-campaign-planner",
-        "private-domain-conversation-reviewer",
-        "private-domain-lifecycle-designer",
-        "private-domain-retention-experiment-planner"
-      ]
+        "business-opportunity-framer",
+        "business-offer-designer",
+        "business-unit-economics-reviewer",
+        "business-experiment-planner",
+        "business-decision-memo"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/agents/business-operator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "content-operator",
@@ -31,7 +43,19 @@
         "content-production-planner",
         "content-quality-reviewer",
         "content-repurpose-planner"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/agents/content-operator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "knowledge-operator",
@@ -46,7 +70,47 @@
         "knowledge-taxonomy-designer",
         "knowledge-answer-grounder",
         "knowledge-freshness-auditor"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/agents/knowledge-operator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "private-domain-operator",
+      "name": "私域运营代理",
+      "description": "根据已授权资料完成人群分层、活动策划、对话复盘、生命周期设计和留存实验",
+      "version": "0.1.0",
+      "path": "agents/private-domain-operator.md",
+      "maturity": "experimental",
+      "status": "active",
+      "skills": [
+        "private-domain-audience-segmenter",
+        "private-domain-campaign-planner",
+        "private-domain-conversation-reviewer",
+        "private-domain-lifecycle-designer",
+        "private-domain-retention-experiment-planner"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/agents/private-domain-operator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     },
     {
       "id": "research-operator",
@@ -61,7 +125,19 @@
         "research-source-planner",
         "research-evidence-synthesizer",
         "research-claim-verifier"
-      ]
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-14"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/agents/research-operator/evaluation.md",
+        "reviewedAt": "2026-09-14"
+      }
     }
   ]
 }

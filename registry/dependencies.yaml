@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "dependencies": [
     {
       "from": "skill:private-domain-campaign-planner",
@@ -70,6 +70,31 @@
       "from": "skill:research-claim-verifier",
       "to": "skill:research-evidence-synthesizer",
       "reason": "主张核验针对综合报告中的主张与引用"
+    },
+    {
+      "from": "skill:business-offer-designer",
+      "to": "skill:business-opportunity-framer",
+      "reason": "业务方案必须基于已界定且有证据边界的机会"
+    },
+    {
+      "from": "skill:business-unit-economics-reviewer",
+      "to": "skill:business-offer-designer",
+      "reason": "单位经济性需要明确方案、交付范围和定价假设"
+    },
+    {
+      "from": "skill:business-experiment-planner",
+      "to": "skill:business-opportunity-framer",
+      "reason": "业务实验需要明确待验证机会与决策门槛"
+    },
+    {
+      "from": "skill:business-experiment-planner",
+      "to": "skill:business-unit-economics-reviewer",
+      "reason": "实验优先验证对经济性影响最大的假设"
+    },
+    {
+      "from": "skill:business-decision-memo",
+      "to": "skill:business-experiment-planner",
+      "reason": "阶段决策需要引用实验结果与停止规则"
     }
   ]
 }

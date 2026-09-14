@@ -22,18 +22,27 @@ function fixture(t) {
     fs.writeFileSync(target, typeof value === 'string' ? value : JSON.stringify(value));
   };
   for (const kind of ['skills', 'plugins', 'agents', 'dependencies']) {
-    write(`registry/${kind}.yaml`, { schemaVersion: '1.0.0', [kind]: [] });
+    write(`registry/${kind}.yaml`, { schemaVersion: '2.0.0', [kind]: [] });
   }
+  const metadata = evidencePath => ({
+    license: 'MIT',
+    provenance: { classification: 'original', owner: 'zeve-os', source: 'fixture', reviewedAt: '2026-09-14' },
+    evaluation: { status: 'synthetic-passed', evidencePath, reviewedAt: '2026-09-14' },
+  });
   const skill = { id: 'demo', name: '示例', description: '演示能力', version: '0.1.0',
-    path: 'skills/core/demo', category: 'core', maturity: 'draft', status: 'active', tags: [] };
-  write('skills/core/demo/SKILL.md', '# 示例\n');
-  write('registry/skills.yaml', { schemaVersion: '1.0.0', skills: [skill] });
-  const registry = (kind, entries) => write(`registry/${kind}.yaml`, { schemaVersion: '1.0.0', [kind]: entries });
+    path: 'skills/core/demo', category: 'core', maturity: 'draft', status: 'active', tags: [],
+    ...metadata('evals/demo/evaluation.md') };
+  write('skills/core/demo/SKILL.md', '---\nlicense: MIT\n---\n# 示例\n');
+  write('evals/demo/evaluation.md', '# Eval\n');
+  write('registry/skills.yaml', { schemaVersion: '2.0.0', skills: [skill] });
+  const registry = (kind, entries) => write(`registry/${kind}.yaml`, { schemaVersion: '2.0.0', [kind]: entries });
   const plugin = () => {
     const entry = { id: 'demo-pack', name: '示例插件', description: '组合示例', version: '0.1.0',
-      path: 'plugins/demo-pack', maturity: 'draft', status: 'active', skills: ['demo'] };
+      path: 'plugins/demo-pack', maturity: 'draft', status: 'active', skills: ['demo'],
+      ...metadata('evals/plugins/demo-pack/evaluation.md') };
     const { id, name, description, version, skills } = entry;
     write('plugins/demo-pack/plugin.json', { id, name, description, version, skills });
+    write('evals/plugins/demo-pack/evaluation.md', '# Eval\n');
     registry('plugins', [entry]);
     return entry;
   };
@@ -46,7 +55,10 @@ test('valid skill, plugin, agent and explicit dependency', t => {
   f.plugin();
   f.write('templates/agent/DEMO.md', '# Demo');
   f.registry('agents', [{ id: 'demo-agent', name: '代理', description: '演示代理', version: '0.1.0',
-    path: 'templates/agent/DEMO.md', maturity: 'draft', status: 'active', skills: ['demo'] }]);
+    path: 'templates/agent/DEMO.md', maturity: 'draft', status: 'active', skills: ['demo'],
+    license: 'MIT', provenance: { classification: 'original', owner: 'zeve-os', source: 'fixture', reviewedAt: '2026-09-14' },
+    evaluation: { status: 'synthetic-passed', evidencePath: 'evals/agents/demo-agent/evaluation.md', reviewedAt: '2026-09-14' } }]);
+  f.write('evals/agents/demo-agent/evaluation.md', '# Eval\n');
   f.registry('dependencies', [{ from: 'agent:demo-agent', to: 'plugin:demo-pack', reason: '组合' }]);
   assert.deepEqual(f.errors(), []);
 });
@@ -123,4 +135,9 @@ test('duplicate members and invalid maturity are rejected', t => {
 test('unknown schema keywords fail closed', () => {
   const errors = []; validateSchema('abc', { type: 'string', maxLength: 2 }, 'fixture', errors);
   assert.match(errors.join('\n'), /unsupported schema keyword maxLength/);
+});
+test('stable skills require repository or real-world evidence', t => {
+  const f = fixture(t);
+  f.registry('skills', [{ ...f.skill, maturity: 'stable' }]);
+  assert.match(f.errors().join('\n'), /stable maturity requires repository or real-world evidence/);
 });
