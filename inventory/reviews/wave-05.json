@@ -1,0 +1,2793 @@
+{
+  "schemaVersion": "1.0.0",
+  "waveId": "wave-05",
+  "reviewedAt": "2026-09-14T16:53:51.208Z",
+  "status": "completed-evidence-review",
+  "policy": "逐项核实只形成证据结论；不修改、复制、合并、删除或安装原 Skill，也不写入飞书。",
+  "summary": {
+    "reviewed": 50,
+    "promotionEligible": 0,
+    "mutationsPerformed": 0,
+    "decisionCounts": {
+      "blocked-provenance-and-license": 50
+    }
+  },
+  "reviews": [
+    {
+      "id": "logical-c76d6ab6bfca2b87",
+      "normalizedName": "douyin-pre-publish-check",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-8d4e16e620ec85d6",
+      "normalizedName": "douyin-product-link-extractor",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-02bc1239801f9eaf",
+      "normalizedName": "douyin-upload",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-ef99cf2b77ba5aaf",
+      "normalizedName": "douyin-viral-cover",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-7743ce348d9284d6",
+      "normalizedName": "draft",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 2,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 2,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 2,
+          "identicalContentCopies": 0,
+          "contentVariants": true,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-c06cb14c840d0bbb",
+      "normalizedName": "dreamina-cli",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-8ddd97b017d7926c",
+      "normalizedName": "dreamina-stoplight-fashion-video",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-94b1941bb9266005",
+      "normalizedName": "ecommerce-detail-generator",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-f6e75330ce6426bc",
+      "normalizedName": "ecommerce-detail-page-blueprint",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-be289dd7b467de73",
+      "normalizedName": "editing-images",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-b624b885040ea2a4",
+      "normalizedName": "editing-videos",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-8d9062c115cc8041",
+      "normalizedName": "elevator-ootd-storyboard",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-cedbe818746cb0d6",
+      "normalizedName": "emails",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-59d4f19cf6941ef4",
+      "normalizedName": "enterprise-clone-builder",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-e5c4719eff7cf4de",
+      "normalizedName": "example-skill",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 3,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [
+          "template-or-example-candidate"
+        ],
+        "nonStructuralObservations": [],
+        "duplicateAssessment": {
+          "physicalPathCopies": 3,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 2,
+          "contentVariants": false,
+          "tableRows": 0,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "failed",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "由原 Skill 所有者修复结构问题并重新运行加载检查。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-d46aee08cc49f6d1",
+      "normalizedName": "export",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-f6a37a66d13adf61",
+      "normalizedName": "extracting-thumbnails",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-af68a354e54bbcc8",
+      "normalizedName": "faceless-explainer",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-f6135430af9d7c23",
+      "normalizedName": "fashion-blogger-video-analysis",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-ee0ff819ca076a30",
+      "normalizedName": "fashion-editorial-camera-constraints",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-bf750d1292ba24cb",
+      "normalizedName": "fashion-style-video-remake",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-8ea6e5ddd90da87e",
+      "normalizedName": "feigua-feishu-fashion-rank",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-c5fa2f3db9239e08",
+      "normalizedName": "feishu-codex-remote",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-cc1dbfc952e51d3e",
+      "normalizedName": "feishu-x-image-workbench",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-9386dce9b0245fec",
+      "normalizedName": "female-outfit-director",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-e340988ee0267a63",
+      "normalizedName": "ffmpeg-target-size",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [
+          "MIT"
+        ],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "declared-unverified",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "完成成功、失败和边界行为评估。",
+        "核对许可证原文、适用版本和再分发条件。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-ce4e0fa0d0b92b22",
+      "normalizedName": "finance-stock-video",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-9707f841534c1831",
+      "normalizedName": "find-redskills",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 5,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 5,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 4,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-805809493827e66c",
+      "normalizedName": "finesse-ui",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [
+          "MIT"
+        ],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "declared-unverified",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "完成成功、失败和边界行为评估。",
+        "核对许可证原文、适用版本和再分发条件。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-485a7ec53e55b874",
+      "normalizedName": "fixed-logo-image-ppt",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-e3340a0f7892c86e",
+      "normalizedName": "follow-builders",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-7fc78b708514c2f0",
+      "normalizedName": "free-tools",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-19bc948f232f3ea9",
+      "normalizedName": "frontend-slides",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 2,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-110a8d1c6b84a5fc",
+      "normalizedName": "funasr-local-transcribe",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-ac3f8830eec835f5",
+      "normalizedName": "gary-halbert-sales-letter",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-b05e2fc13316a2e9",
+      "normalizedName": "gbro-collage-broll",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-eb54ecb45d5b7b08",
+      "normalizedName": "generate-video-elements",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-a6864eae86e0b20d",
+      "normalizedName": "generating-drama-recaps",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-671b527c4ff7f747",
+      "normalizedName": "generating-images",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-746b079a4ae65f40",
+      "normalizedName": "generating-videos",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-776b5b24bd874a65",
+      "normalizedName": "golden-quote-distiller",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 5,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 5,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 4,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-cacfed460601f22d",
+      "normalizedName": "good-writing",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-204be88528978fdc",
+      "normalizedName": "gpt-image",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-500d139664585c63",
+      "normalizedName": "gpt56-sol-pro-consult",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-b33b4eccfba8f487",
+      "normalizedName": "grill-me",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-834447e84ac23988",
+      "normalizedName": "grill-with-docs",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-607d79e94b9a4585",
+      "normalizedName": "grok-build-cli",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 5,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 5,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 4,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-b3087547f4b048f9",
+      "normalizedName": "gsap",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 2,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills",
+          "documents"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 2,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 1,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-0e9aa62ad735fb65",
+      "normalizedName": "guizang-ppt-skill",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    },
+    {
+      "id": "logical-167f39b04ee995a6",
+      "normalizedName": "guizang-social-card-skill",
+      "reviewedAt": "2026-09-14T16:53:51.208Z",
+      "reviewStatus": "completed",
+      "priorDisposition": "candidate-review",
+      "evidence": {
+        "sourcePackage": "observed-local-copy",
+        "physicalPaths": 1,
+        "installedPaths": 1,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 1,
+        "contentHashes": 1,
+        "classifications": [
+          "unknown"
+        ],
+        "sourceRoots": [
+          "codex-skills"
+        ],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "structuralIssues": [],
+        "nonStructuralObservations": [
+          "not-returned-by-queried-runtime"
+        ],
+        "duplicateAssessment": {
+          "physicalPathCopies": 1,
+          "uniqueSkillMdHashes": 1,
+          "identicalContentCopies": 0,
+          "contentVariants": false,
+          "tableRows": 1,
+          "tableDuplicate": false
+        }
+      },
+      "gateResults": {
+        "ownership": "unknown",
+        "license": "unknown",
+        "redistribution": "not-authorized-by-evidence",
+        "structure": "observed-pass",
+        "dependencies": "not-verified",
+        "behavior": "not-evaluated"
+      },
+      "formalizationDecision": "blocked-provenance-and-license",
+      "promotionEligible": false,
+      "decisionReason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+      "nextEvidence": [
+        "取得适用于该版本的明确许可证文本。",
+        "完成成功、失败和边界行为评估。",
+        "由作者或所有者提供可验证的归属证据。",
+        "记录内部与外部依赖、权限、费用和不可用路径。"
+      ],
+      "mutationPerformed": false
+    }
+  ]
+}

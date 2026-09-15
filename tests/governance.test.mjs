@@ -5,6 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildCandidateQueue } from '../scripts/build-candidate-queue.mjs';
 import { buildGovernanceCatalog, buildWaves } from '../scripts/build-governance-catalog.mjs';
+import { buildWaveReviews } from '../scripts/build-wave-reviews.mjs';
 
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -25,8 +26,8 @@ test('Feishu reconciliation is fully represented by the candidate queue', () => 
 test('every observed logical skill has one governance disposition and one planned place', () => {
   const catalog = buildGovernanceCatalog(repo);
   const waves = buildWaves(repo);
-  assert.equal(catalog.summary.logicalSkills, 923);
-  assert.equal(catalog.summary.formalSkills, 28);
+  assert.equal(catalog.summary.logicalSkills, 924);
+  assert.equal(catalog.summary.formalSkills, 29);
   assert.equal(new Set(catalog.skills.map(item => item.normalizedName)).size, catalog.skills.length);
   const planned = waves.waves.flatMap(wave => wave.items);
   assert.equal(planned.length, catalog.summary.logicalSkills - catalog.summary.formalSkills);
@@ -43,4 +44,16 @@ test('all formal asset evaluation evidence is readable', () => {
       assert.ok(fs.statSync(evidence).isFile(), entry.id);
     }
   }
+});
+test('all 18 waves have one completed review per nonformal skill', () => {
+  const result = buildWaveReviews(repo);
+  const reviews = result.waves.flatMap(wave => wave.reviews);
+  assert.equal(result.index.summary.waves, 18);
+  assert.equal(result.index.summary.reviewed, 895);
+  assert.equal(result.index.summary.promotionEligible, 0);
+  assert.equal(result.index.summary.mutationsPerformed, 0);
+  assert.equal(new Set(reviews.map(item => item.id)).size, reviews.length);
+  assert.ok(reviews.every(item => item.reviewStatus === 'completed'));
+  assert.ok(reviews.every(item => item.promotionEligible === false));
+  assert.ok(reviews.every(item => item.nextEvidence.length > 0));
 });

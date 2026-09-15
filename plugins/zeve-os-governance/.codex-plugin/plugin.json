@@ -1,21 +1,35 @@
 {
   "name": "zeve-os-governance",
-  "version": "0.1.0",
-  "description": "组合资产纳管、来源许可、重复关系、成熟度和发布审计能力",
-  "author": { "name": "Victor Chen" },
+  "version": "0.2.0",
+  "description": "组合资产纳管、来源许可、重复关系、成熟度、批次审查和发布审计能力",
+  "author": {
+    "name": "Victor Chen"
+  },
   "license": "MIT",
-  "keywords": ["skill", "governance", "provenance", "duplicate", "maturity", "release"],
+  "keywords": [
+    "skill",
+    "governance",
+    "provenance",
+    "duplicate",
+    "maturity",
+    "release",
+    "wave"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "泽玮 OS Skill 治理",
-    "shortDescription": "审查 Skill 来源、重复、成熟度、纳管与发布",
-    "longDescription": "从全量盘点到来源许可、重复裁定、成熟度和发布门禁，形成可追溯的 Skill 治理流程。默认只读，不自动修改、合并或删除原 Skill。",
+    "shortDescription": "审查 Skill 来源、重复、成熟度、批次纳管与发布",
+    "longDescription": "从全量盘点到来源许可、重复裁定、成熟度、逐批证据核实和发布门禁，形成可追溯的 Skill 治理流程。默认只读，不自动修改、合并或删除原 Skill。",
     "developerName": "泽玮 OS",
     "category": "Productivity",
-    "capabilities": ["Analysis", "Productivity"],
+    "capabilities": [
+      "Analysis",
+      "Productivity"
+    ],
     "defaultPrompt": [
       "审查候选 Skill 的来源、许可证和纳管门槛。",
       "裁定一组同名 Skill 的重复关系。",
+      "逐项核实一个治理批次并记录正式化结论。",
       "评估 Skill 的成熟度并完成发布审计。"
     ],
     "brandColor": "#0F766E"

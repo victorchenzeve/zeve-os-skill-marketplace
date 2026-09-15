@@ -2,20 +2,20 @@
 
 泽玮 OS 的可分发、可安装 Codex Skill Marketplace。仓库维护正式资产、注册表、依赖、评估证据、安装工具和只读 Inventory。
 
-当前版本：`1.3.0`。正式纳管 **28 个 Skill、6 个插件、6 个代理**；全量治理目录覆盖 **923 个逻辑 Skill**。
+当前版本：`1.4.0`。正式纳管 **29 个 Skill、6 个插件、6 个代理**；全量治理目录覆盖 **924 个逻辑 Skill**。
 
 ## 正式资产
 
 | 领域 | Skill | Plugin | Agent |
 | --- | ---: | --- | --- |
-| Core 治理 | 5 | `zeve-os-governance` | `governance-operator` |
+| Core 治理 | 6 | `zeve-os-governance` | `governance-operator` |
 | 私域运营 | 5 | `zeve-os-private-domain` | `private-domain-operator` |
 | 业务决策 | 5 | `zeve-os-business` | `business-operator` |
 | 内容运营 | 5 | `zeve-os-content` | `content-operator` |
 | 知识治理 | 4 | `zeve-os-knowledge` | `knowledge-operator` |
 | 研究工作台 | 4 | `zeve-os-research` | `research-operator` |
 
-所有正式资产均为本仓库原创并采用 MIT 许可。两个 Core 治理 Skill 已在真实仓库审计和发行流程中验证为 `stable`；新增的三个 Core 治理 Skill 与 23 个领域 Skill 保持 `experimental`，等待更多真实运行或业务结果。每项资产的来源、许可和评估证据均登记在 [Registry](registry/README.md)。
+所有正式资产均为本仓库原创并采用 MIT 许可。两个 Core 治理 Skill 已在真实仓库审计和发行流程中验证为 `stable`；新增的四个 Core 治理 Skill 与 23 个领域 Skill 保持 `experimental`，等待更多真实运行或业务结果。每项资产的来源、许可和评估证据均登记在 [Registry](registry/README.md)。
 
 ## 从远程 Marketplace 安装
 
@@ -67,4 +67,4 @@ npm run release:smoke
 | `schemas/` | 注册表和清单 Schema |
 | `scripts/` | 校验、安装、同步、盘点和发行工具 |
 
-插件中的 Skill 是从 `skills/` 自动生成的发行镜像。最新本机与飞书证据汇总为 `inventory/governance/catalog.json`：923 个逻辑 Skill 中，28 个已正式纳管，其余 895 个全部进入 18 个证据审核批次。58 项跨系统差异进入 `inventory/candidates/queue.json`，每项都有负责人、建议决定和禁止自动执行标记，不会自动改表或导入 Skill。第三方资产必须先核实来源和许可证；本地存在或出现在 Inventory 中不代表可以重新分发。当前完成度与外部证据门槛见 [OPERATING_STATUS.md](OPERATING_STATUS.md)，安装、升级、卸载和制品校验见 [DISTRIBUTION.md](DISTRIBUTION.md)。
+插件中的 Skill 是从 `skills/` 自动生成的发行镜像。最新本机与飞书证据汇总为 `inventory/governance/catalog.json`：924 个逻辑 Skill 中，29 个已正式纳管；其余 895 个已完成 18 个批次的逐项证据核实。逐项结论保存在 `inventory/reviews/`；58 项跨系统差异进入 `inventory/candidates/queue.json`，每项都有负责人、建议决定和禁止自动执行标记，不会自动改表或导入 Skill。第三方资产必须先核实来源和许可证；本地存在或出现在 Inventory 中不代表可以重新分发。当前完成度与外部证据门槛见 [OPERATING_STATUS.md](OPERATING_STATUS.md)，安装、升级、卸载和制品校验见 [DISTRIBUTION.md](DISTRIBUTION.md)。

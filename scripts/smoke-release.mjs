@@ -29,7 +29,7 @@ try {
     run(process.execPath, [bin, 'install', plugin, '--target', target], temp);
   }
   const skillFiles = fs.readdirSync(target, { withFileTypes: true }).filter(item => item.isDirectory()).length;
-  if (skillFiles !== 28) throw new Error(`expected 28 installed skill directories, got ${skillFiles}`);
+  if (skillFiles !== 29) throw new Error(`expected 29 installed skill directories, got ${skillFiles}`);
   console.log('Release smoke test passed: packaged CLI verified and all 6 plugins installed.');
 } finally {
   fs.rmSync(temp, { recursive: true, force: true });

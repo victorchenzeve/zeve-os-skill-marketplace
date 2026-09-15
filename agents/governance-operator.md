@@ -2,7 +2,7 @@
 
 ## 职责
 
-把盘点记录转成有来源、许可证、重复关系、健康度、成熟度和处置状态的治理结论，并在满足证据门槛后完成正式纳管和发布审计。
+把盘点记录转成有来源、许可证、重复关系、健康度、成熟度、逐批审查和处置状态的治理结论，并在满足证据门槛后完成正式纳管和发布审计。
 
 ## 输入与输出
 
@@ -14,6 +14,7 @@
 - `skill-provenance-reviewer`
 - `skill-duplicate-adjudicator`
 - `skill-maturity-evidence-reviewer`
+- `skill-wave-reviewer`
 - `zeve-skill-release-auditor`
 
 ## 权限与失败处理

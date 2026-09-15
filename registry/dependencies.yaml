@@ -112,6 +112,21 @@
       "reason": "正式成熟度评估需要先确认资产来源和许可门槛"
     },
     {
+      "from": "skill:skill-wave-reviewer",
+      "to": "skill:skill-duplicate-adjudicator",
+      "reason": "批次审查需要区分记录重复、相同副本和内容变体"
+    },
+    {
+      "from": "skill:skill-wave-reviewer",
+      "to": "skill:skill-maturity-evidence-reviewer",
+      "reason": "批次正式化决定需要按统一成熟度证据门槛判断"
+    },
+    {
+      "from": "skill:skill-wave-reviewer",
+      "to": "skill:skill-provenance-reviewer",
+      "reason": "批次审查复用统一的所有权、来源和许可证据结论"
+    },
+    {
       "from": "skill:zeve-skill-release-auditor",
       "to": "skill:skill-maturity-evidence-reviewer",
       "reason": "发布门禁需要核对正式资产成熟度与评估证据是否一致"

@@ -731,6 +731,33 @@
       }
     },
     {
+      "id": "skill-wave-reviewer",
+      "name": "Skill 批次证据审查",
+      "description": "按确定性批次逐项核实候选 Skill 的来源、许可、结构、依赖、行为和可用性门槛",
+      "version": "0.1.0",
+      "path": "skills/core/skill-wave-reviewer",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "governance",
+        "batch-review",
+        "evidence"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "repository-passed",
+        "evidencePath": "evals/skill-wave-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "zeve-skill-release-auditor",
       "name": "Zeve Skill 发布审计",
       "description": "在发布前审计 Skill 命名、注册、依赖、评估、分发与变更记录的一致性",

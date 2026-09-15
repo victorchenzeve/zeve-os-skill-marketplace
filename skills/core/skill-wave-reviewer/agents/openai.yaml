@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill 批次证据审查"
+  short_description: "逐项核实候选 Skill 的来源、许可、结构、依赖与行为门槛"
+  default_prompt: "使用 $skill-wave-reviewer 审查这个治理批次，并为每个候选记录正式化结论。"
+policy:
+  allow_implicit_invocation: true

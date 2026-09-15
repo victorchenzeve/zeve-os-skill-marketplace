@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewedAt": "2026-09-14T16:53:51.208Z",
+  "sourceCatalog": "inventory/governance/catalog.json",
+  "sourceWaves": "inventory/governance/waves.json",
+  "status": "all-waves-reviewed",
+  "summary": {
+    "waves": 18,
+    "reviewed": 895,
+    "promotionEligible": 0,
+    "evidenceBlocked": 895,
+    "mutationsPerformed": 0,
+    "decisionCounts": {
+      "blocked-provenance-and-license": 615,
+      "blocked-runtime-structure": 3,
+      "blocked-source-package-missing": 15,
+      "external-reference-only": 262
+    }
+  },
+  "waves": [
+    {
+      "waveId": "wave-01",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-01.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 32,
+          "blocked-runtime-structure": 3,
+          "blocked-source-package-missing": 15
+        }
+      }
+    },
+    {
+      "waveId": "wave-02",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-02.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-03",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-03.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-04",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-04.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-05",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-05.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-06",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-06.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-07",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-07.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-08",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-08.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-09",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-09.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-10",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-10.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-11",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-11.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-12",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-12.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-13",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-13.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "blocked-provenance-and-license": 33,
+          "external-reference-only": 17
+        }
+      }
+    },
+    {
+      "waveId": "wave-14",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-14.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "external-reference-only": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-15",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-15.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "external-reference-only": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-16",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-16.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "external-reference-only": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-17",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-17.json",
+      "summary": {
+        "reviewed": 50,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "external-reference-only": 50
+        }
+      }
+    },
+    {
+      "waveId": "wave-18",
+      "status": "completed-evidence-review",
+      "file": "inventory/reviews/wave-18.json",
+      "summary": {
+        "reviewed": 45,
+        "promotionEligible": 0,
+        "mutationsPerformed": 0,
+        "decisionCounts": {
+          "external-reference-only": 45
+        }
+      }
+    }
+  ]
+}

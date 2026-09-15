@@ -1,6 +1,6 @@
 # 泽玮 OS Skill 治理
 
-组合资产纳管、来源许可、重复关系、成熟度和发布审计能力。
+组合资产纳管、来源许可、重复关系、成熟度、批次审查和发布审计能力。
 
 ## 包含的 Skill
 
@@ -8,6 +8,7 @@
 - `skill-provenance-reviewer`
 - `skill-duplicate-adjudicator`
 - `skill-maturity-evidence-reviewer`
+- `skill-wave-reviewer`
 - `zeve-skill-release-auditor`
 
 ## 使用边界

@@ -9,15 +9,15 @@
   },
   "policy": "全量目录只记录证据与处置状态；不自动复制、修改、合并、删除、安装 Skill，也不写入飞书。",
   "summary": {
-    "logicalSkills": 923,
+    "logicalSkills": 924,
     "inventoryLogicalNames": 905,
     "feishuLogicalNames": 795,
-    "formalSkills": 28,
+    "formalSkills": 29,
     "inventoryAndFeishu": 788,
     "inventoryOnly": 117,
     "feishuOnly": 7,
     "byDisposition": {
-      "formal-managed": 28,
+      "formal-managed": 29,
       "repair-review": 3,
       "ownership-review": 1,
       "table-addition-review": 26,
@@ -26,7 +26,7 @@
       "external-reference": 262
     },
     "byHealth": {
-      "formal-validated": 28,
+      "formal-validated": 29,
       "runtime-load-error": 3,
       "structure-issues": 808,
       "observed-only": 84
@@ -44843,6 +44843,51 @@
         "structure-remediation"
       ],
       "nextAction": "完成所有权、许可证、依赖和行为评估后再决定纳管或保留。"
+    },
+    {
+      "id": "logical-0d37b70cc5172526",
+      "normalizedName": "skill-wave-reviewer",
+      "displayNames": [
+        "Skill 批次证据审查",
+        "skill-wave-reviewer"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "skill-wave-reviewer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
       "id": "logical-fd2c8f1dc03ce50f",

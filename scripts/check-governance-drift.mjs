@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { queueText } from './build-candidate-queue.mjs';
 import { generatedTexts } from './build-governance-catalog.mjs';
+import { generatedReviewTexts } from './build-wave-reviews.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
@@ -14,7 +15,7 @@ const plugins = json('registry/plugins.yaml').plugins;
 const agents = json('registry/agents.yaml').agents;
 const marketplace = json('.agents/plugins/marketplace.json');
 
-const expectedCounts = { skills: 28, plugins: 6, agents: 6 };
+const expectedCounts = { skills: 29, plugins: 6, agents: 6 };
 for (const [kind, value] of Object.entries(expectedCounts)) {
   const actual = ({ skills, plugins, agents })[kind].length;
   if (actual !== value) errors.push(`${kind}: expected ${value}, got ${actual}`);
@@ -36,7 +37,7 @@ const marketNames = marketplace.plugins.map(item => item.name).sort();
 const pluginNames = plugins.map(item => item.id).sort();
 if (JSON.stringify(marketNames) !== JSON.stringify(pluginNames)) errors.push('Codex Marketplace plugin list differs from Registry');
 if (!read('README.md').includes(`当前版本：\`${pkg.version}\``)) errors.push('README current version is stale');
-if (!read('README.md').includes('28 个 Skill、6 个插件、6 个代理')) errors.push('README asset counts are stale');
+if (!read('README.md').includes('29 个 Skill、6 个插件、6 个代理')) errors.push('README asset counts are stale');
 if (!read('CHANGELOG.md').includes(`## ${pkg.version} —`)) errors.push('CHANGELOG lacks current version');
 if (!read('OPERATING_STATUS.md').includes(`版本：\`${pkg.version}\``)) errors.push('operating status version is stale');
 const queuePath = path.join(root, 'inventory/candidates/queue.json');
@@ -45,6 +46,9 @@ for (const [relative, expected] of Object.entries(generatedTexts(root))) {
   if (!fs.existsSync(path.join(root, relative)) || read(relative) !== expected) errors.push(`${relative}: generated governance artifact is stale`);
 }
 
+for (const [relative, expected] of Object.entries(generatedReviewTexts(root))) {
+  if (!fs.existsSync(path.join(root, relative)) || read(relative) !== expected) errors.push(`${relative}: generated review artifact is stale`);
+}
 if (errors.length) {
   console.error(`Governance drift detected (${errors.length}):\n${errors.map(item => `- ${item}`).join('\n')}`);
   process.exitCode = 1;

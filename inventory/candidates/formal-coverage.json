@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "reviewedAt": "2026-09-14",
   "formalRegistry": {
-    "skills": 28,
+    "skills": 29,
     "plugins": 6,
     "agents": 6,
     "provenance": "repository-original",
@@ -14,11 +14,11 @@
     "uniqueNormalizedNames": 795
   },
   "fullGovernanceCatalog": {
-    "logicalSkills": 923,
+    "logicalSkills": 924,
     "pendingEvidenceReview": 895,
     "waves": 18,
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
-  "interpretation": "正式 Registry 与盘点目录用途不同。28 个正式 Skill 均为本仓库原创；其余 895 个逻辑 Skill 已全部进入证据审核批次，取得来源、许可、结构、依赖与行为证据后才考虑纳管。",
+  "interpretation": "正式 Registry 与盘点目录用途不同。29 个正式 Skill 均为本仓库原创；其余 895 个逻辑 Skill 已全部进入证据审核批次，取得来源、许可、结构、依赖与行为证据后才考虑纳管。",
   "automaticImports": 0
 }
