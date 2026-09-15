@@ -1,0 +1,5096 @@
+{
+  "schemaVersion": "1.0.0",
+  "waveId": "wave-01",
+  "generatedFrom": {
+    "inventorySnapshotId": "2026-09-14T16-36-16-145Z",
+    "review": "inventory/reviews/wave-01.json"
+  },
+  "policy": "补充档案只汇总可验证证据；缺失证据保持缺失，不推定所有权、许可、再分发权或行为有效性。",
+  "summary": {
+    "records": 50,
+    "sourcePackagesObserved": 35,
+    "sourcePackagesMissing": 15,
+    "licenseSignalsObserved": 6,
+    "structureObservedPass": 30,
+    "behaviorEvaluated": 0,
+    "originalCandidatesPromotionEligible": 0,
+    "cleanRoomResolutions": 4
+  },
+  "records": [
+    {
+      "reviewId": "logical-e12c6df5a54f0bba",
+      "candidate": "content-structure",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-29b5fd95de11f35f",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/content-structure/SKILL.md",
+            "skillMdSha256": "aa2aa0af41b4c308f2b7a6e5c61350a84a0254b3ca90039766a9f5dbf42d07f1",
+            "bytes": 4682,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-9692772be500ab09",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/content-structure/SKILL.md",
+            "skillMdSha256": "aa2aa0af41b4c308f2b7a6e5c61350a84a0254b3ca90039766a9f5dbf42d07f1",
+            "bytes": 4682,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "failed",
+        "packages": [
+          {
+            "recordId": "inv-29b5fd95de11f35f",
+            "frontmatterDelimiters": false,
+            "extractedName": null,
+            "extractedDescription": false,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "missing-frontmatter-delimiters",
+              "name-not-extracted",
+              "description-not-extracted",
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-9692772be500ab09",
+            "frontmatterDelimiters": false,
+            "extractedName": null,
+            "extractedDescription": false,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "missing-frontmatter-delimiters",
+              "name-not-extracted",
+              "description-not-extracted"
+            ]
+          }
+        ],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "failed",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-runtime-structure",
+        "reason": "运行时结构失败，且来源、许可与行为证据仍未闭环。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-f3ac5af7d7a28509",
+      "candidate": "geo-optimizer-skill",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-bc295da0018e6d30",
+            "sourcePath": "%CODEX_HOME%/skills/geo-optimizer-skill/SKILL.md",
+            "skillMdSha256": "4c431a0e9f60761b33cdf9c99bbb03626abaadbf6bac962fcd62c52b819e6a79",
+            "bytes": 8685,
+            "modifiedAt": "2026-07-22T07:04:23.855Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-bc295da0018e6d30",
+            "file": "LICENSE"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "failed",
+        "packages": [
+          {
+            "recordId": "inv-bc295da0018e6d30",
+            "frontmatterDelimiters": false,
+            "extractedName": null,
+            "extractedDescription": false,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": true,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "missing-frontmatter-delimiters",
+              "name-not-extracted",
+              "description-not-extracted",
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-bc295da0018e6d30"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "failed",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [
+          "inv-bc295da0018e6d30"
+        ],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-runtime-structure",
+        "reason": "运行时结构失败，且来源、许可与行为证据仍未闭环。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-028c43f117ceb83a",
+      "candidate": "wechat-ip-writer",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-dd463c0ada44a5c1",
+            "sourcePath": "%CODEX_HOME%/skills/wechat-ip-writer/SKILL.md",
+            "skillMdSha256": "e6139a729a04454af08d9778c141b7bfd2a72cf40c15ac371c652023f0340309",
+            "bytes": 7136,
+            "modifiedAt": "2026-07-25T13:28:06.487Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "failed",
+        "packages": [
+          {
+            "recordId": "inv-dd463c0ada44a5c1",
+            "frontmatterDelimiters": true,
+            "extractedName": "wechat-ip-writer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "failed",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-runtime-structure",
+        "reason": "运行时结构失败，且来源、许可与行为证据仍未闭环。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-6e3a70e6b88069a8",
+      "candidate": "build-zewei-os-knowledge-base-v4",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-67ec773c943f9cc3",
+            "sourcePath": "%CODEX_HOME%/skills/build-zewei-os-knowledge-base-v4/SKILL.md",
+            "skillMdSha256": "876f16fa325901310c0318b084a78a7edb69b670560e42f26bcb52110f1f02d1",
+            "bytes": 8747,
+            "modifiedAt": "2026-08-07T07:44:40.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-67ec773c943f9cc3",
+            "frontmatterDelimiters": true,
+            "extractedName": "build-zewei-os-knowledge-base-v4",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-67ec773c943f9cc3"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-01-clean-room.json",
+          "formalReplacement": "zeve-knowledge-base-builder",
+          "evidencePath": "evals/zeve-knowledge-base-builder/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
+      }
+    },
+    {
+      "reviewId": "logical-cacc08d7f9b3850e",
+      "candidate": "cheat-predict",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-d421a4aa439dab1e",
+            "sourcePath": "%CODEX_HOME%/skills/cheat-on-content/skills/cheat-predict/SKILL.md",
+            "skillMdSha256": "0e04be8fe13dd7ccc5033e05a091fd2c0cef99a7d2eb812911fc99dadfc5eb76",
+            "bytes": 25371,
+            "modifiedAt": "2026-08-23T11:08:29.957Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-ac957efff7ec7aac",
+            "sourcePath": "%CODEX_HOME%/skills/cheat-predict/SKILL.md",
+            "skillMdSha256": "e0f06ed7e62e6d4c60f53004e9485708ef70fa99756f184acb9574e601efdc0f",
+            "bytes": 25278,
+            "modifiedAt": "2026-08-23T11:52:16.423Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-d421a4aa439dab1e",
+            "frontmatterDelimiters": true,
+            "extractedName": "cheat-predict",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-ac957efff7ec7aac",
+            "frontmatterDelimiters": true,
+            "extractedName": "cheat-predict",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-09b64ff9b6f20528",
+      "candidate": "cheat-score-blind",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-c8b4f77b7bbc764c",
+            "sourcePath": "%CODEX_HOME%/skills/cheat-on-content/skills/cheat-score-blind/SKILL.md",
+            "skillMdSha256": "02b57fee4ee3bc4fd0f06f382492c800ae44ce582da06327b4c12e0fb018e931",
+            "bytes": 12477,
+            "modifiedAt": "2026-08-23T11:08:29.958Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-fd14866860b1b460",
+            "sourcePath": "%CODEX_HOME%/skills/cheat-score-blind/SKILL.md",
+            "skillMdSha256": "db4a1e9295c98ba9fe76e2c4b886b475432b1da5c1a43000c4da5bb329ce9070",
+            "bytes": 12300,
+            "modifiedAt": "2026-08-23T11:50:42.552Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-c8b4f77b7bbc764c",
+            "frontmatterDelimiters": true,
+            "extractedName": "cheat-score-blind",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-fd14866860b1b460",
+            "frontmatterDelimiters": true,
+            "extractedName": "cheat-score-blind",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-2c172450d18ca9c2",
+      "candidate": "computer-use:computer-use",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-c02a4f760e2c1614",
+      "candidate": "documents:documents",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-bd9f2c762abae798",
+      "candidate": "fireworks-tech-graph",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-a3196235d8eadfad",
+            "sourcePath": "%CODEX_HOME%/skills/fireworks-tech-graph/SKILL.md",
+            "skillMdSha256": "fcb6ea52730af1f42f4746356809994a6b5e5fdad03f18711a7b835d6849da67",
+            "bytes": 32478,
+            "modifiedAt": "2026-08-05T16:00:58.903Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-a3196235d8eadfad",
+            "file": "LICENSE"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-a3196235d8eadfad",
+            "frontmatterDelimiters": true,
+            "extractedName": "fireworks-tech-graph",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": true,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-a3196235d8eadfad"
+          ],
+          "packagesWithReferences": [
+            "inv-a3196235d8eadfad"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [
+          "inv-a3196235d8eadfad"
+        ],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-06cd8c0878d46731",
+      "candidate": "imagegen",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-313562299ab5e892",
+            "sourcePath": "%CODEX_HOME%/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-04T03:52:41.967Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-91294a301110a972",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-12T17:50:19.781Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-4717b40873b01f51",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-12T17:52:08.083Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-7c187622dff72988",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-12T17:55:28.581Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-4e03a7a2669aeac2",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-13T16:42:57.912Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-bbcdf55fd44f9d62",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/imagegen/SKILL.md",
+            "skillMdSha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+            "bytes": 19516,
+            "modifiedAt": "2026-09-14T03:26:40.430Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-313562299ab5e892",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-91294a301110a972",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-4717b40873b01f51",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-7c187622dff72988",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-4e03a7a2669aeac2",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-bbcdf55fd44f9d62",
+            "file": "LICENSE.txt"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-313562299ab5e892",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-91294a301110a972",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-4717b40873b01f51",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-7c187622dff72988",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-4e03a7a2669aeac2",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-bbcdf55fd44f9d62",
+            "frontmatterDelimiters": true,
+            "extractedName": "imagegen",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-313562299ab5e892",
+            "inv-91294a301110a972",
+            "inv-4717b40873b01f51",
+            "inv-7c187622dff72988",
+            "inv-4e03a7a2669aeac2",
+            "inv-bbcdf55fd44f9d62"
+          ],
+          "packagesWithReferences": [
+            "inv-313562299ab5e892",
+            "inv-91294a301110a972",
+            "inv-4717b40873b01f51",
+            "inv-7c187622dff72988",
+            "inv-4e03a7a2669aeac2",
+            "inv-bbcdf55fd44f9d62"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-8db72034000c086c",
+      "candidate": "openai-docs",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-85f0b4ea0bc7b4b4",
+            "sourcePath": "%CODEX_HOME%/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-04T03:52:41.971Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-dc881c29a13e659b",
+            "sourcePath": "%CODEX_HOME%/vendor_imports/skills/skills/.curated/openai-docs/SKILL.md",
+            "skillMdSha256": "90476c00fc121e2112835e748c92f5d33bb95f3026438b68d5913e30e2e42bbd",
+            "bytes": 18463,
+            "modifiedAt": "2026-06-24T08:41:23.429Z",
+            "classification": "vendor-catalog",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-739da15cbae3a458",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-12T17:50:19.784Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-507cbc882f09df2b",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-12T17:52:08.087Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-f6b3ec992e91ed79",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-12T17:55:28.583Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-3d1fbda517377141",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-13T16:42:57.916Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-313db17909901694",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/openai-docs/SKILL.md",
+            "skillMdSha256": "4371fcc6652d78309ccf5e7710a4fd22314ad7f1f4928a6c172ddae80c87cc87",
+            "bytes": 5484,
+            "modifiedAt": "2026-09-14T03:26:40.434Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown",
+          "vendor-catalog"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-85f0b4ea0bc7b4b4",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-dc881c29a13e659b",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-739da15cbae3a458",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-507cbc882f09df2b",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-f6b3ec992e91ed79",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-3d1fbda517377141",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-313db17909901694",
+            "file": "LICENSE.txt"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-85f0b4ea0bc7b4b4",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-dc881c29a13e659b",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-739da15cbae3a458",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-507cbc882f09df2b",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-f6b3ec992e91ed79",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-3d1fbda517377141",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-313db17909901694",
+            "frontmatterDelimiters": true,
+            "extractedName": "openai-docs",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-85f0b4ea0bc7b4b4",
+            "inv-dc881c29a13e659b",
+            "inv-739da15cbae3a458",
+            "inv-507cbc882f09df2b",
+            "inv-f6b3ec992e91ed79",
+            "inv-3d1fbda517377141",
+            "inv-313db17909901694"
+          ],
+          "packagesWithReferences": [
+            "inv-85f0b4ea0bc7b4b4",
+            "inv-dc881c29a13e659b",
+            "inv-739da15cbae3a458",
+            "inv-507cbc882f09df2b",
+            "inv-f6b3ec992e91ed79",
+            "inv-3d1fbda517377141",
+            "inv-313db17909901694"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-20d80590c6474023",
+      "candidate": "pdf:pdf",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-72fca567535b37d5",
+      "candidate": "plugin-creator",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-238c888dfb24ab3d",
+            "sourcePath": "%CODEX_HOME%/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-04T03:52:41.978Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-a8136227d86695df",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-12T17:50:19.789Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-93aa97314dc8be6e",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-12T17:52:08.090Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-f5b295e2e239399d",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-12T17:55:28.588Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-41feb2630e410dda",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-13T16:42:57.927Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-23bda1cf891fded6",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/plugin-creator/SKILL.md",
+            "skillMdSha256": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+            "bytes": 11716,
+            "modifiedAt": "2026-09-14T03:26:40.439Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-238c888dfb24ab3d",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-a8136227d86695df",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-93aa97314dc8be6e",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-f5b295e2e239399d",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-41feb2630e410dda",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-23bda1cf891fded6",
+            "frontmatterDelimiters": true,
+            "extractedName": "plugin-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-238c888dfb24ab3d",
+            "inv-a8136227d86695df",
+            "inv-93aa97314dc8be6e",
+            "inv-f5b295e2e239399d",
+            "inv-41feb2630e410dda",
+            "inv-23bda1cf891fded6"
+          ],
+          "packagesWithReferences": [
+            "inv-238c888dfb24ab3d",
+            "inv-a8136227d86695df",
+            "inv-93aa97314dc8be6e",
+            "inv-f5b295e2e239399d",
+            "inv-41feb2630e410dda",
+            "inv-23bda1cf891fded6"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-65bf900fe0bd6868",
+      "candidate": "presentations:presentations",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-03727828890de6f8",
+      "candidate": "review-agent",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-def808aea217588a",
+            "sourcePath": "%CODEX_HOME%/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-04T03:52:41.983Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-104c167428fc62a9",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-12T17:50:19.792Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-cf22ff650ba15967",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-12T17:52:08.093Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-028834125550cfeb",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-12T17:55:28.590Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-dd3377b9f4c049cf",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-13T16:42:57.931Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-c6c95dabe8db9e6d",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/review-agent/SKILL.md",
+            "skillMdSha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+            "bytes": 2718,
+            "modifiedAt": "2026-09-14T03:26:40.441Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-def808aea217588a",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-104c167428fc62a9",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-cf22ff650ba15967",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-028834125550cfeb",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-dd3377b9f4c049cf",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-c6c95dabe8db9e6d",
+            "frontmatterDelimiters": true,
+            "extractedName": "review-agent",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-39f2ccd563ab3c6a",
+      "candidate": "skill-creator",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-47f13593219fffb4",
+            "sourcePath": "%CODEX_HOME%/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-04T03:52:41.984Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-ac6086311de9f22b",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-12T17:50:19.793Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-934e5f4e36a1eb8d",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-12T17:52:08.094Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-5a5ff467470cd3db",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-12T17:55:28.592Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-49c96f1e7477c151",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-13T16:42:57.932Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-ec761cc53e0f144f",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/skill-creator/SKILL.md",
+            "skillMdSha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+            "bytes": 15540,
+            "modifiedAt": "2026-09-14T03:26:40.441Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-47f13593219fffb4",
+            "file": "license.txt"
+          },
+          {
+            "recordId": "inv-ac6086311de9f22b",
+            "file": "license.txt"
+          },
+          {
+            "recordId": "inv-934e5f4e36a1eb8d",
+            "file": "license.txt"
+          },
+          {
+            "recordId": "inv-5a5ff467470cd3db",
+            "file": "license.txt"
+          },
+          {
+            "recordId": "inv-49c96f1e7477c151",
+            "file": "license.txt"
+          },
+          {
+            "recordId": "inv-ec761cc53e0f144f",
+            "file": "license.txt"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-47f13593219fffb4",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-ac6086311de9f22b",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-934e5f4e36a1eb8d",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-5a5ff467470cd3db",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-49c96f1e7477c151",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-ec761cc53e0f144f",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-creator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-47f13593219fffb4",
+            "inv-ac6086311de9f22b",
+            "inv-934e5f4e36a1eb8d",
+            "inv-5a5ff467470cd3db",
+            "inv-49c96f1e7477c151",
+            "inv-ec761cc53e0f144f"
+          ],
+          "packagesWithReferences": [
+            "inv-47f13593219fffb4",
+            "inv-ac6086311de9f22b",
+            "inv-934e5f4e36a1eb8d",
+            "inv-5a5ff467470cd3db",
+            "inv-49c96f1e7477c151",
+            "inv-ec761cc53e0f144f"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-3a5720d64f32b313",
+      "candidate": "skill-installer",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-22424e8dd337647e",
+            "sourcePath": "%CODEX_HOME%/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-04T03:52:41.988Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-41b44604ab1c77fd",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-marketplace-e2e/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-12T17:50:19.796Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-7cad8f0f91580f3f",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/codex-package-e2e/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-12T17:52:08.096Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-d143def2f80e3866",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/final-codex-home/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-12T17:55:28.595Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-dcd14f82dca28185",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1-codex-home/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-13T16:42:57.936Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          },
+          {
+            "recordId": "inv-597aa94b281ed8a8",
+            "sourcePath": "%USERPROFILE%/Documents/ChatGPT/泽玮os-skill-marketplace/.tmp/v1.1.1-remote-codex-home/skills/.system/skill-installer/SKILL.md",
+            "skillMdSha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+            "bytes": 3425,
+            "modifiedAt": "2026-09-14T03:26:40.444Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "declaration-observed-verification-required",
+        "declarations": [],
+        "licenseFiles": [
+          {
+            "recordId": "inv-22424e8dd337647e",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-41b44604ab1c77fd",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-7cad8f0f91580f3f",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-d143def2f80e3866",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-dcd14f82dca28185",
+            "file": "LICENSE.txt"
+          },
+          {
+            "recordId": "inv-597aa94b281ed8a8",
+            "file": "LICENSE.txt"
+          }
+        ],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-22424e8dd337647e",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-41b44604ab1c77fd",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-7cad8f0f91580f3f",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-d143def2f80e3866",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-dcd14f82dca28185",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          },
+          {
+            "recordId": "inv-597aa94b281ed8a8",
+            "frontmatterDelimiters": true,
+            "extractedName": "skill-installer",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-22424e8dd337647e",
+            "inv-41b44604ab1c77fd",
+            "inv-7cad8f0f91580f3f",
+            "inv-d143def2f80e3866",
+            "inv-dcd14f82dca28185",
+            "inv-597aa94b281ed8a8"
+          ],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-62156a7b494a332c",
+      "candidate": "snail",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-7b55d6461d67e974",
+            "sourcePath": "%CODEX_HOME%/skills/snail/SKILL.md",
+            "skillMdSha256": "bdcf9ad6d55632d57ad40988212f26446d56eef01677d6d1c4a3baa9b7cde39d",
+            "bytes": 26129,
+            "modifiedAt": "2026-08-01T07:51:21.552Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-b78083fb1dbc6c29",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/getname/SKILL.md",
+            "skillMdSha256": "89d86d0ba0bcca3d652cf38077cdb074d5a1d24d68969356009e788ddf012ebb",
+            "bytes": 26039,
+            "modifiedAt": "2026-08-23T14:06:04.667Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-7b55d6461d67e974",
+            "frontmatterDelimiters": true,
+            "extractedName": "snail",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-b78083fb1dbc6c29",
+            "frontmatterDelimiters": true,
+            "extractedName": "snail",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-d3af2055c5a6c811",
+      "candidate": "spreadsheets:excel-live-control",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-a80705907faba34e",
+      "candidate": "spreadsheets:spreadsheets",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-280dfb904fae3d6f",
+      "candidate": "template-creator:template-creator",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-8209422f7e3d1a09",
+      "candidate": "video-animation-effects",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-24b1d4173563195d",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/animation-effects/SKILL.md",
+            "skillMdSha256": "055de6c0fe401dbb3899f7fe210ccc4861b414bf8721e6cbdaa8b684b21ce774",
+            "bytes": 9337,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-56789fde5ddd2222",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/animation-effects/SKILL.md",
+            "skillMdSha256": "055de6c0fe401dbb3899f7fe210ccc4861b414bf8721e6cbdaa8b684b21ce774",
+            "bytes": 9337,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-24b1d4173563195d",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-animation-effects",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-56789fde5ddd2222",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-animation-effects",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-894576904183a89d",
+      "candidate": "video-attention-capture",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-bc4a3b3af90bfeb8",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/attention-capture/SKILL.md",
+            "skillMdSha256": "fbbc0310f2e9e052b4d926f95fca7f2d214a456dff58f299c63e1925aec02258",
+            "bytes": 7093,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-3c0f7bd339188d7b",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/attention-capture/SKILL.md",
+            "skillMdSha256": "fbbc0310f2e9e052b4d926f95fca7f2d214a456dff58f299c63e1925aec02258",
+            "bytes": 7093,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-bc4a3b3af90bfeb8",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-attention-capture",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-3c0f7bd339188d7b",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-attention-capture",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-59b3c66715453588",
+      "candidate": "video-audio-music",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-5ffc6db74dc9be8b",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/audio-music/SKILL.md",
+            "skillMdSha256": "40a91fa5c12a24df876b971eef297a088eed6f341d31189f0aefc34ac6a7334c",
+            "bytes": 9387,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-2b9c73c3c100624c",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/audio-music/SKILL.md",
+            "skillMdSha256": "40a91fa5c12a24df876b971eef297a088eed6f341d31189f0aefc34ac6a7334c",
+            "bytes": 9387,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-5ffc6db74dc9be8b",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-audio-music",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-2b9c73c3c100624c",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-audio-music",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-141fcc01f25182ae",
+      "candidate": "video-completion",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-b0817e862c1d0c55",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/completion-conversion/SKILL.md",
+            "skillMdSha256": "c920d261a0c9bb3bc4021cc5b90a8c13e9c4a5bc4c279e9e46918f26bfb08c46",
+            "bytes": 7434,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-2ffef84e58b98432",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/completion-conversion/SKILL.md",
+            "skillMdSha256": "c920d261a0c9bb3bc4021cc5b90a8c13e9c4a5bc4c279e9e46918f26bfb08c46",
+            "bytes": 7434,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-b0817e862c1d0c55",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-completion",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-2ffef84e58b98432",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-completion",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-4e8f6f369c386214",
+      "candidate": "video-visual-quality",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-b0da6c8b93e24985",
+            "sourcePath": "%CODEX_HOME%/skills/video-audit-experts/visual-quality/SKILL.md",
+            "skillMdSha256": "dc822ca3afb20084e185a74275eddf8f873a36d4389c3f10a743063a3e5b1d70",
+            "bytes": 9779,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-625ba5e7e1a05cf7",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/video-audit-experts/visual-quality/SKILL.md",
+            "skillMdSha256": "dc822ca3afb20084e185a74275eddf8f873a36d4389c3f10a743063a3e5b1d70",
+            "bytes": 9779,
+            "modifiedAt": "2026-05-21T12:46:12.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-b0da6c8b93e24985",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-visual-quality",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-625ba5e7e1a05cf7",
+            "frontmatterDelimiters": true,
+            "extractedName": "video-visual-quality",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-147e8fd45026b98a",
+      "candidate": "visualize:visualize",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-ec4abd1f40d758e1",
+      "candidate": "wewrite-learn",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-57af2300343b79d7",
+            "sourcePath": "%CODEX_HOME%/skills/wewrite-learn/SKILL.md",
+            "skillMdSha256": "52df0a79ffbaf58c247087e532ea96eeea28951f4dcde0d04d06c414fab60bfe",
+            "bytes": 2532,
+            "modifiedAt": "2026-08-23T11:12:12.265Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-57af2300343b79d7",
+            "frontmatterDelimiters": true,
+            "extractedName": "wewrite-learn",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-57af2300343b79d7"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-3ddf2deb441e94c2",
+      "candidate": "zewei-ip-copy-hook",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-15b98c1b95e5f0f2",
+            "sourcePath": "%CODEX_HOME%/skills/zewei-ip-copy-hook/SKILL.md",
+            "skillMdSha256": "d4240b3309fa0f6a5a9aaed7953adb9f79f03bd475f86dc73835c3f8ec08f393",
+            "bytes": 3033,
+            "modifiedAt": "2026-08-01T03:38:23.894Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-c6c37b40ca770812",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/zewei-ip-copy-hook/SKILL.md",
+            "skillMdSha256": "d4240b3309fa0f6a5a9aaed7953adb9f79f03bd475f86dc73835c3f8ec08f393",
+            "bytes": 3033,
+            "modifiedAt": "2026-08-01T03:38:23.894Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-15b98c1b95e5f0f2",
+            "frontmatterDelimiters": true,
+            "extractedName": "zewei-ip-copy-hook",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-c6c37b40ca770812",
+            "frontmatterDelimiters": true,
+            "extractedName": "zewei-ip-copy-hook",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-15b98c1b95e5f0f2",
+            "inv-c6c37b40ca770812"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-bde0eb856ab73e13",
+      "candidate": "张咋啦-创作指南",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-72322b1759f55fef",
+            "sourcePath": "%CODEX_HOME%/skills/blogger-distiller/references/张咋啦_创作指南.skill/SKILL.md",
+            "skillMdSha256": "f4e9ae4155a6a74e699fb0f8d90aeb3b44dfd2388554b379636c76f35a195426",
+            "bytes": 22957,
+            "modifiedAt": "2026-06-30T06:45:54.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "failed",
+        "packages": [
+          {
+            "recordId": "inv-72322b1759f55fef",
+            "frontmatterDelimiters": true,
+            "extractedName": "张咋啦-创作指南",
+            "extractedDescription": true,
+            "registryIdFormat": false,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "id-incompatible-with-marketplace-schema",
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "failed",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-d7a269841bcd9c96",
+      "candidate": "agent-mini-app-builder",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-0a63d422458e2512",
+      "candidate": "bilibili-subtitle-extractor",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-bac80fe0becd15e0",
+      "candidate": "daily-brief-deepresearch",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-e722662245d60b37",
+      "candidate": "markdown-to-docx",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-fd2c8f1dc03ce50f",
+      "candidate": "slides",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-be0e4702903ad4dd",
+      "candidate": "snail-/-getname",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-a15de546c5b1b95e",
+      "candidate": "wx-cli",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "source-package-missing",
+        "physicalPackages": [],
+        "classifications": [],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "not-inspectable",
+        "packages": [],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "not-inspectable",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-source-package-missing",
+        "reason": "没有可访问的原始包，无法核实正文、依赖和许可。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-a8129bf393a7643f",
+      "candidate": "3d-chladni-render",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-4fd95e23e531591a",
+            "sourcePath": "%CODEX_HOME%/skills/3d-chladni-render/SKILL.md",
+            "skillMdSha256": "e3ea7d0c98f6d5089fa06f79c7e7c4f2cf948e6c37431fa8aa4b6fac82cae91b",
+            "bytes": 4117,
+            "modifiedAt": "2026-08-11T19:27:08.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-850fbbd1d680229b",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/3d-chladni-render/SKILL.md",
+            "skillMdSha256": "e3ea7d0c98f6d5089fa06f79c7e7c4f2cf948e6c37431fa8aa4b6fac82cae91b",
+            "bytes": 4117,
+            "modifiedAt": "2026-08-11T19:27:08.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "failed",
+        "packages": [
+          {
+            "recordId": "inv-4fd95e23e531591a",
+            "frontmatterDelimiters": true,
+            "extractedName": "3d-chladni-render",
+            "extractedDescription": true,
+            "registryIdFormat": false,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "id-incompatible-with-marketplace-schema",
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-850fbbd1d680229b",
+            "frontmatterDelimiters": true,
+            "extractedName": "3d-chladni-render",
+            "extractedDescription": true,
+            "registryIdFormat": false,
+            "scriptsDirectory": true,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "id-incompatible-with-marketplace-schema"
+            ]
+          }
+        ],
+        "conclusion": "structure-gate-not-passed"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-4fd95e23e531591a",
+            "inv-850fbbd1d680229b"
+          ],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "failed",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-f026e1fa041ed561",
+      "candidate": "ab-testing",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-62e86befec06cf1a",
+            "sourcePath": "%CODEX_HOME%/skills/ab-testing/SKILL.md",
+            "skillMdSha256": "d60e41696796025443fe00caedff26732a71a3b3a1199d122f1f6ab9da98f514",
+            "bytes": 11515,
+            "modifiedAt": "2026-08-23T12:04:19.042Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-62e86befec06cf1a",
+            "frontmatterDelimiters": true,
+            "extractedName": "ab-testing",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": true,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-62e86befec06cf1a"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [
+          "inv-62e86befec06cf1a"
+        ],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-7a8299dedbf4d90a",
+      "candidate": "ad-creative",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-de0f70be84e2d954",
+            "sourcePath": "%CODEX_HOME%/skills/ad-creative/SKILL.md",
+            "skillMdSha256": "acf1e7c39ed068afc176c36ceb5e16b55f026b4c0f37cd30826e310a6e357c96",
+            "bytes": 21275,
+            "modifiedAt": "2026-08-23T12:04:19.044Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-de0f70be84e2d954",
+            "frontmatterDelimiters": true,
+            "extractedName": "ad-creative",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": true,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-de0f70be84e2d954"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [
+          "inv-de0f70be84e2d954"
+        ],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-800a190d924edf13",
+      "candidate": "add-animated-video-captions",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-0f226ec0b7d08ca1",
+            "sourcePath": "%CODEX_HOME%/skills/add-animated-video-captions/SKILL.md",
+            "skillMdSha256": "064daf2573705522dda060ad85a7217962e694ba50f561911572bfec2f934f88",
+            "bytes": 2936,
+            "modifiedAt": "2026-08-08T09:13:10.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-1f1ca2a9f431c15f",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/add-animated-video-captions/SKILL.md",
+            "skillMdSha256": "064daf2573705522dda060ad85a7217962e694ba50f561911572bfec2f934f88",
+            "bytes": 2936,
+            "modifiedAt": "2026-08-08T09:13:10.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-0f226ec0b7d08ca1",
+            "frontmatterDelimiters": true,
+            "extractedName": "add-animated-video-captions",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-1f1ca2a9f431c15f",
+            "frontmatterDelimiters": true,
+            "extractedName": "add-animated-video-captions",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-0f226ec0b7d08ca1",
+            "inv-1f1ca2a9f431c15f"
+          ],
+          "packagesWithReferences": [
+            "inv-0f226ec0b7d08ca1",
+            "inv-1f1ca2a9f431c15f"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-788eb2efc52660fe",
+      "candidate": "ads",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-21abe7677794cdb4",
+            "sourcePath": "%CODEX_HOME%/skills/ads/SKILL.md",
+            "skillMdSha256": "3131f8b98201a7c28767d32bced5d376b969477438b70fcc789ed44d7d208ea2",
+            "bytes": 27485,
+            "modifiedAt": "2026-08-23T12:04:19.047Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-21abe7677794cdb4",
+            "frontmatterDelimiters": true,
+            "extractedName": "ads",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": true,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-21abe7677794cdb4"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [
+          "inv-21abe7677794cdb4"
+        ],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-91425054e045be38",
+      "candidate": "ads-performance-review-public",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-d23538a18ada7e4d",
+            "sourcePath": "%CODEX_HOME%/skills/ads-performance-review-public/SKILL.md",
+            "skillMdSha256": "d1461a62bb960957dc0d6857c2fd33fef17a66cc5eb2693c7b4f9681b3c937d5",
+            "bytes": 1950,
+            "modifiedAt": "2026-06-05T15:57:56.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-d23538a18ada7e4d",
+            "frontmatterDelimiters": true,
+            "extractedName": "ads-performance-review-public",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-9eaf81a370cf67d5",
+      "candidate": "agent-reach",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-c8fb2562f95d09db",
+            "sourcePath": "%CODEX_HOME%/skills/agent-reach/SKILL.md",
+            "skillMdSha256": "ab9d96bd37770c8fb5ae57f0bb4d60ba3dd44ec3f0d154fa4307e0929068ff69",
+            "bytes": 6944,
+            "modifiedAt": "2026-08-23T10:58:07.523Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-c8fb2562f95d09db",
+            "frontmatterDelimiters": true,
+            "extractedName": "agent-reach",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-c8fb2562f95d09db"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-01-clean-room.json",
+          "formalReplacement": "research-source-router",
+          "evidencePath": "evals/research-source-router/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
+      }
+    },
+    {
+      "reviewId": "logical-2bbef4366e88cf45",
+      "candidate": "ai-commerce-creative-truth-qa",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-c30ca060a1e24276",
+            "sourcePath": "%CODEX_HOME%/skills/ai-commerce-creative-truth-qa/SKILL.md",
+            "skillMdSha256": "5b52b9948673f839b52250414907a568c3acdd66a93631973a1973e74bff9c1c",
+            "bytes": 6343,
+            "modifiedAt": "2026-08-05T01:56:56.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-b88c2e4033c642fe",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/ai-commerce-creative-truth-qa/SKILL.md",
+            "skillMdSha256": "5b52b9948673f839b52250414907a568c3acdd66a93631973a1973e74bff9c1c",
+            "bytes": 6343,
+            "modifiedAt": "2026-08-05T01:56:56.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-c30ca060a1e24276",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-commerce-creative-truth-qa",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-b88c2e4033c642fe",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-commerce-creative-truth-qa",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-c30ca060a1e24276",
+            "inv-b88c2e4033c642fe"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-589365a7d78ab9b4",
+      "candidate": "ai-landing-translator",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-cc170e954a7fd779",
+            "sourcePath": "%CODEX_HOME%/skills/ai-landing-translator/SKILL.md",
+            "skillMdSha256": "75f8604a1d7dbc6ab3579706fc4d2b80513a5025fbcb0e332cf1a60e8fce3717",
+            "bytes": 23493,
+            "modifiedAt": "2026-08-08T09:11:56.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-d44d06cc77b0d8e4",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/ai-landing-translator/SKILL.md",
+            "skillMdSha256": "75f8604a1d7dbc6ab3579706fc4d2b80513a5025fbcb0e332cf1a60e8fce3717",
+            "bytes": 23493,
+            "modifiedAt": "2026-08-08T09:11:56.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-cc170e954a7fd779",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-landing-translator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-d44d06cc77b0d8e4",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-landing-translator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-cc170e954a7fd779",
+            "inv-d44d06cc77b0d8e4"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-be7543ab2ce04bdf",
+      "candidate": "ai-new-continent-ppt",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-17a837b3c91f5173",
+            "sourcePath": "%CODEX_HOME%/skills/ai-new-continent-ppt/SKILL.md",
+            "skillMdSha256": "d6a8ac259eaa83d2a1e858878f7f23f5734fb4bc3a410241eaa460fe13705451",
+            "bytes": 5192,
+            "modifiedAt": "2026-08-17T14:02:18.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-5826532f4a5ea1c6",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/ai-new-continent-ppt/SKILL.md",
+            "skillMdSha256": "d6a8ac259eaa83d2a1e858878f7f23f5734fb4bc3a410241eaa460fe13705451",
+            "bytes": 5192,
+            "modifiedAt": "2026-08-17T14:02:18.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-17a837b3c91f5173",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-new-continent-ppt",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-5826532f4a5ea1c6",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-new-continent-ppt",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": true,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [
+            "inv-17a837b3c91f5173",
+            "inv-5826532f4a5ea1c6"
+          ],
+          "packagesWithReferences": [
+            "inv-17a837b3c91f5173",
+            "inv-5826532f4a5ea1c6"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-3a623ccab92520a1",
+      "candidate": "ai-personal-translator",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-c0123ba470ec46a4",
+            "sourcePath": "%CODEX_HOME%/skills/ai-personal-translator/SKILL.md",
+            "skillMdSha256": "18947b42e253bde3d44f6fcc1bcdb03c7161764b546b9cd75680791f64a524aa",
+            "bytes": 18154,
+            "modifiedAt": "2026-08-08T09:11:56.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-4ad6aa160fa76d46",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/ai-personal-translator/SKILL.md",
+            "skillMdSha256": "18947b42e253bde3d44f6fcc1bcdb03c7161764b546b9cd75680791f64a524aa",
+            "bytes": 18154,
+            "modifiedAt": "2026-08-08T09:11:56.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-c0123ba470ec46a4",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-personal-translator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-4ad6aa160fa76d46",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-personal-translator",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-c0123ba470ec46a4",
+            "inv-4ad6aa160fa76d46"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-01-clean-room.json",
+          "formalReplacement": "zeve-personal-ai-workflow-designer",
+          "evidencePath": "evals/zeve-personal-ai-workflow-designer/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
+      }
+    },
+    {
+      "reviewId": "logical-728a2ccdb4ed6603",
+      "candidate": "ai-poxiang-profile-card",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-31d182c4f2306ec0",
+            "sourcePath": "%CODEX_HOME%/skills/ai-poxiang-profile-card/SKILL.md",
+            "skillMdSha256": "9b44e96c3033972363035a7c353a72ba62753adc969e84c64c06457d1e5ce6ef",
+            "bytes": 3673,
+            "modifiedAt": "2026-08-04T15:30:32.000Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          },
+          {
+            "recordId": "inv-7933a98378a31b96",
+            "sourcePath": "%USERPROFILE%/Documents/SKILL/feishu-skill-import-work-20260823/extracted/ai-poxiang-profile-card/SKILL.md",
+            "skillMdSha256": "9b44e96c3033972363035a7c353a72ba62753adc969e84c64c06457d1e5ce6ef",
+            "bytes": 3673,
+            "modifiedAt": "2026-08-04T15:30:32.000Z",
+            "classification": "extracted-external-archive",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": false
+          }
+        ],
+        "classifications": [
+          "extracted-external-archive",
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-31d182c4f2306ec0",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-poxiang-profile-card",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          },
+          {
+            "recordId": "inv-7933a98378a31b96",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-poxiang-profile-card",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": false,
+            "evalsDirectory": false,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": []
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": []
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": null
+      }
+    },
+    {
+      "reviewId": "logical-8618fa003d5c5610",
+      "candidate": "ai-seo",
+      "immutableReview": "inventory/reviews/wave-01.json",
+      "sourceEvidence": {
+        "status": "observed-packages",
+        "physicalPackages": [
+          {
+            "recordId": "inv-ecbfa9ccd3f0e1f6",
+            "sourcePath": "%CODEX_HOME%/skills/ai-seo/SKILL.md",
+            "skillMdSha256": "dafb387237883683eca1570ba374662529240798968d3aa03de341cd6f4b587e",
+            "bytes": 28682,
+            "modifiedAt": "2026-08-23T12:04:19.051Z",
+            "classification": "unknown",
+            "declaredAuthor": null,
+            "sourceCatalog": null,
+            "sourceArchive": null,
+            "plugin": null,
+            "installedLocationOrRuntime": true
+          }
+        ],
+        "classifications": [
+          "unknown"
+        ],
+        "ownershipConclusion": "not-verified-by-inventory-evidence"
+      },
+      "licenseEvidence": {
+        "status": "no-license-evidence-observed",
+        "declarations": [],
+        "licenseFiles": [],
+        "redistributionConclusion": "not-authorized-by-inventory-evidence"
+      },
+      "runtimeStructureEvidence": {
+        "status": "observed-pass",
+        "packages": [
+          {
+            "recordId": "inv-ecbfa9ccd3f0e1f6",
+            "frontmatterDelimiters": true,
+            "extractedName": "ai-seo",
+            "extractedDescription": true,
+            "registryIdFormat": true,
+            "scriptsDirectory": false,
+            "referencesDirectory": true,
+            "evalsDirectory": true,
+            "testsDirectory": false,
+            "runtimeOccurrences": 0,
+            "runtimeScopes": [],
+            "runtimeError": null,
+            "issues": [
+              "not-returned-by-queried-runtime"
+            ]
+          }
+        ],
+        "conclusion": "snapshot-structure-observed; formal-package-validation-still-required"
+      },
+      "dependencyEvidence": {
+        "status": "not-verified",
+        "observedPackagingSignals": {
+          "packagesWithScripts": [],
+          "packagesWithReferences": [
+            "inv-ecbfa9ccd3f0e1f6"
+          ]
+        },
+        "conclusion": "commands-services-permissions-costs-and-failure-paths-not-verified"
+      },
+      "validationEvidence": {
+        "behaviorStatus": "not-evaluated",
+        "structuralObservationStatus": "observed-pass",
+        "runtimeObservedPackages": [],
+        "packagesWithEvaluationDirectory": [
+          "inv-ecbfa9ccd3f0e1f6"
+        ],
+        "packagesWithTestsDirectory": [],
+        "executionPolicy": "not-executed-during-read-only-inventory-review",
+        "conclusion": "success-failure-and-boundary-behavior-evidence-required"
+      },
+      "registryOutcome": {
+        "originalCandidatePromotionEligible": false,
+        "originalCandidateDecision": "blocked-provenance-and-license",
+        "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-01-clean-room.json",
+          "formalReplacement": "content-ai-discoverability-optimizer",
+          "evidencePath": "evals/content-ai-discoverability-optimizer/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
+      }
+    }
+  ]
+}

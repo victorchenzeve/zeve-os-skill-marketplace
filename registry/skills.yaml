@@ -137,6 +137,33 @@
       }
     },
     {
+      "id": "content-ai-discoverability-optimizer",
+      "name": "AI 搜索可见性优化",
+      "description": "依据事实、实体覆盖、回答结构、技术可访问性和可测实验优化内容在搜索与 AI 回答系统中的可发现性",
+      "version": "0.1.0",
+      "path": "skills/content/content-ai-discoverability-optimizer",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "search",
+        "ai-discoverability"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-ai-discoverability-optimizer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "content-angle-generator",
       "name": "内容角度生成",
       "description": "基于已批准策略生成差异化且有事实依据的内容角度",
@@ -269,6 +296,33 @@
         "status": "synthetic-passed",
         "evidencePath": "evals/content-strategy-brief/evaluation.md",
         "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "content-video-size-optimizer",
+      "name": "目标体积视频优化",
+      "description": "使用有界码率计算、受保护输出和编码后复验规划并执行满足文件大小限制的视频转码",
+      "version": "0.1.0",
+      "path": "skills/content/content-video-size-optimizer",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "video",
+        "ffmpeg"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-video-size-optimizer/evaluation.md",
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -650,6 +704,33 @@
       }
     },
     {
+      "id": "research-source-router",
+      "name": "研究来源路由",
+      "description": "把已批准研究问题路由到最小适用来源通道，记录访问限制、查询来源、降级路径与停止条件",
+      "version": "0.1.0",
+      "path": "skills/research/research-source-router",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "routing",
+        "sources"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-source-router/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "skill-duplicate-adjudicator",
       "name": "Skill 重复关系裁定",
       "description": "区分重复记录、相同副本、内容变体与同名冲突并提出可逆处置建议",
@@ -754,6 +835,60 @@
       "evaluation": {
         "status": "repository-passed",
         "evidencePath": "evals/skill-wave-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
+      "id": "zeve-knowledge-base-builder",
+      "name": "泽玮 OS 知识库构建",
+      "description": "从授权来源构建具备稳定标识、来源清单、分类、冲突处理、时效规则、索引和验证的可追溯知识库",
+      "version": "0.1.0",
+      "path": "skills/knowledge/zeve-knowledge-base-builder",
+      "category": "knowledge",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "knowledge",
+        "knowledge-base",
+        "traceability"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/zeve-knowledge-base-builder/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
+      "id": "zeve-personal-ai-workflow-designer",
+      "name": "个人 AI 工作流设计",
+      "description": "把个人经营者的真实工作与收入流程转成有人工检查点、复用提示、指标和最小实验的 AI 协作工作流",
+      "version": "0.1.0",
+      "path": "skills/business/zeve-personal-ai-workflow-designer",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "ai-workflow",
+        "solo-operator"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/zeve-personal-ai-workflow-designer/evaluation.md",
         "reviewedAt": "2026-09-15"
       }
     },

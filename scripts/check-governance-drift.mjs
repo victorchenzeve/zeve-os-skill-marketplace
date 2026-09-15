@@ -15,7 +15,7 @@ const plugins = json('registry/plugins.yaml').plugins;
 const agents = json('registry/agents.yaml').agents;
 const marketplace = json('.agents/plugins/marketplace.json');
 
-const expectedCounts = { skills: 29, plugins: 6, agents: 6 };
+const expectedCounts = { skills: 34, plugins: 6, agents: 6 };
 for (const [kind, value] of Object.entries(expectedCounts)) {
   const actual = ({ skills, plugins, agents })[kind].length;
   if (actual !== value) errors.push(`${kind}: expected ${value}, got ${actual}`);
@@ -37,7 +37,7 @@ const marketNames = marketplace.plugins.map(item => item.name).sort();
 const pluginNames = plugins.map(item => item.id).sort();
 if (JSON.stringify(marketNames) !== JSON.stringify(pluginNames)) errors.push('Codex Marketplace plugin list differs from Registry');
 if (!read('README.md').includes(`当前版本：\`${pkg.version}\``)) errors.push('README current version is stale');
-if (!read('README.md').includes('29 个 Skill、6 个插件、6 个代理')) errors.push('README asset counts are stale');
+if (!read('README.md').includes('34 个 Skill、6 个插件、6 个代理')) errors.push('README asset counts are stale');
 if (!read('CHANGELOG.md').includes(`## ${pkg.version} —`)) errors.push('CHANGELOG lacks current version');
 if (!read('OPERATING_STATUS.md').includes(`版本：\`${pkg.version}\``)) errors.push('operating status version is stale');
 const queuePath = path.join(root, 'inventory/candidates/queue.json');

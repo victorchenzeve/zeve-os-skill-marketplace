@@ -144,16 +144,25 @@ export function buildWaveReviews(root = defaultRoot) {
   return { catalog, waves: reviewedWaves, index };
 }
 
-function readmeText(result) {
+function formalizationResolutionCount(root) {
+  const directory = path.join(root, 'inventory/reviews/resolutions');
+  if (!fs.existsSync(directory)) return 0;
+  return fs.readdirSync(directory).filter(name => name.endsWith('.json')).reduce((total, name) => {
+    const ledger = JSON.parse(fs.readFileSync(path.join(directory, name), 'utf8'));
+    return total + (ledger.resolutions?.length ?? 0);
+  }, 0);
+}
+
+function readmeText(result, resolved) {
   const s = result.index.summary;
-  return `# 18 批 Skill 逐项核实记录\n\n已按统一证据门槛完成 ${s.waves} 个批次、${s.reviewed} 个非正式逻辑 Skill 的逐项核实。每项都记录来源包、作者与许可证声明、结构、运行时、重复关系、依赖与行为证据状态。\n\n- 可直接正式纳管：${s.promotionEligible}\n- 证据阻塞：${s.evidenceBlocked}\n- 修改、复制、合并、删除或安装原 Skill：${s.mutationsPerformed}\n\n当前没有候选同时具备已验证的所有权、适用许可证、再分发资格、依赖评估和行为证据，因此没有把本地或第三方副本自动写进正式 Registry。声明为 MIT 或出现在本机只算证据线索，不算完成核实。\n\n## 处理方式\n\n- \`blocked-source-package-missing\`：先定位权威原始包。\n- \`blocked-runtime-structure\`：由原所有者修复加载结构，再重新评估。\n- \`blocked-provenance-and-license\`：补齐可验证作者、来源、许可证和行为证据。\n- \`external-reference-only\`：保留外部参考，取得再分发证据前不复制。\n\n每个 \`wave-NN.json\` 都有逐项结论和下一证据动作。新的证据到达后只重审对应条目，不重写原 Skill。\n`;
+  return `# 18 批 Skill 逐项核实记录\n\n已按统一证据门槛完成 ${s.waves} 个批次、${s.reviewed} 个非正式逻辑 Skill 的逐项核实。每项都记录来源包、作者与许可证声明、结构、运行时、重复关系、依赖与行为证据状态。\n\n- 可直接正式纳管的原候选：${s.promotionEligible}\n- 证据阻塞：${s.evidenceBlocked}\n- 已完成原创干净实现替代：${resolved}\n- 修改、复制、合并、删除或安装原 Skill：${s.mutationsPerformed}\n\n[证据补充档案](evidence/README.md) 已为全部 895 条记录建立确定性关联：880 条可定位至少一个来源包，15 条缺失来源包，101 条观察到许可证声明或许可证文件，863 条通过快照结构观测。所有权、再分发、依赖与行为门槛没有证据时仍明确记为未通过，不能由声明或本机存在状态推定。\n\n当前没有原候选同时具备已验证的所有权、适用许可证、再分发资格、依赖评估和行为证据，因此没有把本地或第三方副本自动写进正式 Registry。声明为 MIT 或出现在本机只算证据线索，不算完成核实。\n\n## 处理方式\n\n- \`blocked-source-package-missing\`：先定位权威原始包。\n- \`blocked-runtime-structure\`：由原所有者修复加载结构，再重新评估。\n- \`blocked-provenance-and-license\`：补齐可验证作者、来源、许可证和行为证据。\n- \`external-reference-only\`：保留外部参考，取得再分发证据前不复制。\n\n## 干净实现解析\n\n\`resolutions/*.json\` 记录从审查缺口到原创正式替代的映射。正式替代必须使用新 ID、原创正文和仓库 MIT 许可；原候选仍保持原有来源与再分发结论。\n\n每个 \`wave-NN.json\` 都有逐项结论和下一证据动作。新的证据到达后只重审对应条目，不重写原 Skill。\n`;
 }
 
 export function generatedReviewTexts(root = defaultRoot) {
   const result = buildWaveReviews(root);
   const texts = {
     'inventory/reviews/index.json': `${JSON.stringify(result.index, null, 2)}\n`,
-    'inventory/reviews/README.md': readmeText(result),
+    'inventory/reviews/README.md': readmeText(result, formalizationResolutionCount(root)),
   };
   for (const wave of result.waves) texts[`inventory/reviews/${wave.waveId}.json`] = `${JSON.stringify(wave, null, 2)}\n`;
   return texts;

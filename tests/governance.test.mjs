@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { buildCandidateQueue } from '../scripts/build-candidate-queue.mjs';
 import { buildGovernanceCatalog, buildWaves } from '../scripts/build-governance-catalog.mjs';
 import { buildWaveReviews } from '../scripts/build-wave-reviews.mjs';
+import { buildEvidenceSupplements } from '../scripts/build-evidence-supplements.mjs';
 
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -26,8 +27,8 @@ test('Feishu reconciliation is fully represented by the candidate queue', () => 
 test('every observed logical skill has one governance disposition and one planned place', () => {
   const catalog = buildGovernanceCatalog(repo);
   const waves = buildWaves(repo);
-  assert.equal(catalog.summary.logicalSkills, 924);
-  assert.equal(catalog.summary.formalSkills, 29);
+  assert.equal(catalog.summary.logicalSkills, 929);
+  assert.equal(catalog.summary.formalSkills, 34);
   assert.equal(new Set(catalog.skills.map(item => item.normalizedName)).size, catalog.skills.length);
   const planned = waves.waves.flatMap(wave => wave.items);
   assert.equal(planned.length, catalog.summary.logicalSkills - catalog.summary.formalSkills);
@@ -56,4 +57,20 @@ test('all 18 waves have one completed review per nonformal skill', () => {
   assert.ok(reviews.every(item => item.reviewStatus === 'completed'));
   assert.ok(reviews.every(item => item.promotionEligible === false));
   assert.ok(reviews.every(item => item.nextEvidence.length > 0));
+});
+
+test('evidence supplements cover every nonformal review without inferring missing gates', () => {
+  const files = buildEvidenceSupplements();
+  const index = JSON.parse(files['inventory/reviews/evidence/index.json']);
+  const evidence = index.files.flatMap(file => JSON.parse(files[`inventory/reviews/evidence/${file}`]).records);
+  assert.equal(index.summary.records, 895);
+  assert.equal(index.summary.sourcePackagesObserved, 880);
+  assert.equal(index.summary.sourcePackagesMissing, 15);
+  assert.equal(index.summary.licenseSignalsObserved, 101);
+  assert.equal(index.summary.originalCandidatesPromotionEligible, 0);
+  assert.equal(index.summary.cleanRoomResolutions, 5);
+  assert.equal(new Set(evidence.map(item => item.reviewId)).size, 895);
+  assert.ok(evidence.every(item => item.sourceEvidence && item.licenseEvidence));
+  assert.ok(evidence.every(item => item.runtimeStructureEvidence && item.dependencyEvidence && item.validationEvidence));
+  assert.ok(evidence.every(item => item.licenseEvidence.redistributionConclusion !== 'authorized'));
 });

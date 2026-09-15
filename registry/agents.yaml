@@ -4,8 +4,8 @@
     {
       "id": "business-operator",
       "name": "业务决策代理",
-      "description": "从机会界定到方案、经济性、实验与阶段决策完成可追溯的业务验证流程",
-      "version": "0.1.0",
+      "description": "从机会界定到方案、经济性、个人 AI 工作流、实验与阶段决策完成可追溯的业务验证流程",
+      "version": "0.2.0",
       "path": "agents/business-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -14,26 +14,27 @@
         "business-offer-designer",
         "business-unit-economics-reviewer",
         "business-experiment-planner",
-        "business-decision-memo"
+        "business-decision-memo",
+        "zeve-personal-ai-workflow-designer"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/agents/business-operator/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
       "id": "content-operator",
       "name": "内容运营代理",
-      "description": "从策略简报到角度、排期、质量审查与渠道再利用完成内容运营规划",
-      "version": "0.1.0",
+      "description": "从策略到生产、质量、再利用、AI 搜索可见性和视频交付完成可追溯内容运营流程",
+      "version": "0.2.0",
       "path": "agents/content-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -42,19 +43,21 @@
         "content-angle-generator",
         "content-production-planner",
         "content-quality-reviewer",
-        "content-repurpose-planner"
+        "content-repurpose-planner",
+        "content-ai-discoverability-optimizer",
+        "content-video-size-optimizer"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/agents/content-operator/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -89,8 +92,8 @@
     {
       "id": "knowledge-operator",
       "name": "知识治理代理",
-      "description": "把授权资料转成可追溯、可分类、可引用并保持时效的知识体系",
-      "version": "0.1.0",
+      "description": "把授权资料转成可追溯、可分类、可引用、可构建并保持时效的知识体系",
+      "version": "0.2.0",
       "path": "agents/knowledge-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -98,19 +101,20 @@
         "knowledge-source-ingestor",
         "knowledge-taxonomy-designer",
         "knowledge-answer-grounder",
-        "knowledge-freshness-auditor"
+        "knowledge-freshness-auditor",
+        "zeve-knowledge-base-builder"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/agents/knowledge-operator/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -144,8 +148,8 @@
     {
       "id": "research-operator",
       "name": "研究代理",
-      "description": "完成研究问题界定、来源规划、证据综合与逐主张核验",
-      "version": "0.1.0",
+      "description": "完成研究问题界定、来源规划与路由、证据综合和逐主张核验",
+      "version": "0.2.0",
       "path": "agents/research-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -153,19 +157,20 @@
         "research-question-framer",
         "research-source-planner",
         "research-evidence-synthesizer",
-        "research-claim-verifier"
+        "research-claim-verifier",
+        "research-source-router"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/agents/research-operator/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     }
   ]

@@ -27,6 +27,16 @@
       "reason": "单位经济性需要明确方案、交付范围和定价假设"
     },
     {
+      "from": "skill:content-ai-discoverability-optimizer",
+      "to": "skill:content-quality-reviewer",
+      "reason": "发布前需要复核事实、品牌、渠道和风险边界"
+    },
+    {
+      "from": "skill:content-ai-discoverability-optimizer",
+      "to": "skill:content-strategy-brief",
+      "reason": "可见性优化需要明确受众、主题和业务目标"
+    },
+    {
       "from": "skill:content-angle-generator",
       "to": "skill:content-strategy-brief",
       "reason": "内容角度必须依据已批准策略简报"
@@ -45,6 +55,11 @@
       "from": "skill:content-repurpose-planner",
       "to": "skill:content-quality-reviewer",
       "reason": "再利用规划应基于已经审查的源内容"
+    },
+    {
+      "from": "skill:content-video-size-optimizer",
+      "to": "skill:content-production-planner",
+      "reason": "视频转码是内容生产交付计划中的受控处理步骤"
     },
     {
       "from": "skill:knowledge-answer-grounder",
@@ -102,6 +117,11 @@
       "reason": "来源规划需要清楚的问题与证据标准"
     },
     {
+      "from": "skill:research-source-router",
+      "to": "skill:research-source-planner",
+      "reason": "来源路由执行已经批准的来源优先级、覆盖和停止规则"
+    },
+    {
       "from": "skill:skill-duplicate-adjudicator",
       "to": "skill:skill-provenance-reviewer",
       "reason": "重复裁定需要来源与许可证据区分可替代副本和独立资产"
@@ -125,6 +145,31 @@
       "from": "skill:skill-wave-reviewer",
       "to": "skill:skill-provenance-reviewer",
       "reason": "批次审查复用统一的所有权、来源和许可证据结论"
+    },
+    {
+      "from": "skill:zeve-knowledge-base-builder",
+      "to": "skill:knowledge-freshness-auditor",
+      "reason": "知识库交付必须包含来源时效和复核规则"
+    },
+    {
+      "from": "skill:zeve-knowledge-base-builder",
+      "to": "skill:knowledge-source-ingestor",
+      "reason": "知识库构建依赖标准化且已授权的来源记录"
+    },
+    {
+      "from": "skill:zeve-knowledge-base-builder",
+      "to": "skill:knowledge-taxonomy-designer",
+      "reason": "知识库结构需要可维护的分类、术语和别名规则"
+    },
+    {
+      "from": "skill:zeve-personal-ai-workflow-designer",
+      "to": "skill:business-experiment-planner",
+      "reason": "个人 AI 工作流使用最小实验验证时间、质量和返工指标"
+    },
+    {
+      "from": "skill:zeve-personal-ai-workflow-designer",
+      "to": "skill:business-opportunity-framer",
+      "reason": "个人 AI 工作流必须从已界定的业务机会和真实流程出发"
     },
     {
       "from": "skill:zeve-skill-release-auditor",

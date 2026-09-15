@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "resolvedAt": "2026-09-15",
+  "method": "clean-room-capability-replacement",
+  "policy": "只使用盘点名称、能力摘要和审查缺口定义新需求；不读取、复制、改写或重新许可原 Skill 正文与附件。原候选的来源和再分发结论保持不变。",
+  "summary": {
+    "reviewInputs": 5,
+    "formalReplacements": 5,
+    "thirdPartyFilesCopied": 0,
+    "originalCandidatesPromoted": 0
+  },
+  "resolutions": [
+    {
+      "reviewId": "logical-3a623ccab92520a1",
+      "candidate": "ai-personal-translator",
+      "reviewFile": "inventory/reviews/wave-01.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "zeve-personal-ai-workflow-designer",
+      "category": "business",
+      "gateResults": {"ownership":"verified-repository-original","license":"verified-mit","redistribution":"authorized-by-repository-license","structure":"repository-validated","dependencies":"declared","behavior":"synthetic-passed"},
+      "evidencePath": "evals/zeve-personal-ai-workflow-designer/evaluation.md"
+    },
+    {
+      "reviewId": "logical-8618fa003d5c5610",
+      "candidate": "ai-seo",
+      "reviewFile": "inventory/reviews/wave-01.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "content-ai-discoverability-optimizer",
+      "category": "content",
+      "gateResults": {"ownership":"verified-repository-original","license":"verified-mit","redistribution":"authorized-by-repository-license","structure":"repository-validated","dependencies":"declared","behavior":"synthetic-passed"},
+      "evidencePath": "evals/content-ai-discoverability-optimizer/evaluation.md"
+    },
+    {
+      "reviewId": "logical-e340988ee0267a63",
+      "candidate": "ffmpeg-target-size",
+      "reviewFile": "inventory/reviews/wave-05.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "content-video-size-optimizer",
+      "category": "content",
+      "gateResults": {"ownership":"verified-repository-original","license":"verified-mit","redistribution":"authorized-by-repository-license","structure":"repository-validated","dependencies":"declared","behavior":"synthetic-passed-with-runtime-dependency-unavailable"},
+      "evidencePath": "evals/content-video-size-optimizer/evaluation.md"
+    },
+    {
+      "reviewId": "logical-6e3a70e6b88069a8",
+      "candidate": "build-zewei-os-knowledge-base-v4",
+      "reviewFile": "inventory/reviews/wave-01.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "zeve-knowledge-base-builder",
+      "category": "knowledge",
+      "gateResults": {"ownership":"verified-repository-original","license":"verified-mit","redistribution":"authorized-by-repository-license","structure":"repository-validated","dependencies":"declared","behavior":"synthetic-passed"},
+      "evidencePath": "evals/zeve-knowledge-base-builder/evaluation.md"
+    },
+    {
+      "reviewId": "logical-9eaf81a370cf67d5",
+      "candidate": "agent-reach",
+      "reviewFile": "inventory/reviews/wave-01.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "research-source-router",
+      "category": "research",
+      "gateResults": {"ownership":"verified-repository-original","license":"verified-mit","redistribution":"authorized-by-repository-license","structure":"repository-validated","dependencies":"declared","behavior":"synthetic-passed"},
+      "evidencePath": "evals/research-source-router/evaluation.md"
+    }
+  ]
+}

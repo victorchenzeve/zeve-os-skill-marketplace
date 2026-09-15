@@ -1,0 +1,6 @@
+interface:
+  display_name: "目标体积视频优化"
+  short_description: "计算并验证满足上传大小限制的视频转码方案"
+  default_prompt: "使用 $content-video-size-optimizer 把这个视频安全压缩到指定大小以内。"
+policy:
+  allow_implicit_invocation: true

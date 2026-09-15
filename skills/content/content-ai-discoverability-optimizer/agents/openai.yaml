@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 搜索可见性优化"
+  short_description: "审查内容在搜索和 AI 回答系统中的可发现性与可引用性"
+  default_prompt: "使用 $content-ai-discoverability-optimizer 审查这份内容并给出可测的优化方案。"
+policy:
+  allow_implicit_invocation: true

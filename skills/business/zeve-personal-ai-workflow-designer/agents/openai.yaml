@@ -1,0 +1,6 @@
+interface:
+  display_name: "个人 AI 工作流设计"
+  short_description: "把个人经营流程转成带人工检查点和验证指标的 AI 工作流"
+  default_prompt: "使用 $zeve-personal-ai-workflow-designer 为我的个人业务设计一条可验证的 AI 工作流。"
+policy:
+  allow_implicit_invocation: true

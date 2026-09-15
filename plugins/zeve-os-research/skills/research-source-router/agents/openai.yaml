@@ -1,0 +1,6 @@
+interface:
+  display_name: "研究来源路由"
+  short_description: "为研究问题选择最小来源通道并记录查询与降级路径"
+  default_prompt: "使用 $research-source-router 为这个研究问题选择并执行可复核的来源路线。"
+policy:
+  allow_implicit_invocation: true

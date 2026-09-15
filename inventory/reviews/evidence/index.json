@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "inventorySnapshotId": "2026-09-14T16-36-16-145Z",
+  "reviewWaves": 18,
+  "policy": "895 份原审查保持不可变；补充档案提供来源、许可、运行结构、依赖和验证证据的逐项索引。",
+  "summary": {
+    "records": 895,
+    "sourcePackagesObserved": 880,
+    "sourcePackagesMissing": 15,
+    "licenseSignalsObserved": 101,
+    "ownershipVerified": 0,
+    "redistributionAuthorized": 0,
+    "structureObservedPass": 863,
+    "dependencyVerified": 0,
+    "behaviorEvaluated": 0,
+    "originalCandidatesPromotionEligible": 0,
+    "cleanRoomResolutions": 5
+  },
+  "files": [
+    "wave-01.json",
+    "wave-02.json",
+    "wave-03.json",
+    "wave-04.json",
+    "wave-05.json",
+    "wave-06.json",
+    "wave-07.json",
+    "wave-08.json",
+    "wave-09.json",
+    "wave-10.json",
+    "wave-11.json",
+    "wave-12.json",
+    "wave-13.json",
+    "wave-14.json",
+    "wave-15.json",
+    "wave-16.json",
+    "wave-17.json",
+    "wave-18.json"
+  ]
+}

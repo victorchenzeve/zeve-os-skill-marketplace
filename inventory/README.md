@@ -14,9 +14,9 @@
 
 ## 全量治理目录
 
-[全量治理目录](governance/README.md) 将最新盘点、运行时、飞书只读审计与正式 Registry 合并成 924 个逻辑 Skill。`catalog.json` 为每项记录来源、许可、健康度、重复关系与处置状态；`waves.json` 将 895 个非正式候选完整安排到 18 个证据审核批次。目录不会自动复制、修改、合并、删除或安装 Skill。
+[全量治理目录](governance/README.md) 将最新盘点、运行时、飞书只读审计与正式 Registry 合并成 929 个逻辑 Skill。`catalog.json` 为每项记录来源、许可、健康度、重复关系与处置状态；`waves.json` 将 895 个非正式候选完整安排到 18 个证据审核批次。目录不会自动复制、修改、合并、删除或安装 Skill。
 
-[18 批逐项核实记录](reviews/README.md) 覆盖全部 895 个非正式候选，包含每项门槛、决定和下一证据动作。
+[18 批逐项核实记录](reviews/README.md) 覆盖全部 895 个非正式候选，包含每项门槛、决定和下一证据动作；`reviews/evidence/` 为每条记录关联来源摘要、许可证线索、运行结构、依赖与验证证据。
 核对工具为 `scripts/reconcile-feishu-skills.mjs`。它要求显式提供飞书 CLI 程序、Base、Table 和 View 参数，并使用已有的最小只读用户授权。
 
 ## 重新盘点

@@ -1,12 +1,13 @@
 {
   "id": "zeve-os-knowledge",
   "name": "泽玮 OS 知识治理",
-  "description": "组合来源摄取、分类设计、回答溯源和时效审计能力",
-  "version": "0.1.0",
+  "description": "组合来源摄取、分类设计、回答溯源、时效审计和可追溯知识库构建能力",
+  "version": "0.2.0",
   "skills": [
     "knowledge-source-ingestor",
     "knowledge-taxonomy-designer",
     "knowledge-answer-grounder",
-    "knowledge-freshness-auditor"
+    "knowledge-freshness-auditor",
+    "zeve-knowledge-base-builder"
   ]
 }

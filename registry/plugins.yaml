@@ -4,8 +4,8 @@
     {
       "id": "zeve-os-business",
       "name": "泽玮 OS 业务决策",
-      "description": "组合机会界定、方案设计、单位经济性、实验规划和决策备忘录能力",
-      "version": "0.1.0",
+      "description": "组合机会界定、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
+      "version": "0.2.0",
       "path": "plugins/zeve-os-business",
       "maturity": "experimental",
       "status": "active",
@@ -14,26 +14,27 @@
         "business-offer-designer",
         "business-unit-economics-reviewer",
         "business-experiment-planner",
-        "business-decision-memo"
+        "business-decision-memo",
+        "zeve-personal-ai-workflow-designer"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/plugins/zeve-os-business/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
       "id": "zeve-os-content",
       "name": "泽玮 OS 内容运营",
-      "description": "组合内容策略、角度、生产排期、质量审查和再利用规划能力",
-      "version": "0.1.0",
+      "description": "组合内容策略、角度、生产排期、质量审查、再利用、AI 搜索可见性和视频体积优化能力",
+      "version": "0.2.0",
       "path": "plugins/zeve-os-content",
       "maturity": "experimental",
       "status": "active",
@@ -42,19 +43,21 @@
         "content-angle-generator",
         "content-production-planner",
         "content-quality-reviewer",
-        "content-repurpose-planner"
+        "content-repurpose-planner",
+        "content-ai-discoverability-optimizer",
+        "content-video-size-optimizer"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/plugins/zeve-os-content/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -89,8 +92,8 @@
     {
       "id": "zeve-os-knowledge",
       "name": "泽玮 OS 知识治理",
-      "description": "组合来源摄取、分类设计、回答溯源和时效审计能力",
-      "version": "0.1.0",
+      "description": "组合来源摄取、分类设计、回答溯源、时效审计和可追溯知识库构建能力",
+      "version": "0.2.0",
       "path": "plugins/zeve-os-knowledge",
       "maturity": "experimental",
       "status": "active",
@@ -98,19 +101,20 @@
         "knowledge-source-ingestor",
         "knowledge-taxonomy-designer",
         "knowledge-answer-grounder",
-        "knowledge-freshness-auditor"
+        "knowledge-freshness-auditor",
+        "zeve-knowledge-base-builder"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/plugins/zeve-os-knowledge/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -144,8 +148,8 @@
     {
       "id": "zeve-os-research",
       "name": "泽玮 OS 研究工作台",
-      "description": "组合问题界定、来源规划、证据综合和主张核验能力",
-      "version": "0.1.0",
+      "description": "组合问题界定、来源规划、来源路由、证据综合和主张核验能力",
+      "version": "0.2.0",
       "path": "plugins/zeve-os-research",
       "maturity": "experimental",
       "status": "active",
@@ -153,19 +157,20 @@
         "research-question-framer",
         "research-source-planner",
         "research-evidence-synthesizer",
-        "research-claim-verifier"
+        "research-claim-verifier",
+        "research-source-router"
       ],
       "license": "MIT",
       "provenance": {
         "classification": "original",
         "owner": "zeve-os",
         "source": "repository",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       },
       "evaluation": {
         "status": "synthetic-passed",
         "evidencePath": "evals/plugins/zeve-os-research/evaluation.md",
-        "reviewedAt": "2026-09-14"
+        "reviewedAt": "2026-09-15"
       }
     }
   ]

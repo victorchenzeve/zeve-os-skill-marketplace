@@ -9,15 +9,15 @@
   },
   "policy": "全量目录只记录证据与处置状态；不自动复制、修改、合并、删除、安装 Skill，也不写入飞书。",
   "summary": {
-    "logicalSkills": 924,
+    "logicalSkills": 929,
     "inventoryLogicalNames": 905,
     "feishuLogicalNames": 795,
-    "formalSkills": 29,
+    "formalSkills": 34,
     "inventoryAndFeishu": 788,
     "inventoryOnly": 117,
     "feishuOnly": 7,
     "byDisposition": {
-      "formal-managed": 29,
+      "formal-managed": 34,
       "repair-review": 3,
       "ownership-review": 1,
       "table-addition-review": 26,
@@ -26,7 +26,7 @@
       "external-reference": 262
     },
     "byHealth": {
-      "formal-validated": 29,
+      "formal-validated": 34,
       "runtime-load-error": 3,
       "structure-issues": 808,
       "observed-only": 84
@@ -10439,6 +10439,51 @@
       "nextAction": "核实来源与可用性；确认后再由目录所有者决定是否登记飞书。"
     },
     {
+      "id": "logical-ef2a2de6ceb96961",
+      "normalizedName": "content-ai-discoverability-optimizer",
+      "displayNames": [
+        "AI 搜索可见性优化",
+        "content-ai-discoverability-optimizer"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "content-ai-discoverability-optimizer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
       "id": "logical-250d4c174f41fb80",
       "normalizedName": "content-angle-generator",
       "displayNames": [
@@ -11026,6 +11071,51 @@
         "structure-remediation"
       ],
       "nextAction": "由 Skill 所有者修复运行时结构错误并重新验证；本目录不修改原 Skill。"
+    },
+    {
+      "id": "logical-94c08b2627706b3d",
+      "normalizedName": "content-video-size-optimizer",
+      "displayNames": [
+        "content-video-size-optimizer",
+        "目标体积视频优化"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "content-video-size-optimizer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
       "id": "logical-e3ddae0d10bf2bb6",
@@ -41477,6 +41567,51 @@
       "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
+      "id": "logical-d8114d2cc0016fef",
+      "normalizedName": "research-source-router",
+      "displayNames": [
+        "research-source-router",
+        "研究来源路由"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "research-source-router"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
       "id": "logical-c97ace4c8fef2cee",
       "normalizedName": "review",
       "displayNames": [
@@ -57191,6 +57326,96 @@
         "structure-remediation"
       ],
       "nextAction": "保留为外部参考，取得再分发许可与完整评估前不复制进正式资产。"
+    },
+    {
+      "id": "logical-cbe59d4e5d9f4406",
+      "normalizedName": "zeve-knowledge-base-builder",
+      "displayNames": [
+        "zeve-knowledge-base-builder",
+        "泽玮 OS 知识库构建"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "zeve-knowledge-base-builder"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
+      "id": "logical-b11dd8fd71f8343b",
+      "normalizedName": "zeve-personal-ai-workflow-designer",
+      "displayNames": [
+        "zeve-personal-ai-workflow-designer",
+        "个人 AI 工作流设计"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "zeve-personal-ai-workflow-designer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
       "id": "logical-b613aefc46138b28",

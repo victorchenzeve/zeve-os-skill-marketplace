@@ -32,7 +32,7 @@ function fixture(t) {
   const skill = { id: 'demo', name: '示例', description: '演示能力', version: '0.1.0',
     path: 'skills/core/demo', category: 'core', maturity: 'draft', status: 'active', tags: [],
     ...metadata('evals/demo/evaluation.md') };
-  write('skills/core/demo/SKILL.md', '---\nlicense: MIT\n---\n# 示例\n');
+  write('skills/core/demo/SKILL.md', '---\nname: demo\ndescription: A complete demo skill for registry validation.\nlicense: MIT\n---\n# 示例\n');
   write('evals/demo/evaluation.md', '# Eval\n');
   write('registry/skills.yaml', { schemaVersion: '2.0.0', skills: [skill] });
   const registry = (kind, entries) => write(`registry/${kind}.yaml`, { schemaVersion: '2.0.0', [kind]: entries });
@@ -76,6 +76,12 @@ test('legacy zewei asset prefix is rejected', t => {
 test('missing skill instructions are rejected', t => {
   const f = fixture(t); fs.unlinkSync(path.join(f.root, f.skill.path, 'SKILL.md'));
   assert.match(f.errors().join('\n'), /SKILL.md: missing/);
+});
+test('skill frontmatter name and allowed fields are enforced', t => {
+  const f = fixture(t);
+  f.write('skills/core/demo/SKILL.md', '---\nname: wrong\ndescription: Demo.\nlicense: MIT\nunexpected: true\n---\n# Demo\n');
+  assert.match(f.errors().join('\n'), /name differs from Registry/);
+  assert.match(f.errors().join('\n'), /unexpected SKILL.md frontmatter key/);
 });
 test('version format and unknown fields are rejected', t => {
   const f = fixture(t); f.registry('skills', [{ ...f.skill, version: '01.0.0', typo: true }]);

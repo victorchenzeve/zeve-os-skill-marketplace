@@ -72,6 +72,29 @@ function resolveAsset(root, value, expectedType, errors) {
   }
 }
 
+function validateSkillFile(content, entry, key, errors) {
+  const match = content.replace(/^\uFEFF/, '').match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!match) {
+    errors.push(`${key}: invalid SKILL.md frontmatter`);
+    return;
+  }
+  const allowed = new Set(['name', 'description', 'license', 'allowed-tools', 'metadata']);
+  const fields = {};
+  for (const line of match[1].split(/\r?\n/)) {
+    const item = line.match(/^([a-zA-Z][a-zA-Z0-9_-]*):\s*(.*)$/);
+    if (!item) continue;
+    fields[item[1]] = item[2].trim().replace(/^['"]|['"]$/g, '');
+    if (!allowed.has(item[1])) errors.push(`${key}: unexpected SKILL.md frontmatter key ${item[1]}`);
+  }
+  if (fields.name !== entry.id) errors.push(`${key}: SKILL.md name differs from Registry`);
+  if (!fields.description) errors.push(`${key}: SKILL.md description is missing`);
+  else {
+    if (fields.description.includes('<') || fields.description.includes('>')) errors.push(`${key}: SKILL.md description contains angle brackets`);
+    if ([...fields.description].length > 1024) errors.push(`${key}: SKILL.md description exceeds 1024 characters`);
+  }
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(fields.name ?? '') || [...(fields.name ?? '')].length > 64) errors.push(`${key}: invalid SKILL.md name`);
+  if (/(^|\n)[ ]{0,3}\[TODO:[^\n]*\][ \t]*(\n|$)/.test(content.slice(match[0].length))) errors.push(`${key}: unfinished SKILL.md TODO`);
+}
 export function validateRepository(root = defaultRoot) {
   const errors = [];
   const registry = {};
@@ -114,6 +137,7 @@ export function validateRepository(root = defaultRoot) {
         const skillPath = resolveAsset(root, `${entry.path}/SKILL.md`, 'file', errors);
         if (skillPath) {
           const content = fs.readFileSync(skillPath, 'utf8');
+          validateSkillFile(content, entry, key, errors);
           const declaredLicense = content.match(/^license:\s*(.+)$/m)?.[1]?.trim();
           if (declaredLicense !== entry.license) errors.push(`${key}: SKILL.md license differs from Registry`);
         }
