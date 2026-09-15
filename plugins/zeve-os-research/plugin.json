@@ -1,13 +1,14 @@
 {
   "id": "zeve-os-research",
   "name": "泽玮 OS 研究工作台",
-  "description": "组合问题界定、来源规划、来源路由、证据综合和主张核验能力",
-  "version": "0.2.0",
+  "description": "组合问题界定、来源规划与路由、网页证据采集、证据综合和主张核验能力",
+  "version": "0.3.0",
   "skills": [
     "research-question-framer",
     "research-source-planner",
     "research-evidence-synthesizer",
     "research-claim-verifier",
-    "research-source-router"
+    "research-source-router",
+    "research-web-evidence-capture"
   ]
 }

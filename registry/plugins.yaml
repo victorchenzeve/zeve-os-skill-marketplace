@@ -4,8 +4,8 @@
     {
       "id": "zeve-os-business",
       "name": "泽玮 OS 业务决策",
-      "description": "组合机会界定、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
-      "version": "0.2.0",
+      "description": "组合机会界定、竞品审查、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
+      "version": "0.3.0",
       "path": "plugins/zeve-os-business",
       "maturity": "experimental",
       "status": "active",
@@ -15,7 +15,8 @@
         "business-unit-economics-reviewer",
         "business-experiment-planner",
         "business-decision-memo",
-        "zeve-personal-ai-workflow-designer"
+        "zeve-personal-ai-workflow-designer",
+        "business-competitor-review-planner"
       ],
       "license": "MIT",
       "provenance": {
@@ -33,8 +34,8 @@
     {
       "id": "zeve-os-content",
       "name": "泽玮 OS 内容运营",
-      "description": "组合内容策略、角度、生产排期、质量审查、再利用、AI 搜索可见性和视频体积优化能力",
-      "version": "0.2.0",
+      "description": "组合内容策略、角度、演示叙事、生产排期、质量与发布审查、再利用、AI 搜索可见性和视频体积优化能力",
+      "version": "0.3.0",
       "path": "plugins/zeve-os-content",
       "maturity": "experimental",
       "status": "active",
@@ -45,7 +46,9 @@
         "content-quality-reviewer",
         "content-repurpose-planner",
         "content-ai-discoverability-optimizer",
-        "content-video-size-optimizer"
+        "content-video-size-optimizer",
+        "content-presentation-narrative-designer",
+        "content-short-video-publish-reviewer"
       ],
       "license": "MIT",
       "provenance": {
@@ -63,8 +66,8 @@
     {
       "id": "zeve-os-governance",
       "name": "泽玮 OS Skill 治理",
-      "description": "组合资产纳管、来源许可、重复关系、成熟度、批次审查和发布审计能力",
-      "version": "0.2.0",
+      "description": "组合资产纳管、来源许可、重复关系、成熟度、批次审查、工作区诊断和发布审计能力",
+      "version": "0.3.0",
       "path": "plugins/zeve-os-governance",
       "maturity": "experimental",
       "status": "active",
@@ -74,7 +77,8 @@
         "skill-duplicate-adjudicator",
         "skill-maturity-evidence-reviewer",
         "zeve-skill-release-auditor",
-        "skill-wave-reviewer"
+        "skill-wave-reviewer",
+        "zeve-codex-workspace-doctor"
       ],
       "license": "MIT",
       "provenance": {
@@ -148,8 +152,8 @@
     {
       "id": "zeve-os-research",
       "name": "泽玮 OS 研究工作台",
-      "description": "组合问题界定、来源规划、来源路由、证据综合和主张核验能力",
-      "version": "0.2.0",
+      "description": "组合问题界定、来源规划与路由、网页证据采集、证据综合和主张核验能力",
+      "version": "0.3.0",
       "path": "plugins/zeve-os-research",
       "maturity": "experimental",
       "status": "active",
@@ -158,7 +162,8 @@
         "research-source-planner",
         "research-evidence-synthesizer",
         "research-claim-verifier",
-        "research-source-router"
+        "research-source-router",
+        "research-web-evidence-capture"
       ],
       "license": "MIT",
       "provenance": {

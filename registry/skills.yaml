@@ -2,6 +2,33 @@
   "schemaVersion": "2.0.0",
   "skills": [
     {
+      "id": "business-competitor-review-planner",
+      "name": "竞品审查规划",
+      "description": "设计具有可比对象、日期口径、来源质量、归一化规则和不确定性的竞品审查",
+      "version": "0.1.0",
+      "path": "skills/business/business-competitor-review-planner",
+      "category": "business",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "business",
+        "competitor",
+        "research"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/business-competitor-review-planner/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "business-decision-memo",
       "name": "业务决策备忘录",
       "description": "把机会、方案、经济性与实验结果汇总成可追溯的继续、调整或停止建议",
@@ -191,6 +218,33 @@
       }
     },
     {
+      "id": "content-presentation-narrative-designer",
+      "name": "演示叙事设计",
+      "description": "把已批准目标和证据转成逐页叙事、主张来源映射、视觉任务与发布前审查清单",
+      "version": "0.1.0",
+      "path": "skills/content/content-presentation-narrative-designer",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "presentation",
+        "narrative"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-presentation-narrative-designer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "content-production-planner",
       "name": "内容生产排期",
       "description": "把已批准内容角度转成含负责人、依赖、审查节点和交付物的生产计划",
@@ -269,6 +323,33 @@
         "status": "synthetic-passed",
         "evidencePath": "evals/content-repurpose-planner/evaluation.md",
         "reviewedAt": "2026-09-14"
+      }
+    },
+    {
+      "id": "content-short-video-publish-reviewer",
+      "name": "短视频发布审查",
+      "description": "在发布前审查短视频事实、素材权利、披露、字幕、渠道适配和操作准备度",
+      "version": "0.1.0",
+      "path": "skills/content/content-short-video-publish-reviewer",
+      "category": "content",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "content",
+        "short-video",
+        "review"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/content-short-video-publish-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
       }
     },
     {
@@ -731,6 +812,33 @@
       }
     },
     {
+      "id": "research-web-evidence-capture",
+      "name": "网页证据采集",
+      "description": "把公开或已授权网页整理成含来源、日期、语境、访问边界和完整性检查的证据记录",
+      "version": "0.1.0",
+      "path": "skills/research/research-web-evidence-capture",
+      "category": "research",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "research",
+        "web",
+        "evidence"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/research-web-evidence-capture/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
       "id": "skill-duplicate-adjudicator",
       "name": "Skill 重复关系裁定",
       "description": "区分重复记录、相同副本、内容变体与同名冲突并提出可逆处置建议",
@@ -835,6 +943,33 @@
       "evaluation": {
         "status": "repository-passed",
         "evidencePath": "evals/skill-wave-reviewer/evaluation.md",
+        "reviewedAt": "2026-09-15"
+      }
+    },
+    {
+      "id": "zeve-codex-workspace-doctor",
+      "name": "Codex 工作区诊断",
+      "description": "使用只读检查、证据分层和可回滚方案诊断 Codex 工作区故障",
+      "version": "0.1.0",
+      "path": "skills/core/zeve-codex-workspace-doctor",
+      "category": "core",
+      "maturity": "experimental",
+      "status": "active",
+      "tags": [
+        "codex",
+        "diagnostics",
+        "governance"
+      ],
+      "license": "MIT",
+      "provenance": {
+        "classification": "original",
+        "owner": "zeve-os",
+        "source": "repository-clean-room-replacement",
+        "reviewedAt": "2026-09-15"
+      },
+      "evaluation": {
+        "status": "synthetic-passed",
+        "evidencePath": "evals/zeve-codex-workspace-doctor/evaluation.md",
         "reviewedAt": "2026-09-15"
       }
     },

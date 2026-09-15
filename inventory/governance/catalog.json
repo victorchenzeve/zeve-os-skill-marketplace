@@ -9,15 +9,15 @@
   },
   "policy": "全量目录只记录证据与处置状态；不自动复制、修改、合并、删除、安装 Skill，也不写入飞书。",
   "summary": {
-    "logicalSkills": 929,
+    "logicalSkills": 934,
     "inventoryLogicalNames": 905,
     "feishuLogicalNames": 795,
-    "formalSkills": 34,
+    "formalSkills": 39,
     "inventoryAndFeishu": 788,
     "inventoryOnly": 117,
     "feishuOnly": 7,
     "byDisposition": {
-      "formal-managed": 34,
+      "formal-managed": 39,
       "repair-review": 3,
       "ownership-review": 1,
       "table-addition-review": 26,
@@ -26,7 +26,7 @@
       "external-reference": 262
     },
     "byHealth": {
-      "formal-validated": 34,
+      "formal-validated": 39,
       "runtime-load-error": 3,
       "structure-issues": 808,
       "observed-only": 84
@@ -6768,6 +6768,51 @@
       "nextAction": "核实作者、来源与许可证，再决定是否进入正式纳管评估。"
     },
     {
+      "id": "logical-76ed687b44bd1205",
+      "normalizedName": "business-competitor-review-planner",
+      "displayNames": [
+        "business-competitor-review-planner",
+        "竞品审查规划"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "business-competitor-review-planner"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
       "id": "logical-ba7124cf2d850604",
       "normalizedName": "business-decision-memo",
       "displayNames": [
@@ -10603,6 +10648,51 @@
       "nextAction": "完成所有权、许可证、依赖和行为评估后再决定纳管或保留。"
     },
     {
+      "id": "logical-9db6d70df0fa5cd2",
+      "normalizedName": "content-presentation-narrative-designer",
+      "displayNames": [
+        "content-presentation-narrative-designer",
+        "演示叙事设计"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "content-presentation-narrative-designer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
       "id": "logical-52df18892db57fa4",
       "normalizedName": "content-production-planner",
       "displayNames": [
@@ -10895,6 +10985,51 @@
         "structure-remediation"
       ],
       "nextAction": "保留为外部参考，取得再分发许可与完整评估前不复制进正式资产。"
+    },
+    {
+      "id": "logical-d86142acd3e07246",
+      "normalizedName": "content-short-video-publish-reviewer",
+      "displayNames": [
+        "content-short-video-publish-reviewer",
+        "短视频发布审查"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "content-short-video-publish-reviewer"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
       "id": "logical-945bb28d4bde7aed",
@@ -41612,6 +41747,51 @@
       "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
+      "id": "logical-106357223f4ee72e",
+      "normalizedName": "research-web-evidence-capture",
+      "displayNames": [
+        "research-web-evidence-capture",
+        "网页证据采集"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "research-web-evidence-capture"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
+    },
+    {
       "id": "logical-c97ace4c8fef2cee",
       "normalizedName": "review",
       "displayNames": [
@@ -57326,6 +57506,51 @@
         "structure-remediation"
       ],
       "nextAction": "保留为外部参考，取得再分发许可与完整评估前不复制进正式资产。"
+    },
+    {
+      "id": "logical-5720b5da4f5cc6fc",
+      "normalizedName": "zeve-codex-workspace-doctor",
+      "displayNames": [
+        "Codex 工作区诊断",
+        "zeve-codex-workspace-doctor"
+      ],
+      "presence": {
+        "inventoryPaths": 0,
+        "installedPaths": 0,
+        "runtimeOccurrences": 0,
+        "runtimeScopes": [],
+        "feishuRows": 0,
+        "feishuRecords": [],
+        "formalIds": [
+          "zeve-codex-workspace-doctor"
+        ]
+      },
+      "provenance": {
+        "classifications": [],
+        "declaredAuthors": [],
+        "declaredLicenses": [],
+        "sourceRoots": [],
+        "pluginPackages": [],
+        "zeveSignalPaths": 0,
+        "ownerReview": "verified-repository-original",
+        "licenseReview": "verified-mit"
+      },
+      "health": {
+        "status": "formal-validated",
+        "issues": []
+      },
+      "duplicates": {
+        "physicalPathCopies": 0,
+        "uniqueSkillMdHashes": 0,
+        "identicalContentCopies": 0,
+        "contentVariants": false,
+        "tableRows": 0,
+        "tableDuplicate": false
+      },
+      "disposition": "formal-managed",
+      "priority": 0,
+      "formalizationGates": [],
+      "nextAction": "按 Registry、评估证据和版本政策持续维护。"
     },
     {
       "id": "logical-cbe59d4e5d9f4406",

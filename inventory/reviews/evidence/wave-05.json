@@ -14,7 +14,7 @@
     "structureObservedPass": 49,
     "behaviorEvaluated": 0,
     "originalCandidatesPromotionEligible": 0,
-    "cleanRoomResolutions": 1
+    "cleanRoomResolutions": 3
   },
   "records": [
     {
@@ -98,7 +98,12 @@
         "originalCandidatePromotionEligible": false,
         "originalCandidateDecision": "blocked-provenance-and-license",
         "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
-        "cleanRoomResolution": null
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-02-clean-room.json",
+          "formalReplacement": "content-short-video-publish-reviewer",
+          "evidencePath": "evals/content-short-video-publish-reviewer/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
       }
     },
     {
@@ -3671,7 +3676,12 @@
         "originalCandidatePromotionEligible": false,
         "originalCandidateDecision": "blocked-provenance-and-license",
         "reason": "本地副本或声明不能证明原创归属、适用许可证和再分发资格。",
-        "cleanRoomResolution": null
+        "cleanRoomResolution": {
+          "ledger": "inventory/reviews/resolutions/wave-02-clean-room.json",
+          "formalReplacement": "content-presentation-narrative-designer",
+          "evidencePath": "evals/content-presentation-narrative-designer/evaluation.md",
+          "candidateDecision": "remains-blocked-provenance-and-license"
+        }
       }
     },
     {

@@ -2,6 +2,11 @@
   "schemaVersion": "2.0.0",
   "dependencies": [
     {
+      "from": "skill:business-competitor-review-planner",
+      "to": "skill:business-opportunity-framer",
+      "reason": "竞品审查需要依据已界定的市场、客户问题与决策门槛"
+    },
+    {
       "from": "skill:business-decision-memo",
       "to": "skill:business-experiment-planner",
       "reason": "阶段决策需要引用实验结果与停止规则"
@@ -42,6 +47,11 @@
       "reason": "内容角度必须依据已批准策略简报"
     },
     {
+      "from": "skill:content-presentation-narrative-designer",
+      "to": "skill:content-strategy-brief",
+      "reason": "演示叙事需要明确受众、目标、主题和业务行动"
+    },
+    {
       "from": "skill:content-production-planner",
       "to": "skill:content-angle-generator",
       "reason": "生产排期需要已选定内容角度"
@@ -55,6 +65,11 @@
       "from": "skill:content-repurpose-planner",
       "to": "skill:content-quality-reviewer",
       "reason": "再利用规划应基于已经审查的源内容"
+    },
+    {
+      "from": "skill:content-short-video-publish-reviewer",
+      "to": "skill:content-quality-reviewer",
+      "reason": "发布审查复用事实、品牌、渠道和风险质量标准"
     },
     {
       "from": "skill:content-video-size-optimizer",
@@ -120,6 +135,11 @@
       "from": "skill:research-source-router",
       "to": "skill:research-source-planner",
       "reason": "来源路由执行已经批准的来源优先级、覆盖和停止规则"
+    },
+    {
+      "from": "skill:research-web-evidence-capture",
+      "to": "skill:research-source-planner",
+      "reason": "网页证据采集执行已批准的来源优先级、范围和停止规则"
     },
     {
       "from": "skill:skill-duplicate-adjudicator",

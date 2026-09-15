@@ -4,8 +4,8 @@
     {
       "id": "business-operator",
       "name": "业务决策代理",
-      "description": "从机会界定到方案、经济性、个人 AI 工作流、实验与阶段决策完成可追溯的业务验证流程",
-      "version": "0.2.0",
+      "description": "从机会和竞品界定到方案、经济性、个人 AI 工作流、实验与阶段决策完成可追溯的业务验证流程",
+      "version": "0.3.0",
       "path": "agents/business-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -15,7 +15,8 @@
         "business-unit-economics-reviewer",
         "business-experiment-planner",
         "business-decision-memo",
-        "zeve-personal-ai-workflow-designer"
+        "zeve-personal-ai-workflow-designer",
+        "business-competitor-review-planner"
       ],
       "license": "MIT",
       "provenance": {
@@ -33,8 +34,8 @@
     {
       "id": "content-operator",
       "name": "内容运营代理",
-      "description": "从策略到生产、质量、再利用、AI 搜索可见性和视频交付完成可追溯内容运营流程",
-      "version": "0.2.0",
+      "description": "从策略、演示叙事到生产、质量、短视频发布审查、再利用和交付完成可追溯内容运营流程",
+      "version": "0.3.0",
       "path": "agents/content-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -45,7 +46,9 @@
         "content-quality-reviewer",
         "content-repurpose-planner",
         "content-ai-discoverability-optimizer",
-        "content-video-size-optimizer"
+        "content-video-size-optimizer",
+        "content-presentation-narrative-designer",
+        "content-short-video-publish-reviewer"
       ],
       "license": "MIT",
       "provenance": {
@@ -63,8 +66,8 @@
     {
       "id": "governance-operator",
       "name": "Skill 治理代理",
-      "description": "把盘点、来源、重复、成熟度、批次审查和发布证据转成可追溯的全量治理结论",
-      "version": "0.2.0",
+      "description": "把盘点、来源、重复、成熟度、批次审查、工作区诊断和发布证据转成可追溯治理结论",
+      "version": "0.3.0",
       "path": "agents/governance-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -74,7 +77,8 @@
         "skill-duplicate-adjudicator",
         "skill-maturity-evidence-reviewer",
         "zeve-skill-release-auditor",
-        "skill-wave-reviewer"
+        "skill-wave-reviewer",
+        "zeve-codex-workspace-doctor"
       ],
       "license": "MIT",
       "provenance": {
@@ -148,8 +152,8 @@
     {
       "id": "research-operator",
       "name": "研究代理",
-      "description": "完成研究问题界定、来源规划与路由、证据综合和逐主张核验",
-      "version": "0.2.0",
+      "description": "完成研究问题界定、来源规划与路由、网页证据采集、证据综合和逐主张核验",
+      "version": "0.3.0",
       "path": "agents/research-operator.md",
       "maturity": "experimental",
       "status": "active",
@@ -158,7 +162,8 @@
         "research-source-planner",
         "research-evidence-synthesizer",
         "research-claim-verifier",
-        "research-source-router"
+        "research-source-router",
+        "research-web-evidence-capture"
       ],
       "license": "MIT",
       "provenance": {

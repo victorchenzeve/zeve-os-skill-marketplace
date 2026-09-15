@@ -1,0 +1,6 @@
+interface:
+  display_name: "竞品审查规划"
+  short_description: "设计可比、可追溯并面向决策的竞品审查"
+  default_prompt: "使用 $business-competitor-review-planner 为这项业务决策设计竞品审查计划。"
+policy:
+  allow_implicit_invocation: true

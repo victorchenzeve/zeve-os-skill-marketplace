@@ -1,0 +1,6 @@
+interface:
+  display_name: "网页证据采集"
+  short_description: "将授权网页整理成带来源、语境和访问边界的证据卡"
+  default_prompt: "使用 $research-web-evidence-capture 将这些网页整理成可复核的研究证据记录。"
+policy:
+  allow_implicit_invocation: true

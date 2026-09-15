@@ -1,7 +1,7 @@
 {
   "name": "zeve-os-business",
-  "version": "0.2.0",
-  "description": "组合机会界定、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
+  "version": "0.3.0",
+  "description": "组合机会界定、竞品审查、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
   "author": {
     "name": "Victor Chen"
   },
@@ -17,8 +17,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "泽玮 OS 业务决策",
-    "shortDescription": "组合机会界定、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
-    "longDescription": "组合机会界定、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力。所有能力以证据和明确边界为基础，外部写入、发布、触达和费用动作遵循具体授权。",
+    "shortDescription": "组合机会界定、竞品审查、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力",
+    "longDescription": "组合机会界定、竞品审查、方案设计、单位经济性、实验规划、个人 AI 工作流和决策备忘录能力。所有能力以证据和明确边界为基础，外部写入、发布、触达和费用动作遵循具体授权。",
     "developerName": "泽玮 OS",
     "category": "Business",
     "capabilities": [

@@ -1,14 +1,15 @@
 {
   "id": "zeve-os-governance",
   "name": "泽玮 OS Skill 治理",
-  "description": "组合资产纳管、来源许可、重复关系、成熟度、批次审查和发布审计能力",
-  "version": "0.2.0",
+  "description": "组合资产纳管、来源许可、重复关系、成熟度、批次审查、工作区诊断和发布审计能力",
+  "version": "0.3.0",
   "skills": [
     "marketplace-asset-curator",
     "skill-provenance-reviewer",
     "skill-duplicate-adjudicator",
     "skill-maturity-evidence-reviewer",
     "zeve-skill-release-auditor",
-    "skill-wave-reviewer"
+    "skill-wave-reviewer",
+    "zeve-codex-workspace-doctor"
   ]
 }

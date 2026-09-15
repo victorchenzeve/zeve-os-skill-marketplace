@@ -1,7 +1,7 @@
 {
   "name": "zeve-os-content",
-  "version": "0.2.0",
-  "description": "组合内容策略、角度、生产排期、质量审查、再利用、AI 搜索可见性和视频体积优化能力",
+  "version": "0.3.0",
+  "description": "组合内容策略、角度、演示叙事、生产排期、质量与发布审查、再利用、AI 搜索可见性和视频体积优化能力",
   "author": {
     "name": "Victor Chen"
   },
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "泽玮 OS 内容运营",
-    "shortDescription": "组合内容策略、角度、生产排期、质量审查、再利用、AI 搜索可见性和视频体积优化能力",
-    "longDescription": "组合内容策略、角度、生产排期、质量审查、再利用、AI 搜索可见性和视频体积优化能力。所有能力以证据和明确边界为基础，外部写入、发布、触达和费用动作遵循具体授权。",
+    "shortDescription": "组合内容策略、角度、演示叙事、生产排期、质量与发布审查、再利用、AI 搜索可见性和视频体积优化能力",
+    "longDescription": "组合内容策略、角度、演示叙事、生产排期、质量与发布审查、再利用、AI 搜索可见性和视频体积优化能力。所有能力以证据和明确边界为基础，外部写入、发布、触达和费用动作遵循具体授权。",
     "developerName": "泽玮 OS",
     "category": "Writing",
     "capabilities": [

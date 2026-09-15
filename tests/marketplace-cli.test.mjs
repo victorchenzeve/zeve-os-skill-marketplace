@@ -74,9 +74,9 @@ test('plugin uninstall preflight prevents partial removal when one member change
 
 test('all six plugins install their registered member counts', t => {
   const expectations = {
-    'zeve-os-private-domain': 5, 'zeve-os-content': 7,
-    'zeve-os-knowledge': 5, 'zeve-os-research': 5, 'zeve-os-business': 6,
-    'zeve-os-governance': 6,
+    'zeve-os-private-domain': 5, 'zeve-os-content': 9,
+    'zeve-os-knowledge': 5, 'zeve-os-research': 6, 'zeve-os-business': 7,
+    'zeve-os-governance': 7,
   };
   for (const [id, count] of Object.entries(expectations)) {
     const root = target(t);

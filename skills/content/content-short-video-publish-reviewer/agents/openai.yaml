@@ -1,0 +1,6 @@
+interface:
+  display_name: "短视频发布审查"
+  short_description: "发布前核对事实、权利、披露、字幕和交付设置"
+  default_prompt: "使用 $content-short-video-publish-reviewer 审查这套短视频发布包并给出阻断结论。"
+policy:
+  allow_implicit_invocation: true

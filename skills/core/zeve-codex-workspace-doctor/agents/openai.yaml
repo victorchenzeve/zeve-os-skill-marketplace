@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex 工作区诊断"
+  short_description: "用只读证据定位工作区故障并规划可回滚修复"
+  default_prompt: "使用 $zeve-codex-workspace-doctor 诊断这个 Codex 工作区问题并给出验证闭环。"
+policy:
+  allow_implicit_invocation: true

@@ -14,7 +14,7 @@
     "dependencyVerified": 0,
     "behaviorEvaluated": 0,
     "originalCandidatesPromotionEligible": 0,
-    "cleanRoomResolutions": 5
+    "cleanRoomResolutions": 10
   },
   "files": [
     "wave-01.json",

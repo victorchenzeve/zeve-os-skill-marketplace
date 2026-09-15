@@ -1,0 +1,6 @@
+interface:
+  display_name: "演示叙事设计"
+  short_description: "把目标与证据转成逐页叙事、视觉任务和审查清单"
+  default_prompt: "使用 $content-presentation-narrative-designer 为这些材料设计一套可制作的演示叙事。"
+policy:
+  allow_implicit_invocation: true

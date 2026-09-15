@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "resolvedAt": "2026-09-15",
+  "method": "clean-room-capability-replacement",
+  "policy": "只使用盘点名称、能力缺口和审查门槛定义新需求；不读取、复制、改写或重新许可原 Skill 正文与附件。原候选结论保持不变。",
+  "summary": {
+    "reviewInputs": 5,
+    "formalReplacements": 5,
+    "thirdPartyFilesCopied": 0,
+    "originalCandidatesPromoted": 0
+  },
+  "resolutions": [
+    {
+      "reviewId": "logical-47b121cb47247d54",
+      "candidate": "codex-doctor",
+      "reviewFile": "inventory/reviews/wave-03.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "zeve-codex-workspace-doctor",
+      "category": "core",
+      "gateResults": {
+        "ownership": "verified-repository-original",
+        "license": "verified-mit",
+        "redistribution": "authorized-by-repository-license",
+        "structure": "repository-validated",
+        "dependencies": "declared",
+        "behavior": "synthetic-passed"
+      },
+      "evidencePath": "evals/zeve-codex-workspace-doctor/evaluation.md"
+    },
+    {
+      "reviewId": "logical-c76d6ab6bfca2b87",
+      "candidate": "douyin-pre-publish-check",
+      "reviewFile": "inventory/reviews/wave-05.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "content-short-video-publish-reviewer",
+      "category": "content",
+      "gateResults": {
+        "ownership": "verified-repository-original",
+        "license": "verified-mit",
+        "redistribution": "authorized-by-repository-license",
+        "structure": "repository-validated",
+        "dependencies": "declared",
+        "behavior": "synthetic-passed"
+      },
+      "evidencePath": "evals/content-short-video-publish-reviewer/evaluation.md"
+    },
+    {
+      "reviewId": "logical-19bc948f232f3ea9",
+      "candidate": "frontend-slides",
+      "reviewFile": "inventory/reviews/wave-05.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "content-presentation-narrative-designer",
+      "category": "content",
+      "gateResults": {
+        "ownership": "verified-repository-original",
+        "license": "verified-mit",
+        "redistribution": "authorized-by-repository-license",
+        "structure": "repository-validated",
+        "dependencies": "declared",
+        "behavior": "synthetic-passed"
+      },
+      "evidencePath": "evals/content-presentation-narrative-designer/evaluation.md"
+    },
+    {
+      "reviewId": "logical-81f5580d379823f0",
+      "candidate": "tb-competitor-data-review",
+      "reviewFile": "inventory/reviews/wave-11.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "business-competitor-review-planner",
+      "category": "business",
+      "gateResults": {
+        "ownership": "verified-repository-original",
+        "license": "verified-mit",
+        "redistribution": "authorized-by-repository-license",
+        "structure": "repository-validated",
+        "dependencies": "declared",
+        "behavior": "synthetic-passed"
+      },
+      "evidencePath": "evals/business-competitor-review-planner/evaluation.md"
+    },
+    {
+      "reviewId": "logical-97325d183f775354",
+      "candidate": "web-clipper",
+      "reviewFile": "inventory/reviews/wave-11.json",
+      "candidateDecision": "remains-blocked-provenance-and-license",
+      "formalReplacement": "research-web-evidence-capture",
+      "category": "research",
+      "gateResults": {
+        "ownership": "verified-repository-original",
+        "license": "verified-mit",
+        "redistribution": "authorized-by-repository-license",
+        "structure": "repository-validated",
+        "dependencies": "declared",
+        "behavior": "synthetic-passed"
+      },
+      "evidencePath": "evals/research-web-evidence-capture/evaluation.md"
+    }
+  ]
+}
